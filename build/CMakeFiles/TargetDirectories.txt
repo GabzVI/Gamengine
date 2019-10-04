@@ -1,0 +1,4 @@
+C:/Users/s5006074/Gamengine/build/CMakeFiles/Gameengine.dir
+C:/Users/s5006074/Gamengine/build/CMakeFiles/game.dir
+C:/Users/s5006074/Gamengine/build/CMakeFiles/edit_cache.dir
+C:/Users/s5006074/Gamengine/build/CMakeFiles/rebuild_cache.dir
