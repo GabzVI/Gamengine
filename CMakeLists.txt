@@ -4,6 +4,8 @@ project(GAMEENGINE)
 
 add_library(Gameengine
 src/Gameengine/dummy.cpp
+src/Gameengine/initialize.h
+
 )
 
 target_link_libraries(Gameengine SDL2 opengl32 glew32)

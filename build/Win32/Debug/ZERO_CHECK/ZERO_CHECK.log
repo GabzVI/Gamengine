@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake is re-running because D:/GameEngine/Gamengine/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'D:/GameEngine/Gamengine/CMakeLists.txt'
+    is newer than 'D:/GameEngine/Gamengine/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.17134.0 to target Windows 10.0.18362.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: D:/GameEngine/Gamengine/build
