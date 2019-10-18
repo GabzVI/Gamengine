@@ -2,12 +2,18 @@ cmake_minimum_required(VERSION 2.6)
 
 project(GAMEENGINE)
 
-include_directory(src)
+include_directories(src)
 
 add_library(Gameengine
 src/Gameengine/dummy.cpp
-src/Gameengine/initialize.h
-
+src/Gameengine/Application.h
+src/Gameengine/Application.cpp
+src/Gameengine/Entity.h
+src/Gameengine/Entity.cpp
+src/Gameengine/Environment.cpp
+src/Gameengine/Environment.h
+src/Gameengine/Component.cpp
+src/Gameengine/Component.h
 )
 
 target_link_libraries(Gameengine SDL2 opengl32 glew32)
