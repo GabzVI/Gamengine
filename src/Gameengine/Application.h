@@ -3,12 +3,12 @@
 
 class Entity;
 
-class Core {
+class Application {
 private:
 	std::list <std::shared_ptr<Entity>> entities;
 	bool running;
 public: 
-	static std::shared_ptr<Core> initialize();
+	static std::shared_ptr<Application> initialize();
 	void start();
 	void stop();
 	std::shared_ptr<Entity> addEntity();

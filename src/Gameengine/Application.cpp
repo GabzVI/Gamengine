@@ -7,3 +7,17 @@ std::shared_ptr<Application> Application::initialize()
 	return application;
 }
 
+
+void Application::start() {
+
+}
+
+void Application::stop() {
+
+}
+
+std::shared_ptr<Entity> addEntity() {
+
+	std::shared_ptr<Entity> addEntity = std::make_shared<Entity>();
+	return addEntity;
+}
