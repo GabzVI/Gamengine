@@ -5,7 +5,6 @@ project(GAMEENGINE)
 include_directories(src)
 
 add_library(Gameengine
-src/Gameengine/dummy.cpp
 src/Gameengine/Application.h
 src/Gameengine/Application.cpp
 src/Gameengine/Entity.h
@@ -14,6 +13,8 @@ src/Gameengine/Environment.cpp
 src/Gameengine/Environment.h
 src/Gameengine/Component.cpp
 src/Gameengine/Component.h
+src/Gameengine/Keyboard.cpp
+src/Gameengine/Keyboard.h
 )
 
 target_link_libraries(Gameengine SDL2 opengl32 glew32)

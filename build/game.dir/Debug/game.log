@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/s5006074/Gameengine/Gamengine/CMakeLists.txt
+  main.cpp
+LINK : fatal error LNK1104: cannot open file 'Debug\Gameengine.lib'

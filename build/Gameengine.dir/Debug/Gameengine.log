@@ -1,0 +1,23 @@
+﻿  Building Custom Rule C:/Users/s5006074/Gameengine/Gamengine/CMakeLists.txt
+  Application.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include\type_traits(1350): error C2027: use of undefined type 'Entity'
+  c:\users\s5006074\gameengine\gamengine\src\gameengine\Application.h(7): note: see declaration of 'Entity'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include\type_traits(1357): note: see reference to class template instantiation 'std::aligned_union<1,_Ty>' being compiled
+          with
+          [
+              _Ty=Entity
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include\memory(1820): note: see reference to alias template instantiation 'aligned_union_t<1,Entity>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include\memory(1866): note: see reference to class template instantiation 'std::_Ref_count_obj<_Ty>' being compiled
+          with
+          [
+              _Ty=Entity
+          ]
+  C:\Users\s5006074\Gameengine\Gamengine\src\Gameengine\Application.cpp(22): note: see reference to function template instantiation 'std::shared_ptr<Entity> std::make_shared<Entity,>(void)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\include\type_traits(1351): error C2027: use of undefined type 'Entity'
+  c:\users\s5006074\gameengine\gamengine\src\gameengine\Application.h(7): note: see declaration of 'Entity'
+  Entity.cpp
+  Environment.cpp
+  Component.cpp
+  Keyboard.cpp
+  Generating Code...

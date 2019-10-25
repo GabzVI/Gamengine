@@ -1,3 +1,6 @@
+#ifndef  _APPLICATION_
+#define _APPLICATION_
+
 #include <memory>
 #include <list>
 
@@ -7,9 +10,13 @@ class Application {
 private:
 	std::list <std::shared_ptr<Entity>> entities;
 	bool running;
-public: 
+public:
 	static std::shared_ptr<Application> initialize();
 	void start();
 	void stop();
 	std::shared_ptr<Entity> addEntity();
 };
+
+
+#endif // ! _APPLICATION_
+
