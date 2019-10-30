@@ -5,7 +5,6 @@
 #include <memory>
 #include "Application.h"
 
-
 class Component;
 
 class Entity 
@@ -16,7 +15,6 @@ private:
 
 public:
 	std::shared_ptr<Application> getApplication();
-
 
 	template<typename T>
 	std::shared_ptr<T> addComponent() 
@@ -52,8 +50,9 @@ public:
 
 
 
-	void tick();
-	void display();
+	virtual void tick();
+	virtual void display();
+  virtual void Update();
 };
 
 #endif // !

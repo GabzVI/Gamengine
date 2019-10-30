@@ -15,6 +15,11 @@ src/Gameengine/Component.cpp
 src/Gameengine/Component.h
 src/Gameengine/Keyboard.cpp
 src/Gameengine/Keyboard.h
+src/Gameengine/triangle.cpp
+src/Gameengine/Exception.cpp
+src/Gameengine/Exception.h
+src/Gameengine/TriangleRenderer.cpp
+src/Gameengine/TriangleRenderer.h
 )
 
 target_link_libraries(Gameengine SDL2 opengl32 glew32)

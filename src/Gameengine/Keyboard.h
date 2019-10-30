@@ -9,7 +9,7 @@ private:
 
 
 public:
-	bool getKey(keyCode : int);
+	bool getKey;
 
 
 };
