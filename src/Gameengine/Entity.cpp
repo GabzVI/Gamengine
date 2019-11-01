@@ -8,15 +8,15 @@ void Entity::Update()
 
   for (std::list<std::shared_ptr<Component>>::iterator it = component.begin(); it != component.end(); it++)
   {
-    (*it)->Update();
+	  (*it)->OnInit();
   }
 
 }
 
-void Entity::display() {
+void Entity::Display() {
 
 }
 
-void Entity::tick() {
+void Entity::Tick() {
 
 }

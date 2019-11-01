@@ -3,8 +3,9 @@
 
 
 #include <memory>
-#include "Application.h"
+#include <list>
 
+class Application;
 class Component;
 
 class Entity 
@@ -50,9 +51,9 @@ public:
 
 
 
-	virtual void tick();
-	virtual void display();
-  virtual void Update();
+	virtual void Tick();
+	virtual void Display();
+    virtual void Update();
 };
 
 #endif // !

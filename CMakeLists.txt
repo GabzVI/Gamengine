@@ -20,6 +20,7 @@ src/Gameengine/Exception.cpp
 src/Gameengine/Exception.h
 src/Gameengine/TriangleRenderer.cpp
 src/Gameengine/TriangleRenderer.h
+src/Gameengine/Gameengine.h
 )
 
 target_link_libraries(Gameengine SDL2 opengl32 glew32)

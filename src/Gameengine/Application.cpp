@@ -21,12 +21,12 @@ void Application::start()
 
   for (std::list<std::shared_ptr<Entity>>::iterator it2 = entities.begin(); it2 != entities.end(); it2++)
   {
-    (*it2)->tick();
+    (*it2)->Tick();
   }
 
   for (std::list<std::shared_ptr<Entity>>::iterator it3 = entities.begin(); it3 != entities.end(); it3++)
   {
-    (*it3)->display();
+    (*it3)->Display();
   }
 }
 
@@ -39,8 +39,8 @@ std::shared_ptr<Entity> Application::addEntity() {
 
 	std::shared_ptr<Entity> rtn = std::make_shared<Entity>();
 	 
-  entities.push_back(rtn);
+   entities.push_back(rtn);
 
-  return rtn;
+   return rtn;
 
 }

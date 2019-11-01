@@ -1,13 +1,14 @@
 #ifndef _COMPONENT_
 #define _COMPONENT_
 
-#include "Application.h"
 #include <list>
+#include <memory>
 
-class Entity;
 class Application;
+class Entity;
 class Keyboard;
 class Environment;
+
 
 class Component {
 
@@ -20,8 +21,10 @@ public:
 	std::shared_ptr<Application> getApplication();
 	std::shared_ptr<Keyboard> getKeyboard();
 	std::shared_ptr<Environment>getEnvironment();
-  virtual void Update();
-
-};
+	virtual void Update();
+	void Ontick();
+	virtual void OnDisplay();
+	virtual void OnInit();
+}
 
 #endif

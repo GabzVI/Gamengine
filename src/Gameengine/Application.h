@@ -3,7 +3,7 @@
 
 #include <memory>
 #include <list>
-#include "TriangleRenderer.h"
+
 
 class Entity;
 class Component;
