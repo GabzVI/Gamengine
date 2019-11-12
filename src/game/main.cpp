@@ -1,5 +1,6 @@
 #include <iostream>
-#include <windows.h>
+//#include <windows.h>
+#include <stdlib.h>
 #include <SDL2/SDL.h>
 #include <GL/glew.h>
 #include <Gameengine/Gameengine.h>
@@ -16,6 +17,10 @@ int main()
 
    std::shared_ptr<TriangleRenderer> triangle = gameObject->addComponent<TriangleRenderer>();
 
-	system("pause");
+   application->start();
+
+	//system("pause");
+	// cin
+	// getch
 	return 0;
 }

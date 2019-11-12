@@ -23,7 +23,11 @@ src/Gameengine/TriangleRenderer.h
 src/Gameengine/Gameengine.h
 )
 
-target_link_libraries(Gameengine SDL2 opengl32 glew32)
+if(MSVC)
+  target_link_libraries(Gameengine SDL2 opengl32 glew32)
+else()
+  target_link_libraries(Gameengine SDL2 GLEW GL)
+endif()
 
 add_executable(game
 src/game/main.cpp

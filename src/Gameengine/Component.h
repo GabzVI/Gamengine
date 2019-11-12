@@ -25,6 +25,6 @@ public:
 	void Ontick();
 	virtual void OnDisplay();
 	virtual void OnInit();
-}
+};
 
 #endif
