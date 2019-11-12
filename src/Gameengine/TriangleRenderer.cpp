@@ -188,6 +188,12 @@ void TriangleRenderer::OnInit()
 		glUseProgram(programId);
 		glBindVertexArray(vaoId);
 
+		// TODO:
+		// Upload proj, view, model to shader
+		// proj = camera
+		// view = camera->transform , inversed
+		// model = this->transform
+		// Transform class, getModel, pos, rot, scale
 		glDrawArrays(GL_TRIANGLES, 0, 3);
 
 		glBindVertexArray(0);
