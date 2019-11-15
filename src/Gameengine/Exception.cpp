@@ -4,7 +4,7 @@
 
 #include <iostream>
 
-namespace rend
+namespace Gameengine
 {
 
 Exception::Exception(const std::string& message)

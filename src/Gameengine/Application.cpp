@@ -43,7 +43,7 @@ std::shared_ptr<Entity> Application::addEntity() {
 
 	std::shared_ptr<Entity> rtn = std::make_shared<Entity>();
 	 
-   entities.push_back(rtn);
+    entities.push_back(rtn);
 
    return rtn;
 
