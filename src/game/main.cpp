@@ -1,8 +1,6 @@
 #include <iostream>
 //#include <windows.h>
 #include <stdlib.h>
-#include <SDL2/SDL.h>
-#include <GL/glew.h>
 #include <Gameengine/Gameengine.h>
 
 
@@ -13,11 +11,11 @@ int main()
 
 	std::shared_ptr<Entity> gameObject = application->addEntity();
 
-  // std::shared_ptr<TriangleRenderer> triangle = std::make_shared<TriangleRenderer>();
+  std::shared_ptr<Meshrenderer> triangle = gameObject->addComponent<Meshrenderer>();
 
-   std::shared_ptr<Meshrenderer> triangle = gameObject->addComponent<Meshrenderer>();
-
-   application->start();
+	triangle->OnDisplay();
+	
+  application->start();
 
 	//system("pause");
 	// cin

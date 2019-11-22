@@ -1,12 +1,2 @@
-﻿  Building Custom Rule C:/Users/s5006074/New folder/Gamengine/CMakeLists.txt
-  Exception.cpp
-  Context.cpp
-  Texture.cpp
-  RenderTexture.cpp
-  Shader.cpp
-  Buffer.cpp
-  Mesh.cpp
-C:\Users\s5006074\New folder\Gamengine\src\rend\Mesh.cpp(76): warning C4101: 'e': unreferenced local variable
-  Util.cpp
-  Generating Code...
+﻿  Shader.cpp
   rend.vcxproj -> C:\Users\s5006074\New folder\Gamengine\build\Debug\rend.lib

@@ -7,7 +7,7 @@
 #define WINDOW_WIDTH 640  
 #define WINDOW_HEIGHT 480
 #include <exception>
-#include <Gameengine/Component.h>
+#include "Component.h"
 #include <rend/rend.h>
 
 class Meshrenderer : public Component
@@ -24,8 +24,7 @@ private:
   std::shared_ptr<rend::Mesh>shape;
 
 public:
-  SDL_Window *window;
-  ~Meshrenderer();
+	SDL_Window *window;
   void OnInit();
   void OnDisplay();
 };
