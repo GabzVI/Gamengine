@@ -18,8 +18,6 @@ src/Gameengine/Keyboard.h
 src/Gameengine/triangle.cpp
 src/Gameengine/Exception.cpp
 src/Gameengine/Exception.h
-src/Gameengine/TriangleRenderer.cpp
-src/Gameengine/TriangleRenderer.h
 src/Gameengine/Gameengine.h
 src/Gameengine/Meshrenderer.cpp
 src/Gameengine/Meshrenderer.h

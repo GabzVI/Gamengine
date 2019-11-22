@@ -8,7 +8,6 @@
 #include "Environment.h"
 #include "Exception.h"
 #include "Keyboard.h"
-#include "TriangleRenderer.h"
 #include "Transform.h"
 #include "Meshrenderer.h"
 namespace Gameengine 

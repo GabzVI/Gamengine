@@ -15,7 +15,7 @@ int main()
 
   // std::shared_ptr<TriangleRenderer> triangle = std::make_shared<TriangleRenderer>();
 
-   std::shared_ptr<TriangleRenderer> triangle = gameObject->addComponent<TriangleRenderer>();
+   std::shared_ptr<Meshrenderer> triangle = gameObject->addComponent<Meshrenderer>();
 
    application->start();
 

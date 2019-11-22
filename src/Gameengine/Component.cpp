@@ -11,7 +11,8 @@ std::shared_ptr<Entity> Component::getEntity()
   return rtn;
 }
 
-std::shared_ptr<Application> Component::getApplication(){
+std::shared_ptr<Application> Component::getApplication()
+{
 
   std::shared_ptr<Application> rtn;
 
@@ -20,7 +21,8 @@ std::shared_ptr<Application> Component::getApplication(){
   return rtn;
 }
 
-std::shared_ptr<Keyboard> Component::getKeyboard() {
+std::shared_ptr<Keyboard> Component::getKeyboard() 
+{
 
   std::shared_ptr<Keyboard> rtn;
 

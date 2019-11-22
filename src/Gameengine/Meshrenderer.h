@@ -1,18 +1,36 @@
-#include "Component.h"
+#ifndef _TRIANGLERENDERER_H
+#define _TRIANGLERENDERER_H
 
+#include <SDL2/SDL.h>
+#include <GL/glew.h>
 
-class Material;
+#define WINDOW_WIDTH 640  
+#define WINDOW_HEIGHT 480
+#include <exception>
+#include <Gameengine/Component.h>
+#include <rend/rend.h>
 
-class MeshRenderer : public Component {
+class Meshrenderer : public Component
+{
+
 private:
-	std::weak_ptr<MeshRenderer> mesh;
-
+  GLuint programId;
+  GLuint positionsVboId;
+  GLuint colorsVboId;
+  GLuint vboId;
+  GLuint vaoId;
+  std::shared_ptr<rend::Shader>shader;
+  std::shared_ptr<rend::Buffer>buffer;
+  std::shared_ptr<rend::Mesh>shape;
 
 public:
-	void onInit();
-	void onDisplay();
-	void setMesh(std::weak_ptr<MeshRenderer> mesh);
-	void getMesh();
-	//std::shared_ptr<MeshRenderer> getMesh();
-	std::shared_ptr<Material> getMaterial();
+  SDL_Window *window;
+  ~Meshrenderer();
+  void OnInit();
+  void OnDisplay();
 };
+
+ 
+
+
+#endif

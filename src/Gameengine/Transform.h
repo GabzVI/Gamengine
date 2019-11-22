@@ -16,8 +16,5 @@ public:
 	void setLocalrot(glm::vec3 _rot);
 	void setLocalScale(glm::vec3 _scale);
 
-
-
-
 };
 

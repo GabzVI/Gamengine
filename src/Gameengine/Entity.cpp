@@ -13,10 +13,12 @@ void Entity::Update()
 
 }
 
-void Entity::Display() {
+void Entity::Display()
+{
 
 }
 
-void Entity::Tick() {
+void Entity::Tick() 
+{
 
 }
