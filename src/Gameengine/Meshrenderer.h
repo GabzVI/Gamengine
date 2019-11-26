@@ -14,17 +14,13 @@ class Meshrenderer : public Component
 {
 
 private:
-  GLuint programId;
-  GLuint positionsVboId;
-  GLuint colorsVboId;
-  GLuint vboId;
-  GLuint vaoId;
-  std::shared_ptr<rend::Shader>shader;
-  std::shared_ptr<rend::Buffer>buffer;
-  std::shared_ptr<rend::Mesh>shape;
+  std::shared_ptr<rend::Context> context;
+  std::shared_ptr<rend::Shader> shader;
+  std::shared_ptr<rend::Buffer> buffer;
+  std::shared_ptr<rend::Mesh> shape;
 
 public:
-	SDL_Window *window;
+  SDL_Window *window;
   void OnInit();
   void OnDisplay();
 };

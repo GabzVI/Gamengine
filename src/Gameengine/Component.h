@@ -21,6 +21,8 @@ public:
 	std::shared_ptr<Application> getApplication();
 	std::shared_ptr<Keyboard> getKeyboard();
 	std::shared_ptr<Environment>getEnvironment();
+
+	// TODO On Update
 	virtual void Update();
 	void Ontick();
 	virtual void OnDisplay();

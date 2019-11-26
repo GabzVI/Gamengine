@@ -1,4 +1,5 @@
 #include "Meshrenderer.h"
+#include "Exception.h"
 #include <rend/rend.h>
 
 using namespace rend;
@@ -51,7 +52,7 @@ void Meshrenderer::OnInit()
 		throw std::exception();
 	}
 
-	SDL_Window *window = SDL_CreateWindow("Lab 4 - Architecture",
+	window = SDL_CreateWindow("Lab 4 - Architecture",
 		SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
 		WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL);
 
@@ -60,14 +61,18 @@ void Meshrenderer::OnInit()
 		throw std::exception();
 	}
 
+/*
 	if (glewInit() != GLEW_OK)
 	{
 		throw std::exception();
 	}
+*/
 
-	std::shared_ptr<Context> context = Context::initialize();
+	context = Context::initialize();
 	shader = context->createShader();
 	shader->parse(VertexandFragsrc);
+
+	std::cout << "Shader set" << std::endl;
 
 	buffer = context->createBuffer();
 	buffer->add(vec3(0.0, 0.5f, 0.0f));
@@ -95,21 +100,21 @@ void Meshrenderer::OnDisplay()
 {
 	bool quit = false;
 
-	while (!quit)
-	{
+	//while (!quit)
+	//{
 		SDL_Event event = { 0 };
 
 		while (SDL_PollEvent(&event))
 		{
 			if (event.type == SDL_QUIT)
 			{
-				quit = true;
+				//quit = true;
+				throw Exception("Close button pressed");
 			}
 		}
 
 		glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT);
-
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 
 		// TODO:
@@ -120,7 +125,9 @@ void Meshrenderer::OnDisplay()
 		// Transform class, getModel, pos, rot, scale
 
 		shader->render();
+
+		// Move to end of Application::start loop
 		SDL_GL_SwapWindow(window);
 
-	}
+	//}
 }

@@ -15,7 +15,6 @@ src/Gameengine/Component.cpp
 src/Gameengine/Component.h
 src/Gameengine/Keyboard.cpp
 src/Gameengine/Keyboard.h
-src/Gameengine/triangle.cpp
 src/Gameengine/Exception.cpp
 src/Gameengine/Exception.h
 src/Gameengine/Gameengine.h
@@ -43,6 +42,10 @@ else()
   target_link_libraries(rend GLEW GL)
 endif()
 
+add_executable(triangle
+  src/Gameengine/triangle.cpp
+)
+target_link_libraries(triangle SDL2 rend)
 
 add_executable(game
 src/game/main.cpp

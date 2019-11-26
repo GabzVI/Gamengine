@@ -8,16 +8,20 @@ void Entity::Update()
 
   for (std::list<std::shared_ptr<Component>>::iterator it = component.begin(); it != component.end(); it++)
   {
-	  (*it)->OnInit();
+    // TODO: OnUpdate doesn't exit.
+    //(*it)->OnUpdate();
   }
-
 }
 
 void Entity::Display()
 {
-
+  for (std::list<std::shared_ptr<Component>>::iterator it = component.begin(); it != component.end(); it++)
+  {
+	  (*it)->OnDisplay();
+  }
 }
 
+// TODO: Remove me
 void Entity::Tick() 
 {
 
