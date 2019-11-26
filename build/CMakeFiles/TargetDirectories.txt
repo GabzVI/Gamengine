@@ -1,5 +1,0 @@
-C:/Users/s5006074/New folder/Gamengine/build/CMakeFiles/Gameengine.dir
-C:/Users/s5006074/New folder/Gamengine/build/CMakeFiles/rend.dir
-C:/Users/s5006074/New folder/Gamengine/build/CMakeFiles/game.dir
-C:/Users/s5006074/New folder/Gamengine/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/s5006074/New folder/Gamengine/build/CMakeFiles/ZERO_CHECK.dir
