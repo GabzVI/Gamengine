@@ -54,10 +54,8 @@ public:
 	}
 
 
-
-	virtual void Tick();
 	virtual void Display();
-  virtual void Update();
+  virtual void OnUpdate();
 };
 
 #endif // !

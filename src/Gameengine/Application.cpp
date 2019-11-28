@@ -1,6 +1,6 @@
 #include "Application.h"
 #include "Entity.h"
-
+#include "Meshrenderer.h"
 #include <GL/glew.h>
 
 //Initialises the Engine. 
@@ -20,27 +20,22 @@ void Application::start()
   {
     for (std::list<std::shared_ptr<Entity>>::iterator it = entities.begin(); it != entities.end(); it++) 
     {
-      (*it)->Update();
+      (*it)->OnUpdate();
     }
-
-/*
-    for (std::list<std::shared_ptr<Entity>>::iterator it2 = entities.begin(); it2 != entities.end(); it2++)
-    {
-      (*it2)->Tick();
-    }
-*/
 
     glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-    for (std::list<std::shared_ptr<Entity>>::iterator it3 = entities.begin(); it3 != entities.end(); it3++)
+    for (std::list<std::shared_ptr<Entity>>::iterator it = entities.begin(); it != entities.end(); it++)
     {
-      (*it3)->Display();
+      (*it)->Display();
     }
 
-    // TODO: Move SDL_window* to Application
-    //SDL_GL_SwapWindow(window);
+ 
+    SDL_GL_SwapWindow(window);
   }
+
+  
 }
 
 void Application::stop() 

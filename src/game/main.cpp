@@ -13,12 +13,9 @@ int main()
 
   std::shared_ptr<Meshrenderer> triangle = gameObject->addComponent<Meshrenderer>();
 
-	//triangle->OnDisplay();
 	
   application->start();
 
-	//system("pause");
-	// cin
-	// getch
+	
 	return 0;
 }

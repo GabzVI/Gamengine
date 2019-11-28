@@ -22,9 +22,8 @@ public:
 	std::shared_ptr<Keyboard> getKeyboard();
 	std::shared_ptr<Environment>getEnvironment();
 
-	// TODO On Update
-	virtual void Update();
-	void Ontick();
+	
+	virtual void OnUpdate();
 	virtual void OnDisplay();
 	virtual void OnInit();
 };

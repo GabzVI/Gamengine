@@ -89,9 +89,6 @@ void Meshrenderer::OnInit()
 	shader->setAttribute("in_Color", buffer);
 
 
-	
-	
-
 //	SDL_DestroyWindow(window);
 //	SDL_Quit();
 }

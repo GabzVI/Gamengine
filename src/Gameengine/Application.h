@@ -3,6 +3,8 @@
 
 #include <memory>
 #include <list>
+#include <SDL2/SDL.h>
+#include <glm/glm.hpp>
 
 
 class Entity;
@@ -15,9 +17,12 @@ private:
 	bool running;
 public:
 	static std::shared_ptr<Application> initialize();
+  SDL_Window *window;
 	void start();
 	void stop();
 	std::shared_ptr<Entity> addEntity();
+ 
+  
 };
 
 

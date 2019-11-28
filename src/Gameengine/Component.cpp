@@ -31,7 +31,8 @@ std::shared_ptr<Keyboard> Component::getKeyboard()
   return rtn;
  
 }
-std::shared_ptr<Environment>Component::getEnvironment() {
+std::shared_ptr<Environment>Component::getEnvironment()
+{
 
   std::shared_ptr<Environment> rtn;
 
@@ -40,16 +41,19 @@ std::shared_ptr<Environment>Component::getEnvironment() {
   return rtn;
 }
 
-// TODO: OnUpdate?
-void Component::Update() {
+
+void Component::OnUpdate() 
+{
 
 }
 
-void Component::OnInit() {
+void Component::OnInit() 
+{
 
 }
 
 
-void Component::OnDisplay() {
+void Component::OnDisplay()
+{
 
 }

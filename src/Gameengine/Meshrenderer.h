@@ -6,6 +6,7 @@
 
 #define WINDOW_WIDTH 640  
 #define WINDOW_HEIGHT 480
+
 #include <exception>
 #include "Component.h"
 #include <rend/rend.h>

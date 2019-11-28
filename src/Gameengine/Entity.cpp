@@ -3,13 +3,12 @@
 #include "Component.h"
 
 
-void Entity::Update() 
+void Entity::OnUpdate() 
 {
 
   for (std::list<std::shared_ptr<Component>>::iterator it = component.begin(); it != component.end(); it++)
   {
-    // TODO: OnUpdate doesn't exit.
-    //(*it)->OnUpdate();
+    (*it)->OnUpdate();
   }
 }
 
@@ -21,8 +20,4 @@ void Entity::Display()
   }
 }
 
-// TODO: Remove me
-void Entity::Tick() 
-{
 
-}
