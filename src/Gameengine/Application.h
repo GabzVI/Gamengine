@@ -6,6 +6,8 @@
 #include <SDL2/SDL.h>
 #include <glm/glm.hpp>
 
+#define WINDOW_WIDTH 640  
+#define WINDOW_HEIGHT 480
 
 class Entity;
 class Component;
@@ -17,10 +19,10 @@ private:
 	bool running;
 public:
 	static std::shared_ptr<Application> initialize();
-  SDL_Window *window;
 	void start();
 	void stop();
 	std::shared_ptr<Entity> addEntity();
+  SDL_Window *window;
  
   
 };

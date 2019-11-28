@@ -8,6 +8,21 @@ std::shared_ptr<Application> Application::initialize()
 {
 	std::shared_ptr<Application> application = std::make_shared<Application>();
 
+  if (SDL_Init(SDL_INIT_VIDEO) < 0)
+  {
+    throw std::exception();
+  }
+
+  application->window = SDL_CreateWindow("GameEngine Window",
+  SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
+  WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL);
+
+  if (!SDL_GL_CreateContext(application->window))
+  {
+    throw std::exception();
+  }
+
+
 	return application;
 }
 
@@ -31,7 +46,6 @@ void Application::start()
       (*it)->Display();
     }
 
- 
     SDL_GL_SwapWindow(window);
   }
 

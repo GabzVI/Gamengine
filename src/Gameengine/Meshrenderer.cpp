@@ -47,27 +47,6 @@ const GLchar *VertexandFragsrc =
 void Meshrenderer::OnInit() 
 {
 
-	if (SDL_Init(SDL_INIT_VIDEO) < 0)
-	{
-		throw std::exception();
-	}
-
-	window = SDL_CreateWindow("Lab 4 - Architecture",
-		SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
-		WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL);
-
-	if (!SDL_GL_CreateContext(window))
-	{
-		throw std::exception();
-	}
-
-/*
-	if (glewInit() != GLEW_OK)
-	{
-		throw std::exception();
-	}
-*/
-
 	context = Context::initialize();
 	shader = context->createShader();
 	shader->parse(VertexandFragsrc);
@@ -89,42 +68,40 @@ void Meshrenderer::OnInit()
 	shader->setAttribute("in_Color", buffer);
 
 
-//	SDL_DestroyWindow(window);
-//	SDL_Quit();
+
+
 }
 
 void Meshrenderer::OnDisplay() 
 {
 	bool quit = false;
 
-	//while (!quit)
-	//{
 		SDL_Event event = { 0 };
 
-		while (SDL_PollEvent(&event))
+	while (SDL_PollEvent(&event))
+	{
+		if (event.type == SDL_QUIT)
 		{
-			if (event.type == SDL_QUIT)
-			{
-				//quit = true;
-				throw Exception("Close button pressed");
-			}
+			//quit = true;
+			throw Exception("Close button pressed");
 		}
+	}
 
-		glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 
-		// TODO:
-		// Upload proj, view, model to shader
-		// proj = camera
-		// view = camera->transform , inversed
-		// model = this->transform
-		// Transform class, getModel, pos, rot, scale
+	// TODO:
+	// Upload proj, view, model to shader
+	// proj = camera
+	// view = camera->transform , inversed
+	// model = this->transform
+	// Transform class, getModel, pos, rot, scale
 
-		shader->render();
+	shader->render();
 
-		// Move to end of Application::start loop
-		SDL_GL_SwapWindow(window);
+	// Move to end of Application::start loop
+	SDL_GL_SwapWindow(window);
 
-	//}
+	
 }
