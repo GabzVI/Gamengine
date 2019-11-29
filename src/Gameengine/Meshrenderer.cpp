@@ -1,7 +1,5 @@
 #include "Meshrenderer.h"
-#include "Exception.h"
-#include <rend/rend.h>
-
+#include "Transform.h"
 using namespace rend;
 
 const GLfloat positions[] =
@@ -19,7 +17,7 @@ const GLfloat colors[] =
 };
 
 
-
+//in_model stores the translate matrices.
 const GLchar *VertexandFragsrc =
 "\n#ifdef VERTEX\n " \
 "attribute vec3 in_Position;" \
@@ -31,7 +29,7 @@ const GLchar *VertexandFragsrc =
 "" \
 "void main()" \
 "{" \
-"  gl_Position = vec4(in_Position, 1.0);" \
+"  gl_Position = in_Model * vec4(in_Position, 1.0);" \
 "  ex_Color = in_Color;" \
 "}" \
 ""
@@ -83,7 +81,7 @@ void Meshrenderer::OnDisplay()
 		if (event.type == SDL_QUIT)
 		{
 			//quit = true;
-			throw Exception("Close button pressed");
+			throw rend::Exception("Close button pressed");
 		}
 	}
 
@@ -97,6 +95,8 @@ void Meshrenderer::OnDisplay()
 	// view = camera->transform , inversed
 	// model = this->transform
 	// Transform class, getModel, pos, rot, scale
+
+	shader->setUniform("in_Model", getTransform()->);
 
 	shader->render();
 

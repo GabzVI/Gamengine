@@ -10,6 +10,9 @@
 #include "Keyboard.h"
 #include "Transform.h"
 #include "Meshrenderer.h"
+#include "Camera.h"
+
+
 namespace Gameengine 
 {
 	using namespace rend;

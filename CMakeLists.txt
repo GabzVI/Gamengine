@@ -22,6 +22,8 @@ src/Gameengine/Meshrenderer.cpp
 src/Gameengine/Meshrenderer.h
 src/Gameengine/Transform.cpp
 src/Gameengine/Transform.h
+src/Gameengine/Camera.h
+src/Gameengine/Camera.cpp
 )
 target_link_libraries(Gameengine SDL2 rend)
 

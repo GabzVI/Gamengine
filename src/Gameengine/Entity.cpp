@@ -20,4 +20,12 @@ void Entity::Display()
   }
 }
 
+std::shared_ptr<Application>Entity::getApplication() 
+{
+	return application.lock();
+}
+
+
+
+
 

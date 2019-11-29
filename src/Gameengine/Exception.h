@@ -1,8 +1,6 @@
 #include <exception>
 #include <string>
 
-namespace Gameengine
-{
 
 struct Exception : public std::exception
 {
@@ -15,4 +13,3 @@ private:
 
 };
 
-}

@@ -1,5 +1,4 @@
 #include <iostream>
-//#include <windows.h>
 #include <stdlib.h>
 #include <Gameengine/Gameengine.h>
 
@@ -11,10 +10,10 @@ int main()
 
 	std::shared_ptr<Entity> gameObject = application->addEntity();
 
-  std::shared_ptr<Meshrenderer> triangle = gameObject->addComponent<Meshrenderer>();
-
+    std::shared_ptr<Meshrenderer> triangle = gameObject->addComponent<Meshrenderer>();
 	
-  application->start();
+	
+    application->start();
 
 	
 	return 0;

@@ -1,8 +1,8 @@
 #include "Component.h"
 #include <glm/glm.hpp>
 
-class Transform : public Component{
-
+class Transform : public Component
+{
 
 private:
 	glm::vec3 _objPos;
@@ -15,6 +15,6 @@ public:
 	void setLocalpos(glm::vec3 _pos);
 	void setLocalrot(glm::vec3 _rot);
 	void setLocalScale(glm::vec3 _scale);
-
+	glm::mat4 getModelmatrix();
 };
 

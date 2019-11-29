@@ -8,7 +8,7 @@ class Application;
 class Entity;
 class Keyboard;
 class Environment;
-
+class Transform;
 
 class Component {
 
@@ -20,8 +20,8 @@ public:
 	std::shared_ptr<Entity> getEntity();
 	std::shared_ptr<Application> getApplication();
 	std::shared_ptr<Keyboard> getKeyboard();
-	std::shared_ptr<Environment>getEnvironment();
-
+	std::shared_ptr<Environment> getEnvironment();
+	std::shared_ptr<Transform> getTransform();
 	
 	virtual void OnUpdate();
 	virtual void OnDisplay();
