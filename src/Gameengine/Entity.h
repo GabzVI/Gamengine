@@ -13,12 +13,14 @@ class Component;
 class Entity 
 {
 private:
-	std::weak_ptr<Application> application ;
+	std::weak_ptr<Application> application;
+	std::weak_ptr<Entity> self;
 	std::list<std::shared_ptr<Component>> component;
 	
 	
 
 public:
+	friend class Application;
 	std::shared_ptr<Application> getApplication();
 	
 
@@ -28,6 +30,7 @@ public:
 	{
 		std::shared_ptr<T> rtn = std::make_shared<T>();
 		component.push_back(rtn);
+		rtn->entity = self;
 		rtn->OnInit();
 		return rtn;
 	}
@@ -37,6 +40,7 @@ public:
 	{
 		std::shared_ptr<T> rtn = std::make_shared<T>();
 		component.push_back(rtn);
+		rtn->entity = self;
 		rtn->OnInit(a);
 		return rtn;
 	}
@@ -46,6 +50,7 @@ public:
 	{
 		std::shared_ptr<T> rtn = std::make_shared<T>();
 		component.push_back(rtn);
+		rtn->entity = self;
 		rtn->OnInit(a, b);
 		return rtn;
 	}
@@ -55,6 +60,7 @@ public:
 	{
 		std::shared_ptr<T> rtn = std::make_shared<T>();
 		component.push_back(rtn);
+		rtn->entity = self;
 		rtn->OnInit(a, b, c);
 		return rtn;
 	}

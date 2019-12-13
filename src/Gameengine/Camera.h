@@ -3,6 +3,7 @@
 #include "Component.h"
 #include "SDL2/SDL.h"
 
+class Application;
 
 class Camera : public Component
 {
@@ -13,5 +14,5 @@ private:
 public:
 	glm::mat4 getProjection();
 	glm::mat4 getView();
-
+	void OnInit();
 };

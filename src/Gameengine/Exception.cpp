@@ -4,8 +4,7 @@
 
 #include <iostream>
 
-namespace Gameengine
-{
+
 
 Exception::Exception(const std::string& message)
 {
@@ -19,4 +18,4 @@ const char* Exception::what() const throw()
   return message.c_str();
 }
 
-}
+

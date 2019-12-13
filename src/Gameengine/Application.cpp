@@ -1,29 +1,32 @@
 #include "Application.h"
 #include "Entity.h"
+#include "Camera.h"
 #include "Meshrenderer.h"
 #include <GL/glew.h>
 
 //Initialises the Engine. 
 std::shared_ptr<Application> Application::initialize()
 {
-	std::shared_ptr<Application> application = std::make_shared<Application>();
+	std::shared_ptr<Application> rtn = std::make_shared<Application>();
+
+	rtn->self = rtn;
 
   if (SDL_Init(SDL_INIT_VIDEO) < 0)
   {
     throw std::exception();
   }
 
-  application->window = SDL_CreateWindow("GameEngine Window",
+  rtn->window = SDL_CreateWindow("GameEngine Window",
   SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
   WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL);
 
-  if (!SDL_GL_CreateContext(application->window))
+  if (!SDL_GL_CreateContext(rtn->window))
   {
     throw std::exception();
   }
 
-
-	return application;
+    
+	return rtn;
 }
 
 
@@ -61,8 +64,17 @@ std::shared_ptr<Entity> Application::addEntity() {
 
 	std::shared_ptr<Entity> rtn = std::make_shared<Entity>();
 	 
-    entities.push_back(rtn);
+	entities.push_back(rtn);
+	rtn->self = rtn;
+	rtn->application = self;
 
    return rtn;
 
+}
+
+std::shared_ptr<Camera> Application::getCamera()
+{
+	std::shared_ptr<Camera> rtn = std::make_shared<Camera>();
+
+	rtn->
 }

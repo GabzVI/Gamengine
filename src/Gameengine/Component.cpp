@@ -5,7 +5,7 @@
 
 std::shared_ptr<Entity> Component::getEntity() 
 {
- 
+  
   return entity.lock(); //Makes entity a shared pointer.
 }
 
@@ -45,6 +45,15 @@ std::shared_ptr<Transform> Component::getTransform()
 
 	return rtn;
 }
+
+
+std::shared_ptr<Camera> Component::getCamera() 
+{
+	std::shared_ptr<Camera> rtn = getEntity()->getComponent<Camera>();
+
+	return rtn;
+}
+
 
 void Component::OnUpdate() 
 {

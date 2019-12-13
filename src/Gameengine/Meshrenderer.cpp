@@ -18,18 +18,21 @@ const GLfloat colors[] =
 
 
 //in_model stores the translate matrices.
+//gl_position represents the position in the world of our object
 const GLchar *VertexandFragsrc =
 "\n#ifdef VERTEX\n " \
 "attribute vec3 in_Position;" \
 "attribute vec4 in_Color;" \
 "" \
 "uniform mat4 in_Model;" \
+"uniform mat4 in_Projection" \
+"uniform mat4 in_View" \
 ""\
 "varying vec4 ex_Color;" \
 "" \
 "void main()" \
 "{" \
-"  gl_Position = in_Model * vec4(in_Position, 1.0);" \
+"  gl_Position = in_Projection * in_View * in_Model * vec4(in_Position, 1.0);" \
 "  ex_Color = in_Color;" \
 "}" \
 ""
@@ -96,12 +99,12 @@ void Meshrenderer::OnDisplay()
 	// model = this->transform
 	// Transform class, getModel, pos, rot, scale
 
-	shader->setUniform("in_Model", getTransform()->);
+	shader->setUniform("in_Model", getTransform()->getModelmatrix());
+	shader->setUniform("in_Projection", )
+
 
 	shader->render();
 
-	// Move to end of Application::start loop
-	SDL_GL_SwapWindow(window);
 
 	
 }
