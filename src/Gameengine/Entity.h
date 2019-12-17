@@ -1,10 +1,10 @@
 #ifndef _ENTITY_
 #define _ENTITY_
 
+#include "Exception.h"
 
 #include <memory>
 #include <list>
-#include "Gameengine.h"
 
 class Application;
 class Component;
@@ -78,7 +78,7 @@ public:
 			}
 		}
 	 	
-		throw Gameengine::Exception("Component Couldn't be found");
+		throw Exception("Component Couldn't be found");
 		
 	}
 

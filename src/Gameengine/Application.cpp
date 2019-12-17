@@ -74,7 +74,5 @@ std::shared_ptr<Entity> Application::addEntity() {
 
 std::shared_ptr<Camera> Application::getCamera()
 {
-	std::shared_ptr<Camera> rtn = std::make_shared<Camera>();
-
-	rtn->
+	return cameras.at(0).lock();
 }

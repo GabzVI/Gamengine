@@ -88,8 +88,8 @@ void Meshrenderer::OnDisplay()
 		}
 	}
 
-	glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
-	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+	//glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
+	//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 
 	// TODO:
@@ -100,7 +100,8 @@ void Meshrenderer::OnDisplay()
 	// Transform class, getModel, pos, rot, scale
 
 	shader->setUniform("in_Model", getTransform()->getModelmatrix());
-	shader->setUniform("in_Projection", )
+	shader->setUniform("in_Projection", getApplication()->getCurrentCamera()->getProjection());
+	shader->setUniform("in_View", getApplication()->getCurrentCamera()->getView());
 
 
 	shader->render();

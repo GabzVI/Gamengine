@@ -3,6 +3,7 @@
 
 #include <memory>
 #include <list>
+#include <vector>
 #include <SDL2/SDL.h>
 #include <glm/glm.hpp>
 
@@ -15,9 +16,12 @@ class Camera;
 
 class Application {
 private:
+	friend class Camera;
+
 	std::list <std::shared_ptr<Entity>> entities;
 	std::weak_ptr<Application> self;
-	std::weak_ptr<Camera> camera;
+	//std::weak_ptr<Camera> camera;
+	std::vector<std::weak_ptr<Camera> > cameras;
 	bool running;
 public:
 	static std::shared_ptr<Application> initialize();
