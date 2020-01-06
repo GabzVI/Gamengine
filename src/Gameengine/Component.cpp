@@ -12,11 +12,10 @@ std::shared_ptr<Entity> Component::getEntity()
 std::shared_ptr<Application> Component::getApplication()
 {
 
-  std::shared_ptr<Application> rtn;
+	std::shared_ptr<Application> rtn = getEntity()->getApplication();
 
-  // TODO
+	return rtn;
 
-  return rtn;
 }
 
 std::shared_ptr<Keyboard> Component::getKeyboard() 
@@ -47,7 +46,7 @@ std::shared_ptr<Transform> Component::getTransform()
 }
 
 
-std::shared_ptr<Camera> Component::getCamera() 
+std::shared_ptr<Camera> Component::getCurrentCamera() 
 {
 	std::shared_ptr<Camera> rtn = getEntity()->getComponent<Camera>();
 

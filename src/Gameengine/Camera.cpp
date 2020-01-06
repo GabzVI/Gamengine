@@ -1,5 +1,6 @@
 #include "Camera.h"
 #include "Transform.h"
+#include "Entity.h"
 #include "Application.h"
 
 glm::mat4 Camera::getView()
@@ -16,10 +17,11 @@ glm::mat4 Camera::getProjection()
 void Camera::OnInit()
 {
 	//Camera being initialisd
-	getApplicaton()->cameras.push_back(getEntity()->getComponent<Camera>());
+	getApplication()->cameras.push_back(getEntity()->getComponent<Camera>());
 }
 
 Camera::~Camera()
 {
   // TODO: Remove "this" from capplication cameras.
+	
 }

@@ -5,9 +5,13 @@
 
 #include <memory>
 #include <list>
+#include <rend/rend.h>
 
+using namespace rend;
 class Application;
 class Component;
+class Transform;
+class Camera;
 
 
 class Entity 
@@ -66,11 +70,11 @@ public:
 	}
 	
 	template <typename T>
-	std::shared_ptr<T> getComponent()
+	std::shared_ptr<T*> getComponent()
 	{
 		for (auto it = component.begin(); it != component.end(); it++) 
 		{
-			std::shared_ptr<T> rtn = std::dynamic_pointer_cast<T>(*it);
+			std::shared_ptr<T*> rtn = std::dynamic_pointer_cast<T*>(*it);
 
 			if (rtn) 
 			{
@@ -78,13 +82,13 @@ public:
 			}
 		}
 	 	
-		throw Exception("Component Couldn't be found");
+		throw rend::Exception("Component Couldn't be found");
 		
 	}
 
 
 	virtual void Display();
-    virtual void OnUpdate();
+  virtual void OnUpdate();
 };
 
 #endif // !

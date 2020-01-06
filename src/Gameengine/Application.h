@@ -20,19 +20,18 @@ private:
 
 	std::list <std::shared_ptr<Entity>> entities;
 	std::weak_ptr<Application> self;
-	//std::weak_ptr<Camera> camera;
-	std::vector<std::weak_ptr<Camera> > cameras;
+	std::vector<std::weak_ptr<Camera>> cameras;
 	bool running;
 public:
 	static std::shared_ptr<Application> initialize();
 	void start();
 	void stop();
 	std::shared_ptr<Entity> addEntity();
-	std::shared_ptr<Camera> getCamera();
-    SDL_Window *window;
-	
- 
-  
+	std::shared_ptr<Camera> getCurrentCamera();
+	SDL_Window *window;
+
+
+
 };
 
 

@@ -1,5 +1,9 @@
 #include "Meshrenderer.h"
 #include "Transform.h"
+#include "Application.h"
+#include "Camera.h"
+#include "Entity.h"
+
 using namespace rend;
 
 const GLfloat positions[] =
@@ -106,6 +110,4 @@ void Meshrenderer::OnDisplay()
 
 	shader->render();
 
-
-	
 }

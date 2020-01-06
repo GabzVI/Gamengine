@@ -23,7 +23,7 @@ public:
 	std::shared_ptr<Keyboard> getKeyboard();
 	std::shared_ptr<Environment> getEnvironment();
 	std::shared_ptr<Transform> getTransform();
-	std::shared_ptr<Camera> getCamera();
+	std::shared_ptr<Camera> getCurrentCamera();
 	
 	virtual void OnUpdate();
 	virtual void OnDisplay();

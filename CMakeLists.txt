@@ -24,6 +24,18 @@ src/Gameengine/Transform.cpp
 src/Gameengine/Transform.h
 src/Gameengine/Camera.h
 src/Gameengine/Camera.cpp
+src/Gameengine/Material.h
+src/Gameengine/Material.cpp
+src/Gameengine/Resource.h
+src/Gameengine/Resource.cpp
+src/Gameengine/Resources.cpp
+src/Gameengine/Resources.h
+src/Gameengine/Texture.cpp
+src/Gameengine/Texture.h
+src/Gameengine/Mesh.cpp
+src/Gameengine/Mesh.h
+src/Gameengine/Shader.cpp
+src/Gameengine/Shader.h
 )
 target_link_libraries(Gameengine SDL2 rend)
 

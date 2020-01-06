@@ -1,5 +1,5 @@
 #include <glm/ext.hpp>
-
+#include <memory>
 #include "Component.h"
 #include "SDL2/SDL.h"
 
@@ -15,4 +15,5 @@ public:
 	glm::mat4 getProjection();
 	glm::mat4 getView();
 	void OnInit();
+	~Camera();
 };

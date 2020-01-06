@@ -1,5 +1,8 @@
 #include "Component.h"
+#include <memory>
 #include <glm/glm.hpp>
+
+class Entity;
 
 class Transform : public Component
 {
