@@ -1,6 +1,8 @@
 #include <iostream>
 #include "Component.h"
 #include "Entity.h"
+#include "Transform.h"
+#include "Camera.h"
 
 
 std::shared_ptr<Entity> Component::getEntity() 

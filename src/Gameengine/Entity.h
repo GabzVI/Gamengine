@@ -70,11 +70,11 @@ public:
 	}
 	
 	template <typename T>
-	std::shared_ptr<T*> getComponent()
+	std::shared_ptr<T> getComponent()
 	{
 		for (auto it = component.begin(); it != component.end(); it++) 
 		{
-			std::shared_ptr<T*> rtn = std::dynamic_pointer_cast<T*>(*it);
+			std::shared_ptr<T> rtn = std::dynamic_pointer_cast<T>(*it);
 
 			if (rtn) 
 			{

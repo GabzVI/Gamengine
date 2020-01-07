@@ -1,3 +1,6 @@
+#ifndef __EXCEPTION_H
+#define __EXCEPTION_H
+
 #include <string>
 
 
@@ -14,3 +17,4 @@ private:
 
 };
 
+#endif
