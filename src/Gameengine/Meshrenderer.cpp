@@ -29,8 +29,8 @@ const GLchar *VertexandFragsrc =
 "attribute vec4 in_Color;" \
 "" \
 "uniform mat4 in_Model;" \
-"uniform mat4 in_Projection" \
-"uniform mat4 in_View" \
+"uniform mat4 in_Projection;" \
+"uniform mat4 in_View;" \
 ""\
 "varying vec4 ex_Color;" \
 "" \

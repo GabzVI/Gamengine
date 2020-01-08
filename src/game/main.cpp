@@ -14,7 +14,7 @@ int main()
 	std::shared_ptr<Transform> trTransform = gameObject->addComponent<Transform>();
 	std::shared_ptr<Camera> camera = gameObject->addComponent<Camera>();
 
-	trTransform->setLocalpos(glm::vec3(1, 0, 0));
+	trTransform->setLocalpos(glm::vec3(0, 0, 0));
 	trTransform->setLocalrot(glm::vec3(0, 0, 0));
 	trTransform->setLocalScale(glm::vec3(1.0f));
 
