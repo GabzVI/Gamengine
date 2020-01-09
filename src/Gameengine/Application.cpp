@@ -1,6 +1,7 @@
 #include "Application.h"
 #include "Entity.h"
 #include "Camera.h"
+#include "Resources.h"
 #include "Meshrenderer.h"
 #include <GL/glew.h>
 
@@ -75,4 +76,12 @@ std::shared_ptr<Entity> Application::addEntity() {
 std::shared_ptr<Camera> Application::getCurrentCamera()
 {
 	return cameras.at(0).lock();
+}
+
+std::shared_ptr<Resources> Application::getResources() 
+{
+	std::shared_ptr<Resources> rtn = std::make_shared<Resources>();
+
+	return rtn;
+
 }

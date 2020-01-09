@@ -103,7 +103,7 @@ void Meshrenderer::OnDisplay()
 	// model = this->transform
 	// Transform class, getModel, pos, rot, scale
 
-	shader->setUniform("in_Model", getEntity()->getComponent<Transform>()->getModelmatrix());
+	shader->setUniform("in_Model", getTransform()->getModelmatrix());
 	shader->setUniform("in_Projection", getApplication()->getCurrentCamera()->getProjection());
 	shader->setUniform("in_View", getApplication()->getCurrentCamera()->getView());
 

@@ -1,20 +1,19 @@
 #include <rend/rend.h>
-#include <string>
+#include "Resource.h"
 
 class Meshrenderer;
-class Texture;
 
-class Material 
+
+class Material : public Resource
 {
 private:
 	friend class Meshrenderer;
 
 	std::shared_ptr<rend::Shader> shader;
-
+	std::shared_ptr<rend::Texture> texture;
 
 public:
-	void setShader(std::shared_ptr<rend::Shader> shader);
-	std::shared_ptr<rend::Shader> getShader();
+	void onLoad(const std::string &path);
 
 
 };

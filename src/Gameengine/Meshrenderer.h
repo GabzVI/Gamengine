@@ -1,5 +1,5 @@
-#ifndef _TRIANGLERENDERER_H
-#define _TRIANGLERENDERER_H
+#ifndef _MESHRENDERER_H
+#define _MESHRENDERER_H
 
 #include <SDL2/SDL.h>
 #include <GL/glew.h>
@@ -11,6 +11,8 @@
 class Application;
 class Entity;
 class Camera;
+class Mesh;
+class Material;
 
 class Meshrenderer : public Component
 {
@@ -21,10 +23,11 @@ private:
   std::shared_ptr<rend::Context> context;
   std::shared_ptr<rend::Shader> shader;
   std::shared_ptr<rend::Buffer> buffer;
-  std::shared_ptr<rend::Mesh> shape;
-
+  std::shared_ptr<rend::Mesh> mesh;
+	std::shared_ptr<Material> material;
 public:
-
+	void setMesh(std::shared_ptr<rend::Mesh> mesh);
+	void setMaterial(std::shared_ptr<Material> material);
   SDL_Window *window;
   void OnInit();
   void OnDisplay();
