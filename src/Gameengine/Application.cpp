@@ -12,6 +12,10 @@ std::shared_ptr<Application> Application::initialize()
 	std::shared_ptr<Application> rtn = std::make_shared<Application>();
 
 	rtn->self = rtn;
+	rtn->resources = std::make_shared<Resource>();
+	rtn->resources->application = rtn->self; //This puts a copy of application inside the weak pointer inside resources.
+
+
 
   if (SDL_Init(SDL_INIT_VIDEO) < 0)
   {

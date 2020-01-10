@@ -11,7 +11,7 @@ class Mesh : public Resource
 {
 private:
 	friend class Application;
-	std::shared_ptr<rend::Mesh> modelOfObject;
+	std::shared_ptr<::Mesh> modelOfObject;
 
 
 public:
