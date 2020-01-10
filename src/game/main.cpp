@@ -13,8 +13,7 @@ int main()
 
 	std::shared_ptr<Meshrenderer> triangle = triangleObject->addComponent<Meshrenderer>();
 	std::shared_ptr<Transform> trTransform = triangleObject->addComponent<Transform>();
-
-
+	std::shared_ptr<::Mesh> objMesh = triangleObject->addComponent<::Mesh>;
 
 	std::shared_ptr<Camera> camera = currentCamera->addComponent<Camera>();
 	std::shared_ptr<Transform> camTransform = currentCamera->addComponent <Transform>();

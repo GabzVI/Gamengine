@@ -23,7 +23,7 @@ private:
   std::shared_ptr<rend::Context> context;
   std::shared_ptr<rend::Shader> shader;
   std::shared_ptr<rend::Buffer> buffer;
-  std::shared_ptr<rend::Mesh> mesh;
+  std::shared_ptr<rend::Mesh> modelOfObject;
 	std::shared_ptr<Material> material;
 public:
 	void setMesh(std::shared_ptr<rend::Mesh> mesh);

@@ -3,6 +3,7 @@
 #include "Camera.h"
 #include "Resources.h"
 #include "Meshrenderer.h"
+#include "Mesh.h"
 #include <GL/glew.h>
 
 //Initialises the Engine. 
@@ -26,6 +27,7 @@ std::shared_ptr<Application> Application::initialize()
     throw std::exception();
   }
 
+  rtn->context = rend::Context::initialize();
     
 	return rtn;
 }
@@ -37,6 +39,18 @@ void Application::start()
 
   while(running)
   {
+	  bool quit = false;
+
+	  SDL_Event event = { 0 };
+
+	  while (SDL_PollEvent(&event))
+	  {
+		  if (event.type == SDL_QUIT)
+		  {
+			  //quit = true;
+			  throw rend::Exception("Close button pressed");
+		  }
+	  }
     for (std::list<std::shared_ptr<Entity>>::iterator it = entities.begin(); it != entities.end(); it++) 
     {
       (*it)->OnUpdate();

@@ -7,7 +7,7 @@ class Application;
 class Resource 
 {
 
-private:
+protected:
 	std::weak_ptr<Application> application;
 
 

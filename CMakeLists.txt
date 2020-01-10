@@ -48,6 +48,7 @@ add_library(rend
   src/rend/Buffer.cpp
   src/rend/Mesh.cpp
   src/rend/Util.cpp
+  src/rend/stb_image.h
 )
 
 if(MSVC)

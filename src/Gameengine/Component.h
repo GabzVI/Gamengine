@@ -11,6 +11,7 @@ class Environment;
 class Transform;
 class Camera;
 class Resources;
+class Mesh;
 
 class Component {
 
