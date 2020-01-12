@@ -2,6 +2,7 @@
 #include "Entity.h"
 #include "Camera.h"
 #include "Resources.h"
+#include "Resource.h"
 #include "Meshrenderer.h"
 #include "Mesh.h"
 #include <GL/glew.h>
@@ -12,8 +13,9 @@ std::shared_ptr<Application> Application::initialize()
 	std::shared_ptr<Application> rtn = std::make_shared<Application>();
 
 	rtn->self = rtn;
-	rtn->resources = std::make_shared<Resource>();
+	rtn->resources = std::make_shared<Resources>();
 	rtn->resources->application = rtn->self; //This puts a copy of application inside the weak pointer inside resources.
+	
 
 
 
@@ -98,8 +100,12 @@ std::shared_ptr<Camera> Application::getCurrentCamera()
 
 std::shared_ptr<Resources> Application::getResources() 
 {
-	std::shared_ptr<Resources> rtn = std::make_shared<Resources>();
 
-	return rtn;
+	return resources;
 
+}
+
+std::shared_ptr<Context> Application::getContext() 
+{
+	return context;
 }

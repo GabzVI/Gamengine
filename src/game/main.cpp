@@ -15,9 +15,11 @@ int main()
 	std::shared_ptr<Transform> trTransform = triangleObject->addComponent<Transform>();
 
 	
-	std::shared_ptr<::Mesh> catMesh = application->getResources()->load<::Mesh>("src/Models/curuthers/curuthers.obj");
+	std::shared_ptr<::Mesh> catMesh = application->getResources()->load<::Mesh>("../src/Models/curuthers/curuthers.obj");
+	triangleObject->getComponent<Meshrenderer>()->setMesh(catMesh);
 
-	triangle->setMesh(catMesh);
+	std::shared_ptr<Material> catTexture = application->getResources()->load<Material>("../src/Models/curuthers/curuthers.obj");
+	//triangleObject->getComponent<Material>()->
 
 	std::shared_ptr<Camera> camera = currentCamera->addComponent<Camera>();
 	std::shared_ptr<Transform> camTransform = currentCamera->addComponent <Transform>();
@@ -27,7 +29,7 @@ int main()
 	triangleObject->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f, 1.0f, 1.0f));
 	//gameObject->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
 
-	currentCamera->getComponent<Transform>()->setLocalpos(glm::vec3(0, 0, 5));
+	currentCamera->getComponent<Transform>()->setLocalpos(glm::vec3(0, 0, 10));
 	currentCamera->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
 	currentCamera->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f, 1.0f, 1.0f));
 

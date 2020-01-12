@@ -1,4 +1,5 @@
 #include "Meshrenderer.h"
+#include "Mesh.h"
 #include "Transform.h"
 #include "Application.h"
 #include "Camera.h"
@@ -36,7 +37,9 @@ const GLfloat colors[] =
 //gl_position represents the position in the world of our object
 const GLchar *VertexandFragsrc =
 "\n#ifdef VERTEX\n " \
-"attribute vec3 in_Position;" \
+"attribute vec3 a_Normal;" \
+"attribute vec2 a_TexCoord;" \
+"attribute vec3 a_Position;" \
 "attribute vec4 in_Color;" \
 "" \
 "uniform mat4 u_Model;" \
@@ -44,26 +47,32 @@ const GLchar *VertexandFragsrc =
 "uniform mat4 u_View;" \
 ""\
 "varying vec4 ex_Color;" \
+"varying vec3 v_Normal;" \
+"varying vec2 v_TexCoord;" \
 "" \
 "void main()" \
 "{" \
-"  gl_Position = u_Projection * u_View * u_Model * vec4(in_Position, 1.0);" \
-"  ex_Color = in_Color;" \
+"  gl_Position = u_Projection * u_View * u_Model * vec4(a_Position, 1.0);" \
+"  v_Normal = a_Normal; \n" \
+"  v_TexCoord = a_TexCoord;\n" \
 "}" \
 ""
 "\n#endif\n" \
 "\n#ifdef FRAGMENT\n" \
-"varying vec4 ex_Color;" \
+"uniform sampler2D u_Texture;" \
+"varying vec2 v_TexCoord;" \
+"varying vec3 v_Normal;" \
 "void main()" \
 "{" \
-"  gl_FragColor = ex_Color;" \
+"  gl_FragColor = texture2D(u_Texture, v_TexCoord);" \
+"  if(gl_FragColor.x == 9) gl_FragColor.x = v_Normal.x;" \
 "}" \
 "\n#endif\n"
 "";
 void Meshrenderer::OnInit() 
 {
 
-	context = Context::initialize();
+	context = getApplication()->getContext();
 	shader = context->createShader();
 	shader->parse(VertexandFragsrc);
 
@@ -74,23 +83,20 @@ void Meshrenderer::OnInit()
 void Meshrenderer::OnDisplay() 
 {
 
-
-	//glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
-	//glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-
-
-	// TODO:
-	// Upload proj, view, model to shader
-	// proj = camera
-	// view = camera->transform , inversed
-	// model = this->transform
-	// Transform class, getModel, pos, rot, scale
-
 	shader->setUniform("u_Model", getTransform()->getModelmatrix());
 	shader->setUniform("u_Projection", getApplication()->getCurrentCamera()->getProjection());
 	shader->setUniform("u_View", getApplication()->getCurrentCamera()->getView());
 
-	shader->setMesh(modelOfObject);
+	shader->setMesh(myMesh->modelOfObject);
 	shader->render();
+}
 
+void Meshrenderer::setMesh(std::shared_ptr<::Mesh> mesh) 
+{
+	myMesh = mesh;
+}
+
+void Meshrenderer::setMaterial(std::shared_ptr<Material> material)
+{
+	myMaterial = material;
 }

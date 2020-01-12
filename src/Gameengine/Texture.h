@@ -1,4 +1,3 @@
-#include <string>
 #include <SDL2/SDL.h>
 #include "rend/rend.h"
 #include <memory>

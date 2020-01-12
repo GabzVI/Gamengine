@@ -11,9 +11,9 @@
 #include "Transform.h"
 #include "Meshrenderer.h"
 #include "Camera.h"
-#include "Texture.h"
 #include "Material.h"
 #include "Resources.h"
+#include "Resource.h"
 #include "Shader.h"
 #include "Mesh.h"
 

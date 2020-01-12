@@ -3,6 +3,7 @@
 #include "Entity.h"
 #include "Transform.h"
 #include "Camera.h"
+#include "Resources.h"
 
 
 std::shared_ptr<Entity> Component::getEntity() 
@@ -55,6 +56,12 @@ std::shared_ptr<Camera> Component::getCurrentCamera()
 	return rtn;
 }
 
+std::shared_ptr<Resources> Component::getResources()
+{
+	std::shared_ptr<Resources> rtn = getEntity()->getComponent<Resources>();
+
+	return rtn;
+}
 
 void Component::OnUpdate() 
 {

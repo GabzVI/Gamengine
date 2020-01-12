@@ -21,7 +21,7 @@ public:
 		rtn->application = application;
 		rtn->resources = self;
 
-		rtn->load(path);
+		rtn->onLoad(path);
 		resources.push_back(rtn);
 		return rtn;
 	}

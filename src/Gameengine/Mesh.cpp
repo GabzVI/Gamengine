@@ -1,26 +1,34 @@
 #include "Mesh.h"
 #include "Application.h"
 
-void Mesh::onLoad(const std::string &path) 
+void Mesh::onLoad(const std::string &path)
 {
+
+	std::shared_ptr<rend::Context> context = getApplication()->getContext();
+
+
+	modelOfObject = context->createMesh();
+	{// Incapsulates variables so that they are deleted after running
+		std::ifstream f;
+		f.open(path);
+
+
+		if (!f.is_open())
+		{
+			throw Exception("failed to open model");
+		}
+
+		std::string obj;
+		std::string line;
+
+		while (!f.eof())
+		{
+			std::getline(f, line);
+			obj += line + "\n";
+		}
 	
-	std::ifstream f(path);
+		modelOfObject->parse(obj);
+	}
 	
-
-	if (!f.is_open()) 
-	{
-		throw Exception("failed to open model");
-	}
-
-	std::string obj;
-	std::string line;
-
-	while(!f.eof()) 
-	{
-		std::getline(f, line);
-		obj += line + "\n";
-	}
-
-	modelOfObject = application.lock()->context->createMesh();
-	modelOfObject->parse(obj);
+	
 }

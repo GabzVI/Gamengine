@@ -30,8 +30,6 @@ src/Gameengine/Resource.h
 src/Gameengine/Resource.cpp
 src/Gameengine/Resources.cpp
 src/Gameengine/Resources.h
-src/Gameengine/Texture.cpp
-src/Gameengine/Texture.h
 src/Gameengine/Mesh.cpp
 src/Gameengine/Mesh.h
 src/Gameengine/Shader.cpp

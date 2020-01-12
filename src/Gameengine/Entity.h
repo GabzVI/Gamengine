@@ -12,6 +12,7 @@ class Application;
 class Component;
 class Transform;
 class Camera;
+class Resources;
 
 
 class Entity 
