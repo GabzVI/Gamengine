@@ -6,6 +6,7 @@
 #include "Exception.h"
 #include "Component.h"
 #include <rend/rend.h>
+#include <rend/stb_image.h>
 
 class Application;
 class Entity;

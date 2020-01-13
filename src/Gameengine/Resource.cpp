@@ -1,6 +1,6 @@
 #include "Resource.h"
 
-void Resource::onLoad(const std::string &path)
+void Resource::onLoad(const char* path)
 {
 
 

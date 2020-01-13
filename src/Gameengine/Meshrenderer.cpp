@@ -1,6 +1,7 @@
 #include "Meshrenderer.h"
 #include "Mesh.h"
 #include "Transform.h"
+#include "Material.h"
 #include "Application.h"
 #include "Camera.h"
 #include "Entity.h"
@@ -46,13 +47,12 @@ const GLchar *VertexandFragsrc =
 "uniform mat4 u_Projection;" \
 "uniform mat4 u_View;" \
 ""\
-"varying vec4 ex_Color;" \
 "varying vec3 v_Normal;" \
 "varying vec2 v_TexCoord;" \
 "" \
 "void main()" \
 "{" \
-"  gl_Position = u_Projection * u_View * u_Model * vec4(a_Position, 1.0);" \
+"  gl_Position = u_Projection * u_View * u_Model * vec4(a_Position, 1.0); \n" \
 "  v_Normal = a_Normal; \n" \
 "  v_TexCoord = a_TexCoord;\n" \
 "}" \
@@ -88,12 +88,15 @@ void Meshrenderer::OnDisplay()
 	shader->setUniform("u_View", getApplication()->getCurrentCamera()->getView());
 
 	shader->setMesh(myMesh->modelOfObject);
+	myMesh->modelOfObject->setTexture("u_Texture", myMaterial->originalTexture);
+	
 	shader->render();
 }
 
 void Meshrenderer::setMesh(std::shared_ptr<::Mesh> mesh) 
 {
 	myMesh = mesh;
+	
 }
 
 void Meshrenderer::setMaterial(std::shared_ptr<Material> material)

@@ -1,3 +1,5 @@
+#ifndef _MESH_H
+#define _MESH_H
 #include <rend/rend.h>
 #include "Resource.h" 
 #include "Exception.h"
@@ -15,7 +17,9 @@ private:
 
 
 public:
-	void onLoad(const std::string &path);
+	void onLoad(const char* path);
 	
 
 };
+
+#endif

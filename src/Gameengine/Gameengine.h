@@ -16,7 +16,8 @@
 #include "Resource.h"
 #include "Shader.h"
 #include "Mesh.h"
-
+#include "PlayerMovement.h"
+#include "KeyBindings.h"
 
 namespace Gameengine 
 {

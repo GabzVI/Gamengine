@@ -4,6 +4,8 @@
 #include "Transform.h"
 #include "Camera.h"
 #include "Resources.h"
+#include "Keyboard.h"
+#include "Application.h"
 
 
 std::shared_ptr<Entity> Component::getEntity() 
@@ -24,9 +26,7 @@ std::shared_ptr<Application> Component::getApplication()
 std::shared_ptr<Keyboard> Component::getKeyboard() 
 {
 
-  std::shared_ptr<Keyboard> rtn;
-
-  // TODO
+	std::shared_ptr<Keyboard> rtn = getApplication()->getKeyboard();
 
   return rtn;
  

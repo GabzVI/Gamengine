@@ -13,6 +13,7 @@ class Component;
 class Transform;
 class Camera;
 class Resources;
+class Keyboard;
 
 
 class Entity 

@@ -16,6 +16,6 @@ protected:
 	std::weak_ptr<Resources> resources;
 
 public:
-	void onLoad(const std::string &path);
+	void onLoad(const char *path);
 	std::shared_ptr<Application> getApplication();
 };

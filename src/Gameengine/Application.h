@@ -19,6 +19,7 @@ class Resources;
 class Resource;
 class Mesh;
 class Material;
+class Keyboard;
 
 class Application {
 private:
@@ -27,12 +28,13 @@ private:
 	friend class Resource;
 	friend class ::Mesh;
 	friend class Material;
+	friend class Keyboard;
 
 	std::list <std::shared_ptr<Entity>> entities;
 	std::weak_ptr<Application> self;
 	std::vector<std::weak_ptr<Camera>> cameras;
 	std::shared_ptr<Resources> resources;
-
+	std::shared_ptr<Keyboard> keyboard;
 	std::shared_ptr<rend::Context> context;
 
 	bool running;
@@ -44,6 +46,7 @@ public:
 	std::shared_ptr<Camera> getCurrentCamera();
 	std::shared_ptr<Resources> getResources();
 	std::shared_ptr<rend::Context> getContext();
+	std::shared_ptr<Keyboard> getKeyboard();
 	SDL_Window *window;
 
 

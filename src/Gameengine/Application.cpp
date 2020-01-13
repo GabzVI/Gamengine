@@ -5,6 +5,7 @@
 #include "Resource.h"
 #include "Meshrenderer.h"
 #include "Mesh.h"
+#include "Keyboard.h"
 #include <GL/glew.h>
 
 //Initialises the Engine. 
@@ -16,7 +17,7 @@ std::shared_ptr<Application> Application::initialize()
 	rtn->resources = std::make_shared<Resources>();
 	rtn->resources->application = rtn->self; //This puts a copy of application inside the weak pointer inside resources.
 	
-
+	rtn->keyboard = std::make_shared<Keyboard>();
 
 
   if (SDL_Init(SDL_INIT_VIDEO) < 0)
@@ -56,12 +57,45 @@ void Application::start()
 			  //quit = true;
 			  throw rend::Exception("Close button pressed");
 		  }
+
+			// Here we will handle key down and key up
+
+			if (event.type == SDL_KEYDOWN) // If the event of the keyboard happens to be KEYDOWN..
+			{
+				keyboard->isKey.push_back(event.key.keysym.sym); // only clear when button is released
+        keyboard->isKeyPressedOnce.push_back(event.key.keysym.sym); // clear after every fram
+			}
+			
+			if (event.type == SDL_KEYUP) // If the event of the keyboard happens to be keyup (for release keys)
+			{
+				keyboard->isKeyReleased.push_back(event.key.keysym.sym);
+
+				//we need cant do keyboard->isKey.clear(); because if we are presseing more than one key at the same time, we don't want to erase the list completely, 
+				// we need a loop to only delete the key that was released but no the other key.
+
+				for (std::vector<int>::iterator i = keyboard->isKey.begin(); i < keyboard->isKey.end();)
+				{
+					if (*i == event.key.keysym.sym)
+					{
+						i = keyboard->isKey.erase(i);
+					}
+					else
+					{
+						i++;
+					}
+				}
+			}
+
+
 	  }
+		
+
     for (std::list<std::shared_ptr<Entity>>::iterator it = entities.begin(); it != entities.end(); it++) 
     {
       (*it)->OnUpdate();
     }
-
+		keyboard->isKeyPressedOnce.clear();
+		keyboard->isKeyReleased.clear();
     glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -108,4 +142,9 @@ std::shared_ptr<Resources> Application::getResources()
 std::shared_ptr<Context> Application::getContext() 
 {
 	return context;
+}
+
+std::shared_ptr<Keyboard> Application::getKeyboard()
+{
+	return keyboard;
 }

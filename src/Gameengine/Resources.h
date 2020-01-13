@@ -15,7 +15,7 @@ private:
 
 public:
 	template <typename T>
-	std::shared_ptr<T> load(const std::string &path)
+	std::shared_ptr<T> load(const char *path)
 	{
 		std::shared_ptr<T> rtn = std::make_shared<T>();
 		rtn->application = application;

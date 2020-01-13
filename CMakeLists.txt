@@ -34,6 +34,8 @@ src/Gameengine/Mesh.cpp
 src/Gameengine/Mesh.h
 src/Gameengine/Shader.cpp
 src/Gameengine/Shader.h
+src/Gameengine/KeyBindings.h
+src/Gameengine/PlayerMovement.h
 )
 target_link_libraries(Gameengine SDL2 rend)
 

@@ -1,7 +1,7 @@
 #include "Mesh.h"
 #include "Application.h"
 
-void Mesh::onLoad(const std::string &path)
+void Mesh::onLoad(const char* path)
 {
 
 	std::shared_ptr<rend::Context> context = getApplication()->getContext();
@@ -28,6 +28,7 @@ void Mesh::onLoad(const std::string &path)
 		}
 	
 		modelOfObject->parse(obj);
+		
 	}
 	
 	

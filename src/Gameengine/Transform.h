@@ -1,3 +1,5 @@
+#ifndef _TRANSFORM_H
+#define _TRANSFORM_H
 #include "Component.h"
 #include <memory>
 #include <glm/glm.hpp>
@@ -18,3 +20,4 @@ public:
 	glm::mat4 getModelmatrix();
 };
 
+#endif 
