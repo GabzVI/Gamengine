@@ -22,6 +22,7 @@ public:
 	void Rotate(glm::vec3 _rotate);
 	glm::vec3 getPosition();
 	glm::vec3 getRotation();
+	glm::vec3 getScale();
 	glm::vec3 Forward();
 	glm::vec3 Backward();
 	glm::vec3 Right();

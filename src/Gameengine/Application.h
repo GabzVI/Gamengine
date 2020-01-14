@@ -47,6 +47,7 @@ public:
 	std::shared_ptr<Resources> getResources();
 	std::shared_ptr<rend::Context> getContext();
 	std::shared_ptr<Keyboard> getKeyboard();
+	std::list<std::shared_ptr<Entity>> getEntities();
 	SDL_Window *window;
 
 

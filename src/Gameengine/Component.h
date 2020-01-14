@@ -12,6 +12,7 @@ class Transform;
 class Camera;
 class Resources;
 class Mesh;
+class BoxCollider;
 
 class Component {
 
@@ -27,7 +28,8 @@ public:
 	std::shared_ptr<Transform> getTransform();
 	std::shared_ptr<Camera> getCurrentCamera();
 	std::shared_ptr<Resources> getResources();
-	
+	std::shared_ptr<BoxCollider>getBoxCollider();
+
 	virtual void OnUpdate();
 	virtual void OnDisplay();
 	virtual void OnInit();

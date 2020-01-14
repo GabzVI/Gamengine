@@ -3,7 +3,7 @@
 
 #include "Component.h"
 #include <glm/glm.hpp>
-#include <vector>
+#include <list>
 class Transform;
 class Entity;
 
@@ -11,10 +11,12 @@ class BoxCollider : public Component
 {
 private:
 	friend class Transform;
+	friend class Application;
 	glm::vec3 size;
 	glm::vec3 offset;
 	glm::vec3 position;
-	std::weak_ptr<Entity> entities;
+	glm::vec3 lastPosition;
+	std::list <std::shared_ptr<Entity>> entities;
 	
 
 public:

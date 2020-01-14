@@ -11,6 +11,7 @@ void Transform::setLocalrot(glm::vec3 _rot)
 {
 	_objRotation = _rot;
 }
+
 void Transform::setLocalScale(glm::vec3 _scale)
 {
 	_objScale = _scale;
@@ -40,6 +41,11 @@ glm::vec3 Transform::getRotation()
 	
 	return _objRotation;
 	
+}
+
+glm::vec3 Transform::getScale()
+{
+	return _objScale;
 }
 
 glm::vec3 Transform::Forward()

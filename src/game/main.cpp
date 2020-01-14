@@ -22,7 +22,7 @@ int main()
 	std::shared_ptr<Transform> boxTransform = boxObject->addComponent<Transform>();
 	std::shared_ptr<BoxCollider> catCollider = catModel->addComponent<BoxCollider>();
 	std::shared_ptr<BoxCollider> catCollider2 = catModel2->addComponent<BoxCollider>();
-  //
+    //
 
 	//Setting Player Movement
 	std::shared_ptr<Keyboard> keyBinds = catModel->addComponent<Keyboard>();
@@ -59,7 +59,7 @@ int main()
 	catModel->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
 	catModel->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
 
-	catModel2->getComponent<Transform>()->setLocalpos(glm::vec3(2, 0, 0));
+	catModel2->getComponent<Transform>()->setLocalpos(glm::vec3(10, 0, 0));
 	catModel2->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
 	catModel2->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
 
@@ -70,6 +70,15 @@ int main()
 	currentCamera->getComponent<Transform>()->setLocalpos(glm::vec3(0, 5, 30));
 	currentCamera->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
 	currentCamera->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
+
+	//Setting Colliders for player
+
+	catModel->getComponent<BoxCollider>()->setSize(glm::vec3(1.0f));
+	catModel->getComponent<BoxCollider>()->setOffset(glm::vec3(2.0f, 0.0f, 0.0f));
+	catModel->getComponent<BoxCollider>()->getCollisionResponse(catModel2->getComponent<Transform>()->getPosition(), catModel2->getComponent<Transform>()->getScale());
+	//catModel->getComponent<BoxCollider>()->isColliding(catModel2->getComponent<Transform>()->getPosition(), catModel2->getComponent<Transform>()->getScale());
+
+	catModel2->getComponent<BoxCollider>()->setSize(glm::vec3(1.0f));
 
 
 	application->start();

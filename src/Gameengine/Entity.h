@@ -14,7 +14,7 @@ class Transform;
 class Camera;
 class Resources;
 class Keyboard;
-
+class BoxCollider;
 
 class Entity 
 {
@@ -89,8 +89,26 @@ public:
 	}
 
 
+	template <typename T>
+	bool checkComponent()
+	{
+		for (auto it = component.begin(); it != component.end(); it++)
+		{
+			std::shared_ptr<T> rtn = std::dynamic_pointer_cast<T>(*it);
+
+			if (rtn)
+			{ 
+				return true;
+			}
+		}
+
+		return false;
+
+	}
+
+
 	virtual void Display();
-  virtual void OnUpdate();
+    virtual void OnUpdate();
 };
 
 #endif // !

@@ -127,6 +127,11 @@ std::shared_ptr<Entity> Application::addEntity() {
 
 }
 
+std::list<std::shared_ptr<Entity>> Application::getEntities() 
+{
+	return entities;
+}
+
 std::shared_ptr<Camera> Application::getCurrentCamera()
 {
 	return cameras.at(0).lock();
