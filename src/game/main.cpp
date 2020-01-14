@@ -74,7 +74,8 @@ int main()
 	//Setting Colliders for player
 
 	catModel->getComponent<BoxCollider>()->setSize(glm::vec3(1.0f));
-	catModel->getComponent<BoxCollider>()->setOffset(glm::vec3(2.0f, 0.0f, 0.0f));
+	catModel->getComponent<BoxCollider>()->setVar(false);
+	catModel->getComponent<BoxCollider>()->setOffset(glm::vec3(1.0f, 0.0f, 0.0f));
 	catModel->getComponent<BoxCollider>()->getCollisionResponse(catModel2->getComponent<Transform>()->getPosition(), catModel2->getComponent<Transform>()->getScale());
 	//catModel->getComponent<BoxCollider>()->isColliding(catModel2->getComponent<Transform>()->getPosition(), catModel2->getComponent<Transform>()->getScale());
 

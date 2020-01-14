@@ -20,6 +20,7 @@ class Resource;
 class Mesh;
 class Material;
 class Keyboard;
+class Environment;
 
 class Application {
 private:
@@ -29,12 +30,14 @@ private:
 	friend class ::Mesh;
 	friend class Material;
 	friend class Keyboard;
+	friend class Environment;
 
-	std::list <std::shared_ptr<Entity>> entities;
+	std::list<std::shared_ptr<Entity>> entities;
 	std::weak_ptr<Application> self;
 	std::vector<std::weak_ptr<Camera>> cameras;
 	std::shared_ptr<Resources> resources;
 	std::shared_ptr<Keyboard> keyboard;
+	std::shared_ptr<Environment> environment;
 	std::shared_ptr<rend::Context> context;
 
 	bool running;

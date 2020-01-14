@@ -2,22 +2,25 @@
 #include <time.h>
 #include <ctime>
 
-float Environment::getDeltaTime() 
+void Environment::OnInit() 
 {
 	// Store this variable and initialize
-  lastTime = SDL_GetTicks();
+	currentTime = 0.0f;
+	lastTime = 0.0f;
+	deltaTime= 0.0;
 
-	// In loop
-	float time = SDL_GetTicks();
-	float diff = time - lastTime;
-  deltaTime = diff / 1000.0f;
-	lastTime = time;
+}
+
+float Environment::getDeltaTime() 
+{
 	
-	float idealTime = 1.0f / 60.0f;
-	if (idealTime > deltaTime)
-	{
-		// Sleep off remaining time
-		SDL_Delay((idealTime - deltaTime) * 1000.0f);
-	}
 	return deltaTime;
+}
+
+void Environment::OnUpdate() 
+{
+	currentTime = SDL_GetTicks();
+	float diff = currentTime - lastTime;
+	deltaTime = diff / 1000.0f;
+	lastTime = currentTime;
 }

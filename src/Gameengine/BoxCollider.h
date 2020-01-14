@@ -17,7 +17,7 @@ private:
 	glm::vec3 position;
 	glm::vec3 lastPosition;
 	std::list <std::shared_ptr<Entity>> entities;
-	
+	bool immobile;
 
 public:
 	void OnUpdate();
@@ -27,6 +27,7 @@ public:
 	glm::vec3 getCollisionResponse(glm::vec3 position, glm::vec3 size);
 	void OnInit();
 	void collisionBox();
+	void setVar(bool _v) { immobile = _v; }
 };
 
 

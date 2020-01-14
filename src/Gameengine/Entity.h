@@ -15,6 +15,7 @@ class Camera;
 class Resources;
 class Keyboard;
 class BoxCollider;
+class Environment;
 
 class Entity 
 {

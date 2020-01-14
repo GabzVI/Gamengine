@@ -6,6 +6,7 @@
 #include "Meshrenderer.h"
 #include "Mesh.h"
 #include "Keyboard.h"
+#include "Environment.h"
 #include <GL/glew.h>
 
 //Initialises the Engine. 
@@ -18,7 +19,7 @@ std::shared_ptr<Application> Application::initialize()
 	rtn->resources->application = rtn->self; //This puts a copy of application inside the weak pointer inside resources.
 	
 	rtn->keyboard = std::make_shared<Keyboard>();
-
+	rtn->environment = std::make_shared<Environment>();
 
   if (SDL_Init(SDL_INIT_VIDEO) < 0)
   {
@@ -89,6 +90,7 @@ void Application::start()
 
 	  }
 		
+	 environment->OnUpdate();
 
     for (std::list<std::shared_ptr<Entity>>::iterator it = entities.begin(); it != entities.end(); it++) 
     {

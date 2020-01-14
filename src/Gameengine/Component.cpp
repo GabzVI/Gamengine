@@ -6,7 +6,9 @@
 #include "Resources.h"
 #include "Keyboard.h"
 #include "Application.h"
+#include "Environment.h"
 #include "BoxCollider.h"
+
 
 
 std::shared_ptr<Entity> Component::getEntity() 
@@ -35,9 +37,7 @@ std::shared_ptr<Keyboard> Component::getKeyboard()
 std::shared_ptr<Environment>Component::getEnvironment()
 {
 
-  std::shared_ptr<Environment> rtn;
-
-  // TODO
+  std::shared_ptr<Environment> rtn = getEntity()->getComponent<Environment>();
 
   return rtn;
 }

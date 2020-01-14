@@ -24,22 +24,35 @@ struct PlayerControl : public Component
 		//Sets the character movement to what player presses.
 		if (getKeyboard()->getKeyHold(W))
 		{
-			self->getComponent<Transform>()->Translate(self->getComponent<Transform>()->Forward());
-			self->getComponent<Transform>()->setLocalrot(glm::vec3(0.0f, 0.0f, 0.0f));
+			self->getComponent<Transform>()->changePos(glm::vec3(0.0f, 0.0f, -0.05f));
+			self->getComponent<Transform>()->setLocalrot(glm::vec3(0.0f, -180.0f, 0.0f));
+			self->getComponent<Transform>()->Translate(glm::vec4(0.0f, 0.0f, -0.05f,0.0f));
+			self->getComponent<Transform>()->Move();
+			
 		}
 		if (getKeyboard()->getKeyHold(A))
 		{
+			self->getComponent<Transform>()->changePos(glm::vec3(-0.05f, 0.0f, 0.0f));
 			self->getComponent<Transform>()->setLocalrot(glm::vec3(0.0f, -90.0f, 0.0f));
-			self->getComponent<Transform>()->Translate(glm::vec3(-0.05f, 0.0f, 0.0f));
+			self->getComponent<Transform>()->Translate(glm::vec4(-0.05f, 0.0f, 0.0f, 0.0f));
+			self->getComponent<Transform>()->Move();
+			
 		}
 		if (getKeyboard()->getKeyHold(D))
 		{
+			self->getComponent<Transform>()->changePos(glm::vec3(0.05f, 0.0f, 0.0f));
 			self->getComponent<Transform>()->setLocalrot(glm::vec3(0.0f, 90.0f, 0.0f));
-			self->getComponent<Transform>()->Translate(glm::vec3(0.05f, 0.0f, 0.0f));
+			self->getComponent<Transform>()->Translate(glm::vec4(0.05f, 0.00f, 0.0f, 0.0f));
+			self->getComponent<Transform>()->Move();
+			
 		}
 		if (getKeyboard()->getKeyHold(S))
 		{
-			self->getComponent<Transform>()->Translate(self->getComponent<Transform>()->Backward());
+			self->getComponent<Transform>()->changePos(glm::vec3(0.0f, 0.0f, 0.05f));
+			self->getComponent<Transform>()->setLocalrot(glm::vec3(0.0f, 0.0f, 0.0f));
+			self->getComponent<Transform>()->Translate(glm::vec4(0.0f, 0.0f, 0.05f, 0.0f));
+			self->getComponent<Transform>()->Move();
+		
 		}
 
 	}

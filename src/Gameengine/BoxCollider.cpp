@@ -5,6 +5,7 @@
 
 void BoxCollider::OnInit() 
 {
+	immobile = true;
 	size = glm::vec3(1.0f);
 
 	entities = getApplication()->getEntities();
@@ -32,16 +33,19 @@ void BoxCollider::collisionBox()
 			continue;
 		}
 		
-		//Checks if the component has a boxcollider and runs the code below.
+		  //Checks if the component has a boxcollider and runs the code below.
 		if ((*it)->checkComponent<BoxCollider>())
 		{
-			std::shared_ptr<BoxCollider> bc = (*it)->getComponent<BoxCollider>();
+			if (!immobile)
+			{
+				std::shared_ptr<BoxCollider> bc = (*it)->getComponent<BoxCollider>();
 
-			glm::vec3 sp = bc->getCollisionResponse(np, size);
-			np = sp;
-			np = np - offset;
-			getTransform()->setLocalpos(np);
-			lastPosition = np;
+				glm::vec3 sp = bc->getCollisionResponse(np, size);
+				np = sp;
+				np = np - offset;
+				getTransform()->setLocalpos(np);
+				lastPosition = np;
+			}
 		}
 	}
 }
