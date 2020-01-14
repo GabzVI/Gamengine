@@ -9,8 +9,8 @@
 #include "rend/rend.h"
 
 
-#define WINDOW_WIDTH 640  
-#define WINDOW_HEIGHT 480
+#define WINDOW_WIDTH 1024   // 640, 480
+#define WINDOW_HEIGHT 768
 
 class Entity;
 class Component;

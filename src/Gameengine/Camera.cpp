@@ -11,7 +11,7 @@ glm::mat4 Camera::getView()
 glm::mat4 Camera::getProjection() 
 {
 	/* TODO: 1.0 = screenWidth / screenHeight */
-	return glm::perspective(glm::radians(45.0f), 1.0f, 0.1f, 100.0f);
+	return glm::perspective(glm::radians(45.0f), 1024.0f/768.0f, 0.1f, 100.0f);
 }
 
 void Camera::OnInit()

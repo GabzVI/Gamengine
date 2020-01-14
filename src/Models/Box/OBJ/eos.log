@@ -1,0 +1,1603 @@
+[ INFO] [1403533382.101109]: ----- Starting RewriteObj (1.0.5648-D) 1403533382 -----
+[DEBUG] [1403533382.101215]: Loading obj from cb5e6e00cb294d0f81021426f4dc5c8a.obj
+[DEBUG] [1403533382.563430]: ... starting writing chunk 0.  Num faces = 1420
+[DEBUG] [1403533382.567004]: [addChunk] Number of faces = 1420. Number of vertices = 1067
+[DEBUG] [1403533382.567034]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_000.jpg
+[DEBUG] [1403533382.567049]: [addChunk] chunk name = chunk000
+[DEBUG] [1403533382.567725]: ... starting writing chunk 1.  Num faces = 1083
+[DEBUG] [1403533382.570590]: [addChunk] Number of faces = 1083. Number of vertices = 766
+[DEBUG] [1403533382.570614]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_001.jpg
+[DEBUG] [1403533382.570628]: [addChunk] chunk name = chunk001
+[DEBUG] [1403533382.570685]: ... starting writing chunk 2.  Num faces = 1289
+[DEBUG] [1403533382.570704]: Dealing with reflective faces
+[DEBUG] [1403533382.570718]: mmface = 297 93 296
+[DEBUG] [1403533382.570733]: mmface = 297 93 295
+[DEBUG] [1403533382.571038]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533382.571057]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg
+[DEBUG] [1403533382.571071]: [addChunk] chunk name = reflector002
+[DEBUG] [1403533382.571086]: mface = 297 93 296
+[DEBUG] [1403533382.571100]: mface = 297 93 295
+[DEBUG] [1403533382.572304]: [addChunk] Number of faces = 1287. Number of vertices = 1206
+[DEBUG] [1403533382.572325]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg
+[DEBUG] [1403533382.572339]: [addChunk] chunk name = chunk003
+[DEBUG] [1403533382.572445]: ... starting writing chunk 3.  Num faces = 2040
+[DEBUG] [1403533382.573811]: [addChunk] Number of faces = 2040. Number of vertices = 1173
+[DEBUG] [1403533382.573834]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_003.jpg
+[DEBUG] [1403533382.573848]: [addChunk] chunk name = chunk004
+[DEBUG] [1403533382.573957]: ... starting writing chunk 4.  Num faces = 1183
+[DEBUG] [1403533382.574901]: [addChunk] Number of faces = 1183. Number of vertices = 845
+[DEBUG] [1403533382.574922]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_004.jpg
+[DEBUG] [1403533382.574935]: [addChunk] chunk name = chunk005
+[DEBUG] [1403533382.574984]: ... starting writing chunk 5.  Num faces = 886
+[DEBUG] [1403533382.575741]: [addChunk] Number of faces = 886. Number of vertices = 626
+[DEBUG] [1403533382.575761]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_005.jpg
+[DEBUG] [1403533382.575775]: [addChunk] chunk name = chunk006
+[DEBUG] [1403533382.575815]: ... starting writing chunk 6.  Num faces = 1329
+[DEBUG] [1403533382.576767]: [addChunk] Number of faces = 1329. Number of vertices = 766
+[DEBUG] [1403533382.576788]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_006.jpg
+[DEBUG] [1403533382.576801]: [addChunk] chunk name = chunk007
+[DEBUG] [1403533382.576853]: ... starting writing chunk 7.  Num faces = 957
+[DEBUG] [1403533382.577631]: [addChunk] Number of faces = 957. Number of vertices = 588
+[DEBUG] [1403533382.577654]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_007.jpg
+[DEBUG] [1403533382.577668]: [addChunk] chunk name = chunk008
+[DEBUG] [1403533382.577709]: ... starting writing chunk 8.  Num faces = 3483
+[DEBUG] [1403533382.581031]: [addChunk] Number of faces = 3483. Number of vertices = 2426
+[DEBUG] [1403533382.581054]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_008.jpg
+[DEBUG] [1403533382.581067]: [addChunk] chunk name = chunk009
+[DEBUG] [1403533382.581200]: ... starting writing chunk 9.  Num faces = 450
+[DEBUG] [1403533382.581765]: [addChunk] Number of faces = 450. Number of vertices = 443
+[DEBUG] [1403533382.581811]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_009.jpg
+[DEBUG] [1403533382.581826]: [addChunk] chunk name = chunk010
+[DEBUG] [1403533382.581856]: ... starting writing chunk 10.  Num faces = 224
+[DEBUG] [1403533382.582284]: [addChunk] Number of faces = 224. Number of vertices = 260
+[DEBUG] [1403533382.582304]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_010.jpg
+[DEBUG] [1403533382.582331]: [addChunk] chunk name = chunk011
+[DEBUG] [1403533382.582355]: ... starting writing chunk 11.  Num faces = 1470
+[DEBUG] [1403533382.583438]: [addChunk] Number of faces = 1470. Number of vertices = 941
+[DEBUG] [1403533382.583459]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_011.jpg
+[DEBUG] [1403533382.583472]: [addChunk] chunk name = chunk012
+[DEBUG] [1403533382.583537]: ... starting writing chunk 12.  Num faces = 1828
+[DEBUG] [1403533382.584824]: [addChunk] Number of faces = 1828. Number of vertices = 1458
+[DEBUG] [1403533382.584845]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_012.jpg
+[DEBUG] [1403533382.584859]: [addChunk] chunk name = chunk013
+[DEBUG] [1403533382.584928]: ... starting writing chunk 13.  Num faces = 2092
+[DEBUG] [1403533382.586423]: [addChunk] Number of faces = 2092. Number of vertices = 1931
+[DEBUG] [1403533382.586446]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_013.jpg
+[DEBUG] [1403533382.586460]: [addChunk] chunk name = chunk014
+[DEBUG] [1403533382.586536]: ... starting writing chunk 14.  Num faces = 2515
+[DEBUG] [1403533382.588260]: [addChunk] Number of faces = 2515. Number of vertices = 1987
+[DEBUG] [1403533382.588281]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_014.jpg
+[DEBUG] [1403533382.588296]: [addChunk] chunk name = chunk015
+[DEBUG] [1403533382.588383]: ... starting writing chunk 15.  Num faces = 1652
+[DEBUG] [1403533382.589664]: [addChunk] Number of faces = 1652. Number of vertices = 1564
+[DEBUG] [1403533382.589688]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_015.jpg
+[DEBUG] [1403533382.589702]: [addChunk] chunk name = chunk016
+[DEBUG] [1403533382.589765]: ... starting writing chunk 16.  Num faces = 2458
+[DEBUG] [1403533382.591538]: [addChunk] Number of faces = 2458. Number of vertices = 2403
+[DEBUG] [1403533382.591559]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_016.jpg
+[DEBUG] [1403533382.591573]: [addChunk] chunk name = chunk017
+[DEBUG] [1403533382.591676]: ... starting writing chunk 17.  Num faces = 2035
+[DEBUG] [1403533382.593126]: [addChunk] Number of faces = 2035. Number of vertices = 1685
+[DEBUG] [1403533382.593148]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_017.jpg
+[DEBUG] [1403533382.593162]: [addChunk] chunk name = chunk018
+[DEBUG] [1403533382.593234]: ... starting writing chunk 18.  Num faces = 1812
+[DEBUG] [1403533382.594570]: [addChunk] Number of faces = 1812. Number of vertices = 1595
+[DEBUG] [1403533382.594594]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_018.jpg
+[DEBUG] [1403533382.594608]: [addChunk] chunk name = chunk019
+[DEBUG] [1403533382.594675]: ... starting writing chunk 19.  Num faces = 2217
+[DEBUG] [1403533382.596260]: [addChunk] Number of faces = 2217. Number of vertices = 1957
+[DEBUG] [1403533382.596281]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_019.jpg
+[DEBUG] [1403533382.596295]: [addChunk] chunk name = chunk020
+[DEBUG] [1403533382.596389]: ... starting writing chunk 20.  Num faces = 2768
+[DEBUG] [1403533382.598261]: [addChunk] Number of faces = 2768. Number of vertices = 2317
+[DEBUG] [1403533382.598286]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_020.jpg
+[DEBUG] [1403533382.598300]: [addChunk] chunk name = chunk021
+[DEBUG] [1403533382.598461]: ... starting writing chunk 21.  Num faces = 2055
+[DEBUG] [1403533382.599900]: [addChunk] Number of faces = 2055. Number of vertices = 1553
+[DEBUG] [1403533382.599922]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_021.jpg
+[DEBUG] [1403533382.599936]: [addChunk] chunk name = chunk022
+[DEBUG] [1403533382.600024]: ... starting writing chunk 22.  Num faces = 1588
+[DEBUG] [1403533382.601246]: [addChunk] Number of faces = 1588. Number of vertices = 1234
+[DEBUG] [1403533382.601268]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_022.jpg
+[DEBUG] [1403533382.601282]: [addChunk] chunk name = chunk023
+[DEBUG] [1403533382.601341]: ... starting writing chunk 23.  Num faces = 2240
+[DEBUG] [1403533382.602947]: [addChunk] Number of faces = 2240. Number of vertices = 1718
+[DEBUG] [1403533382.602970]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_023.jpg
+[DEBUG] [1403533382.602984]: [addChunk] chunk name = chunk024
+[DEBUG] [1403533382.603114]: ... starting writing chunk 24.  Num faces = 2088
+[DEBUG] [1403533382.604588]: [addChunk] Number of faces = 2088. Number of vertices = 1716
+[DEBUG] [1403533382.604610]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_024.jpg
+[DEBUG] [1403533382.604623]: [addChunk] chunk name = chunk025
+[DEBUG] [1403533382.604758]: ... starting writing chunk 25.  Num faces = 3581
+[DEBUG] [1403533382.608201]: [addChunk] Number of faces = 3581. Number of vertices = 2974
+[DEBUG] [1403533382.608228]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_025.jpg
+[DEBUG] [1403533382.608242]: [addChunk] chunk name = chunk026
+[DEBUG] [1403533382.608381]: ... starting writing chunk 26.  Num faces = 2000
+[DEBUG] [1403533382.609812]: [addChunk] Number of faces = 2000. Number of vertices = 1563
+[DEBUG] [1403533382.609836]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_026.jpg
+[DEBUG] [1403533382.609849]: [addChunk] chunk name = chunk027
+[DEBUG] [1403533382.609923]: ... starting writing chunk 27.  Num faces = 3123
+[DEBUG] [1403533382.611992]: [addChunk] Number of faces = 3123. Number of vertices = 2507
+[DEBUG] [1403533382.612014]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_027.jpg
+[DEBUG] [1403533382.612027]: [addChunk] chunk name = chunk028
+[DEBUG] [1403533382.612148]: ... starting writing chunk 28.  Num faces = 2806
+[DEBUG] [1403533382.614107]: [addChunk] Number of faces = 2806. Number of vertices = 2603
+[DEBUG] [1403533382.614132]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_028.jpg
+[DEBUG] [1403533382.614146]: [addChunk] chunk name = chunk029
+[DEBUG] [1403533382.614261]: ... starting writing chunk 29.  Num faces = 2948
+[DEBUG] [1403533382.616227]: [addChunk] Number of faces = 2948. Number of vertices = 2301
+[DEBUG] [1403533382.616248]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_029.jpg
+[DEBUG] [1403533382.616262]: [addChunk] chunk name = chunk030
+[DEBUG] [1403533382.616383]: ... starting writing chunk 30.  Num faces = 2694
+[DEBUG] [1403533382.618227]: [addChunk] Number of faces = 2694. Number of vertices = 2087
+[DEBUG] [1403533382.618250]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_030.jpg
+[DEBUG] [1403533382.618264]: [addChunk] chunk name = chunk031
+[DEBUG] [1403533382.618379]: ... starting writing chunk 31.  Num faces = 1953
+[DEBUG] [1403533382.618398]: Dealing with reflective faces
+[DEBUG] [1403533382.618413]: mmface = 289 119569 288
+[DEBUG] [1403533382.618429]: mmface = 289 119569 287
+[DEBUG] [1403533382.618728]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533382.618748]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg
+[DEBUG] [1403533382.618762]: [addChunk] chunk name = reflector032
+[DEBUG] [1403533382.618779]: mface = 289 119569 288
+[DEBUG] [1403533382.618793]: mface = 289 119569 287
+[DEBUG] [1403533382.620236]: [addChunk] Number of faces = 1951. Number of vertices = 1508
+[DEBUG] [1403533382.620258]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg
+[DEBUG] [1403533382.620271]: [addChunk] chunk name = chunk033
+[DEBUG] [1403533382.620381]: ... starting writing chunk 32.  Num faces = 3039
+[DEBUG] [1403533382.622454]: [addChunk] Number of faces = 3039. Number of vertices = 2592
+[DEBUG] [1403533382.622480]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_032.jpg
+[DEBUG] [1403533382.622494]: [addChunk] chunk name = chunk034
+[DEBUG] [1403533382.622635]: ... starting writing chunk 33.  Num faces = 2297
+[DEBUG] [1403533382.624227]: [addChunk] Number of faces = 2297. Number of vertices = 1821
+[DEBUG] [1403533382.624249]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_033.jpg
+[DEBUG] [1403533382.624263]: [addChunk] chunk name = chunk035
+[DEBUG] [1403533382.624365]: ... starting writing chunk 34.  Num faces = 2465
+[DEBUG] [1403533382.626203]: [addChunk] Number of faces = 2465. Number of vertices = 2276
+[DEBUG] [1403533382.626229]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_034.jpg
+[DEBUG] [1403533382.626243]: [addChunk] chunk name = chunk036
+[DEBUG] [1403533382.626334]: ... starting writing chunk 35.  Num faces = 2125
+[DEBUG] [1403533382.627863]: [addChunk] Number of faces = 2125. Number of vertices = 1607
+[DEBUG] [1403533382.627886]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_035.jpg
+[DEBUG] [1403533382.627900]: [addChunk] chunk name = chunk037
+[DEBUG] [1403533382.627976]: ... starting writing chunk 36.  Num faces = 2441
+[DEBUG] [1403533382.629755]: [addChunk] Number of faces = 2441. Number of vertices = 2042
+[DEBUG] [1403533382.629780]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_036.jpg
+[DEBUG] [1403533382.629793]: [addChunk] chunk name = chunk038
+[DEBUG] [1403533382.629884]: ... starting writing chunk 37.  Num faces = 3340
+[DEBUG] [1403533382.632236]: [addChunk] Number of faces = 3340. Number of vertices = 2776
+[DEBUG] [1403533382.632258]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_037.jpg
+[DEBUG] [1403533382.632272]: [addChunk] chunk name = chunk039
+[DEBUG] [1403533382.632446]: ... starting writing chunk 38.  Num faces = 1107
+[DEBUG] [1403533382.633387]: [addChunk] Number of faces = 1107. Number of vertices = 1042
+[DEBUG] [1403533382.633408]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_038.jpg
+[DEBUG] [1403533382.633422]: [addChunk] chunk name = chunk040
+[DEBUG] [1403533382.633471]: ... starting writing chunk 39.  Num faces = 3319
+[DEBUG] [1403533382.635900]: [addChunk] Number of faces = 3319. Number of vertices = 2870
+[DEBUG] [1403533382.635925]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_039.jpg
+[DEBUG] [1403533382.635939]: [addChunk] chunk name = chunk041
+[DEBUG] [1403533382.636149]: ... starting writing chunk 40.  Num faces = 2445
+[DEBUG] [1403533382.636169]: Dealing with reflective faces
+[DEBUG] [1403533382.636184]: mmface = 21 52287 20
+[DEBUG] [1403533382.636199]: mmface = 21 52287 19
+[DEBUG] [1403533382.636501]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533382.636520]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg
+[DEBUG] [1403533382.636534]: [addChunk] chunk name = reflector042
+[DEBUG] [1403533382.636549]: mface = 21 52287 20
+[DEBUG] [1403533382.636563]: mface = 21 52287 19
+[DEBUG] [1403533382.638405]: [addChunk] Number of faces = 2443. Number of vertices = 2105
+[DEBUG] [1403533382.638429]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg
+[DEBUG] [1403533382.638442]: [addChunk] chunk name = chunk043
+[DEBUG] [1403533382.638624]: ... starting writing chunk 41.  Num faces = 2308
+[DEBUG] [1403533382.640239]: [addChunk] Number of faces = 2308. Number of vertices = 1909
+[DEBUG] [1403533382.640261]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_041.jpg
+[DEBUG] [1403533382.640274]: [addChunk] chunk name = chunk044
+[DEBUG] [1403533382.640354]: ... starting writing chunk 42.  Num faces = 2869
+[DEBUG] [1403533382.642492]: [addChunk] Number of faces = 2869. Number of vertices = 2513
+[DEBUG] [1403533382.642516]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_042.jpg
+[DEBUG] [1403533382.642530]: [addChunk] chunk name = chunk045
+[DEBUG] [1403533382.642653]: ... starting writing chunk 43.  Num faces = 3456
+[DEBUG] [1403533382.642672]: Dealing with reflective faces
+[DEBUG] [1403533382.642687]: mmface = 49 34663 48
+[DEBUG] [1403533382.642701]: mmface = 49 34663 47
+[DEBUG] [1403533382.642999]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533382.643018]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg
+[DEBUG] [1403533382.643047]: [addChunk] chunk name = reflector046
+[DEBUG] [1403533382.643065]: mface = 49 34663 48
+[DEBUG] [1403533382.643079]: mface = 49 34663 47
+[DEBUG] [1403533382.646512]: [addChunk] Number of faces = 3454. Number of vertices = 3102
+[DEBUG] [1403533382.646558]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg
+[DEBUG] [1403533382.646573]: [addChunk] chunk name = chunk047
+[DEBUG] [1403533382.646785]: ... starting writing chunk 44.  Num faces = 3633
+[DEBUG] [1403533382.646804]: Dealing with reflective faces
+[DEBUG] [1403533382.646820]: mmface = 313 40166 312
+[DEBUG] [1403533382.646835]: mmface = 313 40166 311
+[DEBUG] [1403533382.646849]: mmface = 273 106321 272
+[DEBUG] [1403533382.646863]: mmface = 273 106321 271
+[DEBUG] [1403533382.647184]: [addChunk] Number of faces = 4. Number of vertices = 8
+[DEBUG] [1403533382.647204]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg
+[DEBUG] [1403533382.647217]: [addChunk] chunk name = reflector048
+[DEBUG] [1403533382.647233]: mface = 313 40166 312
+[DEBUG] [1403533382.647247]: mface = 313 40166 311
+[DEBUG] [1403533382.647260]: mface = 273 106321 272
+[DEBUG] [1403533382.647273]: mface = 273 106321 271
+[DEBUG] [1403533382.649927]: [addChunk] Number of faces = 3629. Number of vertices = 3566
+[DEBUG] [1403533382.649955]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg
+[DEBUG] [1403533382.649968]: [addChunk] chunk name = chunk049
+[DEBUG] [1403533382.650196]: ... starting writing chunk 45.  Num faces = 3861
+[DEBUG] [1403533382.650215]: Dealing with reflective faces
+[DEBUG] [1403533382.650231]: mmface = 33 18776 32
+[DEBUG] [1403533382.650245]: mmface = 33 18776 31
+[DEBUG] [1403533382.650260]: mmface = 29 23 28
+[DEBUG] [1403533382.650274]: mmface = 29 23 27
+[DEBUG] [1403533382.650591]: [addChunk] Number of faces = 4. Number of vertices = 8
+[DEBUG] [1403533382.650611]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg
+[DEBUG] [1403533382.650624]: [addChunk] chunk name = reflector050
+[DEBUG] [1403533382.650640]: mface = 33 18776 32
+[DEBUG] [1403533382.650654]: mface = 33 18776 31
+[DEBUG] [1403533382.650667]: mface = 29 23 28
+[DEBUG] [1403533382.650680]: mface = 29 23 27
+[DEBUG] [1403533382.653576]: [addChunk] Number of faces = 3857. Number of vertices = 4130
+[DEBUG] [1403533382.653608]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg
+[DEBUG] [1403533382.653625]: [addChunk] chunk name = chunk051
+[DEBUG] [1403533382.653859]: ... starting writing chunk 46.  Num faces = 4365
+[DEBUG] [1403533382.653878]: Dealing with reflective faces
+[DEBUG] [1403533382.653894]: mmface = 281 60114 280
+[DEBUG] [1403533382.653909]: mmface = 281 60114 279
+[DEBUG] [1403533382.653923]: mmface = 277 50724 276
+[DEBUG] [1403533382.653937]: mmface = 277 50724 275
+[DEBUG] [1403533382.653951]: mmface = 45 48679 44
+[DEBUG] [1403533382.653965]: mmface = 45 48679 43
+[DEBUG] [1403533382.653979]: mmface = 37 25 36
+[DEBUG] [1403533382.653992]: mmface = 37 25 35
+[DEBUG] [1403533382.654294]: [addChunk] Number of faces = 8. Number of vertices = 16
+[DEBUG] [1403533382.654313]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg
+[DEBUG] [1403533382.654326]: [addChunk] chunk name = reflector052
+[DEBUG] [1403533382.654342]: mface = 281 60114 280
+[DEBUG] [1403533382.654357]: mface = 281 60114 279
+[DEBUG] [1403533382.654370]: mface = 277 50724 276
+[DEBUG] [1403533382.654383]: mface = 277 50724 275
+[DEBUG] [1403533382.654396]: mface = 45 48679 44
+[DEBUG] [1403533382.654409]: mface = 45 48679 43
+[DEBUG] [1403533382.654422]: mface = 37 25 36
+[DEBUG] [1403533382.654435]: mface = 37 25 35
+[DEBUG] [1403533382.658029]: [addChunk] Number of faces = 4357. Number of vertices = 4713
+[DEBUG] [1403533382.658054]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg
+[DEBUG] [1403533382.658068]: [addChunk] chunk name = chunk053
+[DEBUG] [1403533382.658328]: ... starting writing chunk 47.  Num faces = 4467
+[DEBUG] [1403533382.658347]: Dealing with reflective faces
+[DEBUG] [1403533382.658392]: mmface = 592 49171 591
+[DEBUG] [1403533382.658409]: mmface = 592 49171 590
+[DEBUG] [1403533382.658424]: mmface = 353 86910 352
+[DEBUG] [1403533382.658438]: mmface = 353 86910 351
+[DEBUG] [1403533382.658452]: mmface = 28650 40185 342
+[DEBUG] [1403533382.658466]: mmface = 28650 40185 341
+[DEBUG] [1403533382.658490]: mmface = 339 40327 338
+[DEBUG] [1403533382.658504]: mmface = 339 40327 337
+[DEBUG] [1403533382.658518]: mmface = 336 40177 335
+[DEBUG] [1403533382.658531]: mmface = 336 40177 334
+[DEBUG] [1403533382.658545]: mmface = 325 40887 324
+[DEBUG] [1403533382.658559]: mmface = 325 40887 323
+[DEBUG] [1403533382.658572]: mmface = 317 52427 316
+[DEBUG] [1403533382.658586]: mmface = 317 52427 315
+[DEBUG] [1403533382.658599]: mmface = 305 87227 304
+[DEBUG] [1403533382.658613]: mmface = 305 87227 303
+[DEBUG] [1403533382.658626]: mmface = 61 41305 60
+[DEBUG] [1403533382.658640]: mmface = 61 41305 59
+[DEBUG] [1403533382.658953]: [addChunk] Number of faces = 18. Number of vertices = 36
+[DEBUG] [1403533382.658973]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg
+[DEBUG] [1403533382.658986]: [addChunk] chunk name = reflector054
+[DEBUG] [1403533382.659003]: mface = 592 49171 591
+[DEBUG] [1403533382.659018]: mface = 592 49171 590
+[DEBUG] [1403533382.659031]: mface = 353 86910 352
+[DEBUG] [1403533382.659044]: mface = 353 86910 351
+[DEBUG] [1403533382.659057]: mface = 28650 40185 342
+[DEBUG] [1403533382.659070]: mface = 28650 40185 341
+[DEBUG] [1403533382.659083]: mface = 339 40327 338
+[DEBUG] [1403533382.659096]: mface = 339 40327 337
+[DEBUG] [1403533382.659109]: mface = 336 40177 335
+[DEBUG] [1403533382.659122]: mface = 336 40177 334
+[DEBUG] [1403533382.659135]: mface = 325 40887 324
+[DEBUG] [1403533382.659149]: mface = 325 40887 323
+[DEBUG] [1403533382.659162]: mface = 317 52427 316
+[DEBUG] [1403533382.659175]: mface = 317 52427 315
+[DEBUG] [1403533382.659188]: mface = 305 87227 304
+[DEBUG] [1403533382.659201]: mface = 305 87227 303
+[DEBUG] [1403533382.659214]: mface = 61 41305 60
+[DEBUG] [1403533382.659227]: mface = 61 41305 59
+[DEBUG] [1403533382.662627]: [addChunk] Number of faces = 4449. Number of vertices = 4714
+[DEBUG] [1403533382.662651]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg
+[DEBUG] [1403533382.662665]: [addChunk] chunk name = chunk055
+[DEBUG] [1403533382.663023]: ... starting writing chunk 48.  Num faces = 5168
+[DEBUG] [1403533382.663045]: Dealing with reflective faces
+[DEBUG] [1403533382.663061]: mmface = 623 122608 622
+[DEBUG] [1403533382.663075]: mmface = 623 122608 621
+[DEBUG] [1403533382.663090]: mmface = 596 57520 595
+[DEBUG] [1403533382.663104]: mmface = 596 57520 594
+[DEBUG] [1403533382.663118]: mmface = 28682 142530 349
+[DEBUG] [1403533382.663132]: mmface = 28682 142530 348
+[DEBUG] [1403533382.663145]: mmface = 333 40203 332
+[DEBUG] [1403533382.663159]: mmface = 333 40203 331
+[DEBUG] [1403533382.663172]: mmface = 329 56696 328
+[DEBUG] [1403533382.663186]: mmface = 329 56696 327
+[DEBUG] [1403533382.663200]: mmface = 321 38937 320
+[DEBUG] [1403533382.663213]: mmface = 321 38937 319
+[DEBUG] [1403533382.663227]: mmface = 301 114310 300
+[DEBUG] [1403533382.663240]: mmface = 301 114310 299
+[DEBUG] [1403533382.663254]: mmface = 53 31 52
+[DEBUG] [1403533382.663268]: mmface = 53 31 51
+[DEBUG] [1403533382.663571]: [addChunk] Number of faces = 16. Number of vertices = 32
+[DEBUG] [1403533382.663590]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg
+[DEBUG] [1403533382.663604]: [addChunk] chunk name = reflector056
+[DEBUG] [1403533382.663621]: mface = 623 122608 622
+[DEBUG] [1403533382.663635]: mface = 623 122608 621
+[DEBUG] [1403533382.663648]: mface = 596 57520 595
+[DEBUG] [1403533382.663661]: mface = 596 57520 594
+[DEBUG] [1403533382.663674]: mface = 28682 142530 349
+[DEBUG] [1403533382.663688]: mface = 28682 142530 348
+[DEBUG] [1403533382.663701]: mface = 333 40203 332
+[DEBUG] [1403533382.663714]: mface = 333 40203 331
+[DEBUG] [1403533382.663727]: mface = 329 56696 328
+[DEBUG] [1403533382.663740]: mface = 329 56696 327
+[DEBUG] [1403533382.663763]: mface = 321 38937 320
+[DEBUG] [1403533382.663778]: mface = 321 38937 319
+[DEBUG] [1403533382.663791]: mface = 301 114310 300
+[DEBUG] [1403533382.663804]: mface = 301 114310 299
+[DEBUG] [1403533382.663817]: mface = 53 31 52
+[DEBUG] [1403533382.663830]: mface = 53 31 51
+[DEBUG] [1403533382.667991]: [addChunk] Number of faces = 5152. Number of vertices = 6170
+[DEBUG] [1403533382.668025]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg
+[DEBUG] [1403533382.668040]: [addChunk] chunk name = chunk057
+[DEBUG] [1403533382.668426]: ... starting writing chunk 49.  Num faces = 5345
+[DEBUG] [1403533382.668446]: Dealing with reflective faces
+[DEBUG] [1403533382.668462]: mmface = 627 78963 626
+[DEBUG] [1403533382.668477]: mmface = 627 78963 625
+[DEBUG] [1403533382.668492]: mmface = 346 40342 345
+[DEBUG] [1403533382.668505]: mmface = 346 40342 344
+[DEBUG] [1403533382.668519]: mmface = 293 89 292
+[DEBUG] [1403533382.668533]: mmface = 293 89 291
+[DEBUG] [1403533382.668546]: mmface = 57 147804 56
+[DEBUG] [1403533382.668560]: mmface = 57 147804 55
+[DEBUG] [1403533382.668575]: mmface = 25 19 24
+[DEBUG] [1403533382.668589]: mmface = 25 19 23
+[DEBUG] [1403533382.668890]: [addChunk] Number of faces = 10. Number of vertices = 20
+[DEBUG] [1403533382.668909]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg
+[DEBUG] [1403533382.668923]: [addChunk] chunk name = reflector058
+[DEBUG] [1403533382.668939]: mface = 627 78963 626
+[DEBUG] [1403533382.668953]: mface = 627 78963 625
+[DEBUG] [1403533382.668967]: mface = 346 40342 345
+[DEBUG] [1403533382.668980]: mface = 346 40342 344
+[DEBUG] [1403533382.668993]: mface = 293 89 292
+[DEBUG] [1403533382.669006]: mface = 293 89 291
+[DEBUG] [1403533382.669019]: mface = 57 147804 56
+[DEBUG] [1403533382.669032]: mface = 57 147804 55
+[DEBUG] [1403533382.669045]: mface = 25 19 24
+[DEBUG] [1403533382.669058]: mface = 25 19 23
+[DEBUG] [1403533382.673587]: [addChunk] Number of faces = 5335. Number of vertices = 6748
+[DEBUG] [1403533382.673626]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg
+[DEBUG] [1403533382.673640]: [addChunk] chunk name = chunk059
+[DEBUG] [1403533382.673969]: ... starting writing chunk 50.  Num faces = 5972
+[DEBUG] [1403533382.673988]: Dealing with reflective faces
+[DEBUG] [1403533382.674004]: mmface = 309 99 308
+[DEBUG] [1403533382.674019]: mmface = 309 99 307
+[DEBUG] [1403533382.674034]: mmface = 269 3458 268
+[DEBUG] [1403533382.674047]: mmface = 269 3458 267
+[DEBUG] [1403533382.674062]: mmface = 41 40154 40
+[DEBUG] [1403533382.674075]: mmface = 41 40154 39
+[DEBUG] [1403533382.674383]: [addChunk] Number of faces = 6. Number of vertices = 12
+[DEBUG] [1403533382.674403]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg
+[DEBUG] [1403533382.674416]: [addChunk] chunk name = reflector060
+[DEBUG] [1403533382.674432]: mface = 309 99 308
+[DEBUG] [1403533382.674446]: mface = 309 99 307
+[DEBUG] [1403533382.674459]: mface = 269 3458 268
+[DEBUG] [1403533382.674472]: mface = 269 3458 267
+[DEBUG] [1403533382.674485]: mface = 41 40154 40
+[DEBUG] [1403533382.674498]: mface = 41 40154 39
+[DEBUG] [1403533382.679815]: [addChunk] Number of faces = 5966. Number of vertices = 8686
+[DEBUG] [1403533382.679839]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg
+[DEBUG] [1403533382.679853]: [addChunk] chunk name = chunk061
+[DEBUG] [1403533382.680379]: ... starting writing chunk 51.  Num faces = 6893
+[DEBUG] [1403533382.680399]: Dealing with reflective faces
+[DEBUG] [1403533382.680414]: mmface = 285 85 284
+[DEBUG] [1403533382.680429]: mmface = 285 85 283
+[DEBUG] [1403533382.680725]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533382.680744]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg
+[DEBUG] [1403533382.680759]: [addChunk] chunk name = reflector062
+[DEBUG] [1403533382.680775]: mface = 285 85 284
+[DEBUG] [1403533382.680789]: mface = 285 85 283
+[DEBUG] [1403533382.687656]: [addChunk] Number of faces = 6891. Number of vertices = 12293
+[DEBUG] [1403533382.687713]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg
+[DEBUG] [1403533382.687728]: [addChunk] chunk name = chunk063
+[DEBUG] [1403533382.688248]: ... starting writing chunk 52.  Num faces = 8225
+[DEBUG] [1403533382.688269]: Dealing with reflective faces
+[DEBUG] [1403533382.688286]: mmface = 619 84050 618
+[DEBUG] [1403533382.688314]: mmface = 619 84050 617
+[DEBUG] [1403533382.688646]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533382.688666]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg
+[DEBUG] [1403533382.688679]: [addChunk] chunk name = reflector064
+[DEBUG] [1403533382.688697]: mface = 619 84050 618
+[DEBUG] [1403533382.688711]: mface = 619 84050 617
+[DEBUG] [1403533382.698678]: [addChunk] Number of faces = 8223. Number of vertices = 18573
+[DEBUG] [1403533382.698725]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg
+[DEBUG] [1403533382.698739]: [addChunk] chunk name = chunk065
+[DEBUG] [1403533382.699295]: ... starting writing chunk 53.  Num faces = 2187
+[DEBUG] [1403533382.701635]: [addChunk] Number of faces = 2187. Number of vertices = 5581
+[DEBUG] [1403533382.701659]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_053.jpg
+[DEBUG] [1403533382.701673]: [addChunk] chunk name = chunk066
+[DEBUG] [1403533382.716964]: Total faces stored = 143594, total vertices stored = 151753
+[DEBUG] [1403533382.717002]: Outputting obj from binary format.
+[DEBUG] [1403533382.722502]: 67 simple chunks, 0 v2 chunks
+[DEBUG] [1403533382.722533]: 1067 1420 cb5e6e00cb294d0f81021426f4dc5c8a_000.jpg
+[DEBUG] [1403533382.722548]: 766 1083 cb5e6e00cb294d0f81021426f4dc5c8a_001.jpg
+[DEBUG] [1403533382.722563]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg
+[DEBUG] [1403533382.722577]: 1206 1287 cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg
+[DEBUG] [1403533382.722591]: 1173 2040 cb5e6e00cb294d0f81021426f4dc5c8a_003.jpg
+[DEBUG] [1403533382.722604]: 845 1183 cb5e6e00cb294d0f81021426f4dc5c8a_004.jpg
+[DEBUG] [1403533382.722617]: 626 886 cb5e6e00cb294d0f81021426f4dc5c8a_005.jpg
+[DEBUG] [1403533382.722631]: 766 1329 cb5e6e00cb294d0f81021426f4dc5c8a_006.jpg
+[DEBUG] [1403533382.722644]: 588 957 cb5e6e00cb294d0f81021426f4dc5c8a_007.jpg
+[DEBUG] [1403533382.722657]: 2426 3483 cb5e6e00cb294d0f81021426f4dc5c8a_008.jpg
+[DEBUG] [1403533382.722671]: 443 450 cb5e6e00cb294d0f81021426f4dc5c8a_009.jpg
+[DEBUG] [1403533382.722684]: 260 224 cb5e6e00cb294d0f81021426f4dc5c8a_010.jpg
+[DEBUG] [1403533382.722697]: 941 1470 cb5e6e00cb294d0f81021426f4dc5c8a_011.jpg
+[DEBUG] [1403533382.722710]: 1458 1828 cb5e6e00cb294d0f81021426f4dc5c8a_012.jpg
+[DEBUG] [1403533382.722724]: 1931 2092 cb5e6e00cb294d0f81021426f4dc5c8a_013.jpg
+[DEBUG] [1403533382.722737]: 1987 2515 cb5e6e00cb294d0f81021426f4dc5c8a_014.jpg
+[DEBUG] [1403533382.722750]: 1564 1652 cb5e6e00cb294d0f81021426f4dc5c8a_015.jpg
+[DEBUG] [1403533382.722763]: 2403 2458 cb5e6e00cb294d0f81021426f4dc5c8a_016.jpg
+[DEBUG] [1403533382.722777]: 1685 2035 cb5e6e00cb294d0f81021426f4dc5c8a_017.jpg
+[DEBUG] [1403533382.722790]: 1595 1812 cb5e6e00cb294d0f81021426f4dc5c8a_018.jpg
+[DEBUG] [1403533382.722803]: 1957 2217 cb5e6e00cb294d0f81021426f4dc5c8a_019.jpg
+[DEBUG] [1403533382.722816]: 2317 2768 cb5e6e00cb294d0f81021426f4dc5c8a_020.jpg
+[DEBUG] [1403533382.722830]: 1553 2055 cb5e6e00cb294d0f81021426f4dc5c8a_021.jpg
+[DEBUG] [1403533382.722843]: 1234 1588 cb5e6e00cb294d0f81021426f4dc5c8a_022.jpg
+[DEBUG] [1403533382.722856]: 1718 2240 cb5e6e00cb294d0f81021426f4dc5c8a_023.jpg
+[DEBUG] [1403533382.722869]: 1716 2088 cb5e6e00cb294d0f81021426f4dc5c8a_024.jpg
+[DEBUG] [1403533382.722882]: 2974 3581 cb5e6e00cb294d0f81021426f4dc5c8a_025.jpg
+[DEBUG] [1403533382.722896]: 1563 2000 cb5e6e00cb294d0f81021426f4dc5c8a_026.jpg
+[DEBUG] [1403533382.722909]: 2507 3123 cb5e6e00cb294d0f81021426f4dc5c8a_027.jpg
+[DEBUG] [1403533382.722922]: 2603 2806 cb5e6e00cb294d0f81021426f4dc5c8a_028.jpg
+[DEBUG] [1403533382.722935]: 2301 2948 cb5e6e00cb294d0f81021426f4dc5c8a_029.jpg
+[DEBUG] [1403533382.722949]: 2087 2694 cb5e6e00cb294d0f81021426f4dc5c8a_030.jpg
+[DEBUG] [1403533382.722962]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg
+[DEBUG] [1403533382.722992]: 1508 1951 cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg
+[DEBUG] [1403533382.723007]: 2592 3039 cb5e6e00cb294d0f81021426f4dc5c8a_032.jpg
+[DEBUG] [1403533382.723020]: 1821 2297 cb5e6e00cb294d0f81021426f4dc5c8a_033.jpg
+[DEBUG] [1403533382.723034]: 2276 2465 cb5e6e00cb294d0f81021426f4dc5c8a_034.jpg
+[DEBUG] [1403533382.723057]: 1607 2125 cb5e6e00cb294d0f81021426f4dc5c8a_035.jpg
+[DEBUG] [1403533382.723071]: 2042 2441 cb5e6e00cb294d0f81021426f4dc5c8a_036.jpg
+[DEBUG] [1403533382.723084]: 2776 3340 cb5e6e00cb294d0f81021426f4dc5c8a_037.jpg
+[DEBUG] [1403533382.723097]: 1042 1107 cb5e6e00cb294d0f81021426f4dc5c8a_038.jpg
+[DEBUG] [1403533382.723110]: 2870 3319 cb5e6e00cb294d0f81021426f4dc5c8a_039.jpg
+[DEBUG] [1403533382.723124]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg
+[DEBUG] [1403533382.723137]: 2105 2443 cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg
+[DEBUG] [1403533382.723150]: 1909 2308 cb5e6e00cb294d0f81021426f4dc5c8a_041.jpg
+[DEBUG] [1403533382.723163]: 2513 2869 cb5e6e00cb294d0f81021426f4dc5c8a_042.jpg
+[DEBUG] [1403533382.723176]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg
+[DEBUG] [1403533382.723189]: 3102 3454 cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg
+[DEBUG] [1403533382.723202]: 8 4 cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg
+[DEBUG] [1403533382.723216]: 3566 3629 cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg
+[DEBUG] [1403533382.723229]: 8 4 cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg
+[DEBUG] [1403533382.723242]: 4130 3857 cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg
+[DEBUG] [1403533382.723256]: 16 8 cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg
+[DEBUG] [1403533382.723269]: 4713 4357 cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg
+[DEBUG] [1403533382.723282]: 36 18 cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg
+[DEBUG] [1403533382.723295]: 4714 4449 cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg
+[DEBUG] [1403533382.723309]: 32 16 cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg
+[DEBUG] [1403533382.723322]: 6170 5152 cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg
+[DEBUG] [1403533382.723335]: 20 10 cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg
+[DEBUG] [1403533382.723348]: 6748 5335 cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg
+[DEBUG] [1403533382.723362]: 12 6 cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg
+[DEBUG] [1403533382.723375]: 8686 5966 cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg
+[DEBUG] [1403533382.723388]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg
+[DEBUG] [1403533382.723402]: 12293 6891 cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg
+[DEBUG] [1403533382.723415]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg
+[DEBUG] [1403533382.723428]: 18573 8223 cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg
+[DEBUG] [1403533382.723441]: 5581 2187 cb5e6e00cb294d0f81021426f4dc5c8a_053.jpg
+[DEBUG] [1403533382.723460]: convertToObjFormat
+[DEBUG] [1403533382.723473]: offset = 0
+[DEBUG] [1403533382.723956]: offset = 1067
+[DEBUG] [1403533382.724316]: offset = 1833
+[DEBUG] [1403533382.724338]: offset = 1837
+[DEBUG] [1403533382.724735]: offset = 3043
+[DEBUG] [1403533382.725364]: offset = 4216
+[DEBUG] [1403533382.725759]: offset = 5061
+[DEBUG] [1403533382.726051]: offset = 5687
+[DEBUG] [1403533382.726466]: offset = 6453
+[DEBUG] [1403533382.726773]: offset = 7041
+[DEBUG] [1403533382.727833]: offset = 9467
+[DEBUG] [1403533382.727989]: offset = 9910
+[DEBUG] [1403533382.728079]: offset = 10170
+[DEBUG] [1403533382.728521]: offset = 11111
+[DEBUG] [1403533382.729072]: offset = 12569
+[DEBUG] [1403533382.729736]: offset = 14500
+[DEBUG] [1403533382.730749]: offset = 16487
+[DEBUG] [1403533382.731277]: offset = 18051
+[DEBUG] [1403533382.732143]: offset = 20454
+[DEBUG] [1403533382.732807]: offset = 22139
+[DEBUG] [1403533382.733494]: offset = 23734
+[DEBUG] [1403533382.734397]: offset = 25691
+[DEBUG] [1403533382.735449]: offset = 28008
+[DEBUG] [1403533382.736198]: offset = 29561
+[DEBUG] [1403533382.736766]: offset = 30795
+[DEBUG] [1403533382.737663]: offset = 32513
+[DEBUG] [1403533382.739093]: offset = 34229
+[DEBUG] [1403533382.740211]: offset = 37203
+[DEBUG] [1403533382.740836]: offset = 38766
+[DEBUG] [1403533382.741839]: offset = 41273
+[DEBUG] [1403533382.742827]: offset = 43876
+[DEBUG] [1403533382.743951]: offset = 46177
+[DEBUG] [1403533382.744953]: offset = 48264
+[DEBUG] [1403533382.744976]: offset = 48268
+[DEBUG] [1403533382.745669]: offset = 49776
+[DEBUG] [1403533382.746885]: offset = 52368
+[DEBUG] [1403533382.747705]: offset = 54189
+[DEBUG] [1403533382.748663]: offset = 56465
+[DEBUG] [1403533382.749471]: offset = 58072
+[DEBUG] [1403533382.750426]: offset = 60114
+[DEBUG] [1403533382.751737]: offset = 62890
+[DEBUG] [1403533382.752115]: offset = 63932
+[DEBUG] [1403533382.754670]: offset = 66802
+[DEBUG] [1403533382.754696]: offset = 66806
+[DEBUG] [1403533382.755470]: offset = 68911
+[DEBUG] [1403533382.756214]: offset = 70820
+[DEBUG] [1403533382.757128]: offset = 73333
+[DEBUG] [1403533382.757150]: offset = 73337
+[DEBUG] [1403533382.758241]: offset = 76439
+[DEBUG] [1403533382.758268]: offset = 76447
+[DEBUG] [1403533382.759413]: offset = 80013
+[DEBUG] [1403533382.759437]: offset = 80021
+[DEBUG] [1403533382.760657]: offset = 84151
+[DEBUG] [1403533382.760682]: offset = 84167
+[DEBUG] [1403533382.762399]: offset = 88880
+[DEBUG] [1403533382.762431]: offset = 88916
+[DEBUG] [1403533382.764061]: offset = 93630
+[DEBUG] [1403533382.764090]: offset = 93662
+[DEBUG] [1403533382.766094]: offset = 99832
+[DEBUG] [1403533382.766122]: offset = 99852
+[DEBUG] [1403533382.768148]: offset = 106600
+[DEBUG] [1403533382.768173]: offset = 106612
+[DEBUG] [1403533382.770505]: offset = 115298
+[DEBUG] [1403533382.770530]: offset = 115302
+[DEBUG] [1403533382.773270]: offset = 127595
+[DEBUG] [1403533382.773296]: offset = 127599
+[DEBUG] [1403533382.779374]: offset = 146172
+[DEBUG] [1403533382.780195]: vertices = 151753, uv_coords = 151753, chunks = 67
+[DEBUG] [1403533382.780215]: faces in chunk 0 cb5e6e00cb294d0f81021426f4dc5c8a_000.jpg = 1420
+[DEBUG] [1403533382.780229]: faces in chunk 1 cb5e6e00cb294d0f81021426f4dc5c8a_001.jpg = 1083
+[DEBUG] [1403533382.780243]: faces in chunk 2 cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg = 2
+[DEBUG] [1403533382.780256]: faces in chunk 3 cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg = 1287
+[DEBUG] [1403533382.780270]: faces in chunk 4 cb5e6e00cb294d0f81021426f4dc5c8a_003.jpg = 2040
+[DEBUG] [1403533382.780283]: faces in chunk 5 cb5e6e00cb294d0f81021426f4dc5c8a_004.jpg = 1183
+[DEBUG] [1403533382.780296]: faces in chunk 6 cb5e6e00cb294d0f81021426f4dc5c8a_005.jpg = 886
+[DEBUG] [1403533382.780310]: faces in chunk 7 cb5e6e00cb294d0f81021426f4dc5c8a_006.jpg = 1329
+[DEBUG] [1403533382.780323]: faces in chunk 8 cb5e6e00cb294d0f81021426f4dc5c8a_007.jpg = 957
+[DEBUG] [1403533382.780336]: faces in chunk 9 cb5e6e00cb294d0f81021426f4dc5c8a_008.jpg = 3483
+[DEBUG] [1403533382.780349]: faces in chunk 10 cb5e6e00cb294d0f81021426f4dc5c8a_009.jpg = 450
+[DEBUG] [1403533382.780364]: faces in chunk 11 cb5e6e00cb294d0f81021426f4dc5c8a_010.jpg = 224
+[DEBUG] [1403533382.780378]: faces in chunk 12 cb5e6e00cb294d0f81021426f4dc5c8a_011.jpg = 1470
+[DEBUG] [1403533382.780391]: faces in chunk 13 cb5e6e00cb294d0f81021426f4dc5c8a_012.jpg = 1828
+[DEBUG] [1403533382.780404]: faces in chunk 14 cb5e6e00cb294d0f81021426f4dc5c8a_013.jpg = 2092
+[DEBUG] [1403533382.780417]: faces in chunk 15 cb5e6e00cb294d0f81021426f4dc5c8a_014.jpg = 2515
+[DEBUG] [1403533382.780430]: faces in chunk 16 cb5e6e00cb294d0f81021426f4dc5c8a_015.jpg = 1652
+[DEBUG] [1403533382.780444]: faces in chunk 17 cb5e6e00cb294d0f81021426f4dc5c8a_016.jpg = 2458
+[DEBUG] [1403533382.780457]: faces in chunk 18 cb5e6e00cb294d0f81021426f4dc5c8a_017.jpg = 2035
+[DEBUG] [1403533382.780470]: faces in chunk 19 cb5e6e00cb294d0f81021426f4dc5c8a_018.jpg = 1812
+[DEBUG] [1403533382.780483]: faces in chunk 20 cb5e6e00cb294d0f81021426f4dc5c8a_019.jpg = 2217
+[DEBUG] [1403533382.780497]: faces in chunk 21 cb5e6e00cb294d0f81021426f4dc5c8a_020.jpg = 2768
+[DEBUG] [1403533382.780510]: faces in chunk 22 cb5e6e00cb294d0f81021426f4dc5c8a_021.jpg = 2055
+[DEBUG] [1403533382.780523]: faces in chunk 23 cb5e6e00cb294d0f81021426f4dc5c8a_022.jpg = 1588
+[DEBUG] [1403533382.780536]: faces in chunk 24 cb5e6e00cb294d0f81021426f4dc5c8a_023.jpg = 2240
+[DEBUG] [1403533382.780549]: faces in chunk 25 cb5e6e00cb294d0f81021426f4dc5c8a_024.jpg = 2088
+[DEBUG] [1403533382.780583]: faces in chunk 26 cb5e6e00cb294d0f81021426f4dc5c8a_025.jpg = 3581
+[DEBUG] [1403533382.780598]: faces in chunk 27 cb5e6e00cb294d0f81021426f4dc5c8a_026.jpg = 2000
+[DEBUG] [1403533382.780611]: faces in chunk 28 cb5e6e00cb294d0f81021426f4dc5c8a_027.jpg = 3123
+[DEBUG] [1403533382.780635]: faces in chunk 29 cb5e6e00cb294d0f81021426f4dc5c8a_028.jpg = 2806
+[DEBUG] [1403533382.780648]: faces in chunk 30 cb5e6e00cb294d0f81021426f4dc5c8a_029.jpg = 2948
+[DEBUG] [1403533382.780662]: faces in chunk 31 cb5e6e00cb294d0f81021426f4dc5c8a_030.jpg = 2694
+[DEBUG] [1403533382.780675]: faces in chunk 32 cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg = 2
+[DEBUG] [1403533382.780690]: faces in chunk 33 cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg = 1951
+[DEBUG] [1403533382.780703]: faces in chunk 34 cb5e6e00cb294d0f81021426f4dc5c8a_032.jpg = 3039
+[DEBUG] [1403533382.780717]: faces in chunk 35 cb5e6e00cb294d0f81021426f4dc5c8a_033.jpg = 2297
+[DEBUG] [1403533382.780730]: faces in chunk 36 cb5e6e00cb294d0f81021426f4dc5c8a_034.jpg = 2465
+[DEBUG] [1403533382.780743]: faces in chunk 37 cb5e6e00cb294d0f81021426f4dc5c8a_035.jpg = 2125
+[DEBUG] [1403533382.780756]: faces in chunk 38 cb5e6e00cb294d0f81021426f4dc5c8a_036.jpg = 2441
+[DEBUG] [1403533382.780770]: faces in chunk 39 cb5e6e00cb294d0f81021426f4dc5c8a_037.jpg = 3340
+[DEBUG] [1403533382.780783]: faces in chunk 40 cb5e6e00cb294d0f81021426f4dc5c8a_038.jpg = 1107
+[DEBUG] [1403533382.780796]: faces in chunk 41 cb5e6e00cb294d0f81021426f4dc5c8a_039.jpg = 3319
+[DEBUG] [1403533382.780810]: faces in chunk 42 cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg = 2
+[DEBUG] [1403533382.780823]: faces in chunk 43 cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg = 2443
+[DEBUG] [1403533382.780836]: faces in chunk 44 cb5e6e00cb294d0f81021426f4dc5c8a_041.jpg = 2308
+[DEBUG] [1403533382.780849]: faces in chunk 45 cb5e6e00cb294d0f81021426f4dc5c8a_042.jpg = 2869
+[DEBUG] [1403533382.780862]: faces in chunk 46 cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg = 2
+[DEBUG] [1403533382.780876]: faces in chunk 47 cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg = 3454
+[DEBUG] [1403533382.780889]: faces in chunk 48 cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg = 4
+[DEBUG] [1403533382.780902]: faces in chunk 49 cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg = 3629
+[DEBUG] [1403533382.780915]: faces in chunk 50 cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg = 4
+[DEBUG] [1403533382.780928]: faces in chunk 51 cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg = 3857
+[DEBUG] [1403533382.780941]: faces in chunk 52 cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg = 8
+[DEBUG] [1403533382.780954]: faces in chunk 53 cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg = 4357
+[DEBUG] [1403533382.780968]: faces in chunk 54 cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg = 18
+[DEBUG] [1403533382.780981]: faces in chunk 55 cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg = 4449
+[DEBUG] [1403533382.780994]: faces in chunk 56 cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg = 16
+[DEBUG] [1403533382.781007]: faces in chunk 57 cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg = 5152
+[DEBUG] [1403533382.781020]: faces in chunk 58 cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg = 10
+[DEBUG] [1403533382.781033]: faces in chunk 59 cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg = 5335
+[DEBUG] [1403533382.781046]: faces in chunk 60 cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg = 6
+[DEBUG] [1403533382.781059]: faces in chunk 61 cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg = 5966
+[DEBUG] [1403533382.781073]: faces in chunk 62 cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg = 2
+[DEBUG] [1403533382.781086]: faces in chunk 63 cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg = 6891
+[DEBUG] [1403533382.781099]: faces in chunk 64 cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg = 2
+[DEBUG] [1403533382.781113]: faces in chunk 65 cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg = 8223
+[DEBUG] [1403533382.781126]: faces in chunk 66 cb5e6e00cb294d0f81021426f4dc5c8a_053.jpg = 2187
+[DEBUG] [1403533382.781466]: Random seed = 2494756502
+[ INFO] [1403533383.383958]: ----- Finished RewriteObj (1.0.5648-D) 1403533382 -----
+[ INFO] [1403533383.417832]: ----- Starting RewriteObj (1.0.5648-D) 1403533383 -----
+[DEBUG] [1403533383.417897]: Loading obj from cb5e6e00cb294d0f81021426f4dc5c8a.obj
+[DEBUG] [1403533383.877629]: ... starting writing chunk 0.  Num faces = 1420
+[DEBUG] [1403533383.881094]: [addChunk] Number of faces = 1420. Number of vertices = 1067
+[DEBUG] [1403533383.881122]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_000.jpg
+[DEBUG] [1403533383.881159]: [addChunk] chunk name = chunk000
+[DEBUG] [1403533383.881468]: steps = 34928 38901 8798
+[DEBUG] [1403533383.881488]: translation = 2.876953 -9.796387 -0.061035
+[DEBUG] [1403533383.881503]: translation = 2.876953 -9.796387 -0.061035
+[DEBUG] [1403533383.882513]: ... starting writing chunk 1.  Num faces = 1083
+[DEBUG] [1403533383.885207]: [addChunk] Number of faces = 1083. Number of vertices = 766
+[DEBUG] [1403533383.885229]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_001.jpg
+[DEBUG] [1403533383.885243]: [addChunk] chunk name = chunk001
+[DEBUG] [1403533383.885370]: steps = 12619 12565 172
+[DEBUG] [1403533383.885388]: translation = 11.138184 2.583496 -0.053711
+[DEBUG] [1403533383.885403]: translation = 11.138184 2.583496 -0.053711
+[DEBUG] [1403533383.885623]: ... starting writing chunk 2.  Num faces = 1289
+[DEBUG] [1403533383.885645]: Dealing with reflective faces
+[DEBUG] [1403533383.885660]: mmface = 297 93 296
+[DEBUG] [1403533383.885675]: mmface = 297 93 295
+[DEBUG] [1403533383.885987]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533383.886007]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg
+[DEBUG] [1403533383.886020]: [addChunk] chunk name = reflector002
+[DEBUG] [1403533383.886036]: steps = 167 5 228
+[DEBUG] [1403533383.886050]: translation = 10.785156 -0.866699 1.719727
+[DEBUG] [1403533383.886065]: translation = 10.785156 -0.866699 1.719727
+[DEBUG] [1403533383.886085]: mface = 297 93 296
+[DEBUG] [1403533383.886099]: mface = 297 93 295
+[DEBUG] [1403533383.887129]: [addChunk] Number of faces = 1287. Number of vertices = 1206
+[DEBUG] [1403533383.887151]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg
+[DEBUG] [1403533383.887165]: [addChunk] chunk name = chunk003
+[DEBUG] [1403533383.887424]: steps = 42830 39619 8789
+[DEBUG] [1403533383.887443]: translation = -0.864258 -9.827148 -0.079102
+[DEBUG] [1403533383.887458]: translation = -0.864258 -9.827148 -0.079102
+[DEBUG] [1403533383.887782]: ... starting writing chunk 3.  Num faces = 2040
+[DEBUG] [1403533383.888983]: [addChunk] Number of faces = 2040. Number of vertices = 1173
+[DEBUG] [1403533383.889005]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_003.jpg
+[DEBUG] [1403533383.889018]: [addChunk] chunk name = chunk004
+[DEBUG] [1403533383.889231]: steps = 12687 12599 200
+[DEBUG] [1403533383.889250]: translation = 10.883301 2.067383 4.061035
+[DEBUG] [1403533383.889266]: translation = 10.883301 2.067383 4.061035
+[DEBUG] [1403533383.889748]: ... starting writing chunk 4.  Num faces = 1183
+[DEBUG] [1403533383.890621]: [addChunk] Number of faces = 1183. Number of vertices = 845
+[DEBUG] [1403533383.890641]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_004.jpg
+[DEBUG] [1403533383.890656]: [addChunk] chunk name = chunk005
+[DEBUG] [1403533383.890801]: steps = 12734 13155 260
+[DEBUG] [1403533383.890818]: translation = 7.498047 -0.847656 -0.019531
+[DEBUG] [1403533383.890833]: translation = 7.498047 -0.847656 -0.019531
+[DEBUG] [1403533383.891034]: ... starting writing chunk 5.  Num faces = 886
+[DEBUG] [1403533383.891742]: [addChunk] Number of faces = 886. Number of vertices = 626
+[DEBUG] [1403533383.891761]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_005.jpg
+[DEBUG] [1403533383.891775]: [addChunk] chunk name = chunk006
+[DEBUG] [1403533383.891881]: steps = 39902 31708 8567
+[DEBUG] [1403533383.891898]: translation = -0.871582 -9.764648 -0.027344
+[DEBUG] [1403533383.891912]: translation = -0.871582 -9.764648 -0.027344
+[DEBUG] [1403533383.892088]: ... starting writing chunk 6.  Num faces = 1329
+[DEBUG] [1403533383.892955]: [addChunk] Number of faces = 1329. Number of vertices = 766
+[DEBUG] [1403533383.892975]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_006.jpg
+[DEBUG] [1403533383.892989]: [addChunk] chunk name = chunk007
+[DEBUG] [1403533383.893125]: steps = 12580 12599 189
+[DEBUG] [1403533383.893143]: translation = 10.992188 -4.031250 3.572266
+[DEBUG] [1403533383.893158]: translation = 10.992188 -4.031250 3.572266
+[DEBUG] [1403533383.893403]: ... starting writing chunk 7.  Num faces = 957
+[DEBUG] [1403533383.894134]: [addChunk] Number of faces = 957. Number of vertices = 588
+[DEBUG] [1403533383.894156]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_007.jpg
+[DEBUG] [1403533383.894170]: [addChunk] chunk name = chunk008
+[DEBUG] [1403533383.894284]: steps = 12586 12678 96
+[DEBUG] [1403533383.894302]: translation = 12.476074 -3.245117 -0.004883
+[DEBUG] [1403533383.894317]: translation = 12.476074 -3.245117 -0.004883
+[DEBUG] [1403533383.894530]: ... starting writing chunk 8.  Num faces = 3483
+[DEBUG] [1403533383.897531]: [addChunk] Number of faces = 3483. Number of vertices = 2426
+[DEBUG] [1403533383.897555]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_008.jpg
+[DEBUG] [1403533383.897571]: [addChunk] chunk name = chunk009
+[DEBUG] [1403533383.897999]: steps = 40438 39181 8527
+[DEBUG] [1403533383.898021]: translation = -0.895020 -9.728027 -0.050781
+[DEBUG] [1403533383.898036]: translation = -0.895020 -9.728027 -0.050781
+[DEBUG] [1403533383.898707]: ... starting writing chunk 9.  Num faces = 450
+[DEBUG] [1403533383.899263]: [addChunk] Number of faces = 450. Number of vertices = 443
+[DEBUG] [1403533383.899284]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_009.jpg
+[DEBUG] [1403533383.899297]: [addChunk] chunk name = chunk010
+[DEBUG] [1403533383.899378]: steps = 45345 34549 8491
+[DEBUG] [1403533383.899395]: translation = -0.895020 -9.806641 -0.040039
+[DEBUG] [1403533383.899409]: translation = -0.895020 -9.806641 -0.040039
+[DEBUG] [1403533383.899512]: ... starting writing chunk 10.  Num faces = 224
+[DEBUG] [1403533383.899934]: [addChunk] Number of faces = 224. Number of vertices = 260
+[DEBUG] [1403533383.899953]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_010.jpg
+[DEBUG] [1403533383.899966]: [addChunk] chunk name = chunk011
+[DEBUG] [1403533383.900019]: steps = 37117 39260 8400
+[DEBUG] [1403533383.900034]: translation = 0.462891 -9.766602 -0.025391
+[DEBUG] [1403533383.900049]: translation = 0.462891 -9.766602 -0.025391
+[DEBUG] [1403533383.900109]: ... starting writing chunk 11.  Num faces = 1470
+[DEBUG] [1403533383.901078]: [addChunk] Number of faces = 1470. Number of vertices = 941
+[DEBUG] [1403533383.901099]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_011.jpg
+[DEBUG] [1403533383.901113]: [addChunk] chunk name = chunk012
+[DEBUG] [1403533383.901279]: steps = 15724 14226 210
+[DEBUG] [1403533383.901296]: translation = 1.588379 -1.073242 -0.036621
+[DEBUG] [1403533383.901310]: translation = 1.588379 -1.073242 -0.036621
+[DEBUG] [1403533383.901571]: ... starting writing chunk 12.  Num faces = 1828
+[DEBUG] [1403533383.902748]: [addChunk] Number of faces = 1828. Number of vertices = 1458
+[DEBUG] [1403533383.902771]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_012.jpg
+[DEBUG] [1403533383.902785]: [addChunk] chunk name = chunk013
+[DEBUG] [1403533383.903019]: steps = 37843 39774 8599
+[DEBUG] [1403533383.903038]: translation = 0.766602 -9.788086 -0.064941
+[DEBUG] [1403533383.903052]: translation = 0.766602 -9.788086 -0.064941
+[DEBUG] [1403533383.903444]: ... starting writing chunk 13.  Num faces = 2092
+[DEBUG] [1403533383.904775]: [addChunk] Number of faces = 2092. Number of vertices = 1931
+[DEBUG] [1403533383.904797]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_013.jpg
+[DEBUG] [1403533383.904810]: [addChunk] chunk name = chunk014
+[DEBUG] [1403533383.905131]: steps = 46753 39758 8652
+[DEBUG] [1403533383.905150]: translation = -0.879883 -9.824219 -0.082031
+[DEBUG] [1403533383.905190]: translation = -0.879883 -9.824219 -0.082031
+[DEBUG] [1403533383.905746]: ... starting writing chunk 14.  Num faces = 2515
+[DEBUG] [1403533383.907246]: [addChunk] Number of faces = 2515. Number of vertices = 1987
+[DEBUG] [1403533383.907268]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_014.jpg
+[DEBUG] [1403533383.907282]: [addChunk] chunk name = chunk015
+[DEBUG] [1403533383.907593]: steps = 42868 40404 8598
+[DEBUG] [1403533383.907625]: translation = -0.863281 -9.832031 -0.057129
+[DEBUG] [1403533383.907640]: translation = -0.863281 -9.832031 -0.057129
+[DEBUG] [1403533383.908126]: ... starting writing chunk 15.  Num faces = 1652
+[DEBUG] [1403533383.909276]: [addChunk] Number of faces = 1652. Number of vertices = 1564
+[DEBUG] [1403533383.909297]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_015.jpg
+[DEBUG] [1403533383.909311]: [addChunk] chunk name = chunk016
+[DEBUG] [1403533383.909559]: steps = 43213 40055 9948
+[DEBUG] [1403533383.909578]: translation = -0.864258 -9.813477 -0.108887
+[DEBUG] [1403533383.909603]: translation = -0.864258 -9.813477 -0.108887
+[DEBUG] [1403533383.909896]: ... starting writing chunk 16.  Num faces = 2458
+[DEBUG] [1403533383.911460]: [addChunk] Number of faces = 2458. Number of vertices = 2403
+[DEBUG] [1403533383.911482]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_016.jpg
+[DEBUG] [1403533383.911496]: [addChunk] chunk name = chunk017
+[DEBUG] [1403533383.912009]: steps = 46185 40193 8551
+[DEBUG] [1403533383.912029]: translation = -0.856445 -10.128906 -0.052246
+[DEBUG] [1403533383.912045]: translation = -0.856445 -10.128906 -0.052246
+[DEBUG] [1403533383.912582]: ... starting writing chunk 17.  Num faces = 2035
+[DEBUG] [1403533383.913899]: [addChunk] Number of faces = 2035. Number of vertices = 1685
+[DEBUG] [1403533383.913922]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_017.jpg
+[DEBUG] [1403533383.913936]: [addChunk] chunk name = chunk018
+[DEBUG] [1403533383.914204]: steps = 42659 41579 8622
+[DEBUG] [1403533383.914224]: translation = -0.716797 -9.766113 -0.067871
+[DEBUG] [1403533383.914239]: translation = -0.716797 -9.766113 -0.067871
+[DEBUG] [1403533383.914580]: ... starting writing chunk 18.  Num faces = 1812
+[DEBUG] [1403533383.915779]: [addChunk] Number of faces = 1812. Number of vertices = 1595
+[DEBUG] [1403533383.915800]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_018.jpg
+[DEBUG] [1403533383.915814]: [addChunk] chunk name = chunk019
+[DEBUG] [1403533383.916064]: steps = 39989 38251 8550
+[DEBUG] [1403533383.916083]: translation = -0.839355 -9.818359 -0.032227
+[DEBUG] [1403533383.916097]: translation = -0.839355 -9.818359 -0.032227
+[DEBUG] [1403533383.916501]: ... starting writing chunk 19.  Num faces = 2217
+[DEBUG] [1403533383.917937]: [addChunk] Number of faces = 2217. Number of vertices = 1957
+[DEBUG] [1403533383.917961]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_019.jpg
+[DEBUG] [1403533383.917975]: [addChunk] chunk name = chunk020
+[DEBUG] [1403533383.918342]: steps = 42494 38188 8680
+[DEBUG] [1403533383.918362]: translation = -0.833496 -9.813477 -0.110352
+[DEBUG] [1403533383.918377]: translation = -0.833496 -9.813477 -0.110352
+[DEBUG] [1403533383.918911]: ... starting writing chunk 20.  Num faces = 2768
+[DEBUG] [1403533383.920656]: [addChunk] Number of faces = 2768. Number of vertices = 2317
+[DEBUG] [1403533383.920678]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_020.jpg
+[DEBUG] [1403533383.920691]: [addChunk] chunk name = chunk021
+[DEBUG] [1403533383.921215]: steps = 46656 40404 10288
+[DEBUG] [1403533383.921236]: translation = -0.814453 -9.792480 -0.077148
+[DEBUG] [1403533383.921251]: translation = -0.814453 -9.792480 -0.077148
+[DEBUG] [1403533383.921893]: ... starting writing chunk 21.  Num faces = 2055
+[DEBUG] [1403533383.923182]: [addChunk] Number of faces = 2055. Number of vertices = 1553
+[DEBUG] [1403533383.923204]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_021.jpg
+[DEBUG] [1403533383.923218]: [addChunk] chunk name = chunk022
+[DEBUG] [1403533383.923488]: steps = 42751 40590 8461
+[DEBUG] [1403533383.923508]: translation = -0.845215 -9.776855 -0.029785
+[DEBUG] [1403533383.923523]: translation = -0.845215 -9.776855 -0.029785
+[DEBUG] [1403533383.923888]: ... starting writing chunk 22.  Num faces = 1588
+[DEBUG] [1403533383.924976]: [addChunk] Number of faces = 1588. Number of vertices = 1234
+[DEBUG] [1403533383.924996]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_022.jpg
+[DEBUG] [1403533383.925023]: [addChunk] chunk name = chunk023
+[DEBUG] [1403533383.925232]: steps = 42815 39715 8510
+[DEBUG] [1403533383.925252]: translation = -0.861328 -9.825195 -0.015625
+[DEBUG] [1403533383.925267]: translation = -0.861328 -9.825195 -0.015625
+[DEBUG] [1403533383.925528]: ... starting writing chunk 23.  Num faces = 2240
+[DEBUG] [1403533383.926917]: [addChunk] Number of faces = 2240. Number of vertices = 1718
+[DEBUG] [1403533383.926941]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_023.jpg
+[DEBUG] [1403533383.926955]: [addChunk] chunk name = chunk024
+[DEBUG] [1403533383.927234]: steps = 40358 41757 8867
+[DEBUG] [1403533383.927253]: translation = -0.873047 -9.793457 -0.042969
+[DEBUG] [1403533383.927268]: translation = -0.873047 -9.793457 -0.042969
+[DEBUG] [1403533383.927753]: ... starting writing chunk 24.  Num faces = 2088
+[DEBUG] [1403533383.929056]: [addChunk] Number of faces = 2088. Number of vertices = 1716
+[DEBUG] [1403533383.929077]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_024.jpg
+[DEBUG] [1403533383.929091]: [addChunk] chunk name = chunk025
+[DEBUG] [1403533383.929366]: steps = 42999 40036 8591
+[DEBUG] [1403533383.929385]: translation = -0.882324 -9.791016 -0.063965
+[DEBUG] [1403533383.929400]: translation = -0.882324 -9.791016 -0.063965
+[DEBUG] [1403533383.929809]: ... starting writing chunk 25.  Num faces = 3581
+[DEBUG] [1403533383.931988]: [addChunk] Number of faces = 3581. Number of vertices = 2974
+[DEBUG] [1403533383.932009]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_025.jpg
+[DEBUG] [1403533383.932023]: [addChunk] chunk name = chunk026
+[DEBUG] [1403533383.932666]: steps = 47040 40173 8684
+[DEBUG] [1403533383.932686]: translation = -0.862305 -9.816406 -0.101562
+[DEBUG] [1403533383.932702]: translation = -0.862305 -9.816406 -0.101562
+[DEBUG] [1403533383.933523]: ... starting writing chunk 26.  Num faces = 2000
+[DEBUG] [1403533383.934789]: [addChunk] Number of faces = 2000. Number of vertices = 1563
+[DEBUG] [1403533383.934813]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_026.jpg
+[DEBUG] [1403533383.934827]: [addChunk] chunk name = chunk027
+[DEBUG] [1403533383.935078]: steps = 42526 41423 8570
+[DEBUG] [1403533383.935097]: translation = 0.992188 -9.804199 -0.080078
+[DEBUG] [1403533383.935113]: translation = 0.992188 -9.804199 -0.080078
+[DEBUG] [1403533383.935451]: ... starting writing chunk 27.  Num faces = 3123
+[DEBUG] [1403533383.937264]: [addChunk] Number of faces = 3123. Number of vertices = 2507
+[DEBUG] [1403533383.937286]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_027.jpg
+[DEBUG] [1403533383.937299]: [addChunk] chunk name = chunk028
+[DEBUG] [1403533383.937724]: steps = 42863 40395 8597
+[DEBUG] [1403533383.937747]: translation = -0.839355 -9.789551 -0.060547
+[DEBUG] [1403533383.937762]: translation = -0.839355 -9.789551 -0.060547
+[DEBUG] [1403533383.938477]: ... starting writing chunk 28.  Num faces = 2806
+[DEBUG] [1403533383.940221]: [addChunk] Number of faces = 2806. Number of vertices = 2603
+[DEBUG] [1403533383.940242]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_028.jpg
+[DEBUG] [1403533383.940256]: [addChunk] chunk name = chunk029
+[DEBUG] [1403533383.940704]: steps = 43149 41807 8935
+[DEBUG] [1403533383.940725]: translation = -0.868652 -9.842773 -0.104492
+[DEBUG] [1403533383.940739]: translation = -0.868652 -9.842773 -0.104492
+[DEBUG] [1403533383.941364]: ... starting writing chunk 29.  Num faces = 2948
+[DEBUG] [1403533383.943110]: [addChunk] Number of faces = 2948. Number of vertices = 2301
+[DEBUG] [1403533383.943134]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_029.jpg
+[DEBUG] [1403533383.943166]: [addChunk] chunk name = chunk030
+[DEBUG] [1403533383.943573]: steps = 40348 37892 8357
+[DEBUG] [1403533383.943594]: translation = -0.853516 -9.832520 -0.050293
+[DEBUG] [1403533383.943609]: translation = -0.853516 -9.832520 -0.050293
+[DEBUG] [1403533383.944214]: ... starting writing chunk 30.  Num faces = 2694
+[DEBUG] [1403533383.945830]: [addChunk] Number of faces = 2694. Number of vertices = 2087
+[DEBUG] [1403533383.945866]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_030.jpg
+[DEBUG] [1403533383.945881]: [addChunk] chunk name = chunk031
+[DEBUG] [1403533383.946223]: steps = 45649 39948 8673
+[DEBUG] [1403533383.946243]: translation = -0.885742 -9.787598 -0.106445
+[DEBUG] [1403533383.946258]: translation = -0.885742 -9.787598 -0.106445
+[DEBUG] [1403533383.946690]: ... starting writing chunk 31.  Num faces = 1953
+[DEBUG] [1403533383.946710]: Dealing with reflective faces
+[DEBUG] [1403533383.946725]: mmface = 289 119569 288
+[DEBUG] [1403533383.946740]: mmface = 289 119569 287
+[DEBUG] [1403533383.947055]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533383.947074]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg
+[DEBUG] [1403533383.947087]: [addChunk] chunk name = reflector032
+[DEBUG] [1403533383.947104]: steps = 5017 148 1181
+[DEBUG] [1403533383.947118]: translation = 10.329102 -0.520996 0.959473
+[DEBUG] [1403533383.947133]: translation = 10.329102 -0.520996 0.959473
+[DEBUG] [1403533383.947153]: mface = 289 119569 288
+[DEBUG] [1403533383.947167]: mface = 289 119569 287
+[DEBUG] [1403533383.948469]: [addChunk] Number of faces = 1951. Number of vertices = 1508
+[DEBUG] [1403533383.948491]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg
+[DEBUG] [1403533383.948505]: [addChunk] chunk name = chunk033
+[DEBUG] [1403533383.948743]: steps = 42736 35717 8295
+[DEBUG] [1403533383.948762]: translation = -0.889648 -9.798340 -0.058594
+[DEBUG] [1403533383.948776]: translation = -0.889648 -9.798340 -0.058594
+[DEBUG] [1403533383.949132]: ... starting writing chunk 32.  Num faces = 3039
+[DEBUG] [1403533383.950954]: [addChunk] Number of faces = 3039. Number of vertices = 2592
+[DEBUG] [1403533383.950977]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_032.jpg
+[DEBUG] [1403533383.950991]: [addChunk] chunk name = chunk034
+[DEBUG] [1403533383.951559]: steps = 42789 38308 8607
+[DEBUG] [1403533383.951580]: translation = -0.838379 -9.761719 -0.077637
+[DEBUG] [1403533383.951595]: translation = -0.838379 -9.761719 -0.077637
+[DEBUG] [1403533383.952356]: ... starting writing chunk 33.  Num faces = 2297
+[DEBUG] [1403533383.953766]: [addChunk] Number of faces = 2297. Number of vertices = 1821
+[DEBUG] [1403533383.953790]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_033.jpg
+[DEBUG] [1403533383.953804]: [addChunk] chunk name = chunk035
+[DEBUG] [1403533383.954088]: steps = 41393 38475 9486
+[DEBUG] [1403533383.954107]: translation = -0.166016 -9.801270 -0.340820
+[DEBUG] [1403533383.954122]: translation = -0.166016 -9.801270 -0.340820
+[DEBUG] [1403533383.954514]: ... starting writing chunk 34.  Num faces = 2465
+[DEBUG] [1403533383.956115]: [addChunk] Number of faces = 2465. Number of vertices = 2276
+[DEBUG] [1403533383.956137]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_034.jpg
+[DEBUG] [1403533383.956151]: [addChunk] chunk name = chunk036
+[DEBUG] [1403533383.956521]: steps = 46007 41825 8612
+[DEBUG] [1403533383.956540]: translation = -0.879883 -9.826660 -0.056152
+[DEBUG] [1403533383.956555]: translation = -0.879883 -9.826660 -0.056152
+[DEBUG] [1403533383.957084]: ... starting writing chunk 35.  Num faces = 2125
+[DEBUG] [1403533383.958433]: [addChunk] Number of faces = 2125. Number of vertices = 1607
+[DEBUG] [1403533383.958457]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_035.jpg
+[DEBUG] [1403533383.958472]: [addChunk] chunk name = chunk037
+[DEBUG] [1403533383.958750]: steps = 39708 39336 8506
+[DEBUG] [1403533383.958770]: translation = -0.867676 -9.834473 -0.029785
+[DEBUG] [1403533383.958801]: translation = -0.867676 -9.834473 -0.029785
+[DEBUG] [1403533383.959149]: ... starting writing chunk 36.  Num faces = 2441
+[DEBUG] [1403533383.960666]: [addChunk] Number of faces = 2441. Number of vertices = 2042
+[DEBUG] [1403533383.960688]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_036.jpg
+[DEBUG] [1403533383.960701]: [addChunk] chunk name = chunk038
+[DEBUG] [1403533383.961038]: steps = 40857 39927 8853
+[DEBUG] [1403533383.961076]: translation = -0.844727 -9.787598 -0.110352
+[DEBUG] [1403533383.961091]: translation = -0.844727 -9.787598 -0.110352
+[DEBUG] [1403533383.961675]: ... starting writing chunk 37.  Num faces = 3340
+[DEBUG] [1403533383.963664]: [addChunk] Number of faces = 3340. Number of vertices = 2776
+[DEBUG] [1403533383.963685]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_037.jpg
+[DEBUG] [1403533383.963699]: [addChunk] chunk name = chunk039
+[DEBUG] [1403533383.964300]: steps = 46703 40194 8530
+[DEBUG] [1403533383.964321]: translation = -0.728516 -9.793945 -0.033203
+[DEBUG] [1403533383.964336]: translation = -0.728516 -9.793945 -0.033203
+[DEBUG] [1403533383.965246]: ... starting writing chunk 38.  Num faces = 1107
+[DEBUG] [1403533383.966121]: [addChunk] Number of faces = 1107. Number of vertices = 1042
+[DEBUG] [1403533383.966144]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_038.jpg
+[DEBUG] [1403533383.966157]: [addChunk] chunk name = chunk040
+[DEBUG] [1403533383.966327]: steps = 46542 41089 8979
+[DEBUG] [1403533383.966345]: translation = -0.810059 -9.807129 -0.277344
+[DEBUG] [1403533383.966360]: translation = -0.810059 -9.807129 -0.277344
+[DEBUG] [1403533383.966554]: ... starting writing chunk 39.  Num faces = 3319
+[DEBUG] [1403533383.968579]: [addChunk] Number of faces = 3319. Number of vertices = 2870
+[DEBUG] [1403533383.968601]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_039.jpg
+[DEBUG] [1403533383.968615]: [addChunk] chunk name = chunk041
+[DEBUG] [1403533383.969082]: steps = 46548 41851 8706
+[DEBUG] [1403533383.969101]: translation = -0.857422 -9.839355 -0.165039
+[DEBUG] [1403533383.969116]: translation = -0.857422 -9.839355 -0.165039
+[DEBUG] [1403533383.969923]: ... starting writing chunk 40.  Num faces = 2445
+[DEBUG] [1403533383.969946]: Dealing with reflective faces
+[DEBUG] [1403533383.969964]: mmface = 21 52287 20
+[DEBUG] [1403533383.969979]: mmface = 21 52287 19
+[DEBUG] [1403533383.970275]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533383.970294]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg
+[DEBUG] [1403533383.970308]: [addChunk] chunk name = reflector042
+[DEBUG] [1403533383.970324]: steps = 23 146 2102
+[DEBUG] [1403533383.970338]: translation = 13.533691 -3.753906 0.044434
+[DEBUG] [1403533383.970353]: translation = 13.533691 -3.753906 0.044434
+[DEBUG] [1403533383.970372]: mface = 21 52287 20
+[DEBUG] [1403533383.970387]: mface = 21 52287 19
+[DEBUG] [1403533383.971970]: [addChunk] Number of faces = 2443. Number of vertices = 2105
+[DEBUG] [1403533383.971992]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg
+[DEBUG] [1403533383.972006]: [addChunk] chunk name = chunk043
+[DEBUG] [1403533383.972339]: steps = 42708 40984 8612
+[DEBUG] [1403533383.972359]: translation = -0.889648 -10.124512 -0.068359
+[DEBUG] [1403533383.972374]: translation = -0.889648 -10.124512 -0.068359
+[DEBUG] [1403533383.972940]: ... starting writing chunk 41.  Num faces = 2308
+[DEBUG] [1403533383.974377]: [addChunk] Number of faces = 2308. Number of vertices = 1909
+[DEBUG] [1403533383.974400]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_041.jpg
+[DEBUG] [1403533383.974414]: [addChunk] chunk name = chunk044
+[DEBUG] [1403533383.974713]: steps = 42565 37698 8564
+[DEBUG] [1403533383.974733]: translation = -0.850586 -9.812500 -0.043945
+[DEBUG] [1403533383.974748]: translation = -0.850586 -9.812500 -0.043945
+[DEBUG] [1403533383.975156]: ... starting writing chunk 42.  Num faces = 2869
+[DEBUG] [1403533383.976905]: [addChunk] Number of faces = 2869. Number of vertices = 2513
+[DEBUG] [1403533383.976944]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_042.jpg
+[DEBUG] [1403533383.976959]: [addChunk] chunk name = chunk045
+[DEBUG] [1403533383.977440]: steps = 46634 41105 8758
+[DEBUG] [1403533383.977460]: translation = -0.854980 -9.839844 -0.081543
+[DEBUG] [1403533383.977475]: translation = -0.854980 -9.839844 -0.081543
+[DEBUG] [1403533383.978159]: ... starting writing chunk 43.  Num faces = 3456
+[DEBUG] [1403533383.978194]: Dealing with reflective faces
+[DEBUG] [1403533383.978210]: mmface = 49 34663 48
+[DEBUG] [1403533383.978225]: mmface = 49 34663 47
+[DEBUG] [1403533383.978523]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533383.978545]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg
+[DEBUG] [1403533383.978558]: [addChunk] chunk name = reflector046
+[DEBUG] [1403533383.978574]: steps = 51 2955 1150
+[DEBUG] [1403533383.978588]: translation = 13.507812 -2.657715 0.964355
+[DEBUG] [1403533383.978603]: translation = 13.507812 -2.657715 0.964355
+[DEBUG] [1403533383.978623]: mface = 49 34663 48
+[DEBUG] [1403533383.978637]: mface = 49 34663 47
+[DEBUG] [1403533383.980823]: [addChunk] Number of faces = 3454. Number of vertices = 3102
+[DEBUG] [1403533383.980845]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg
+[DEBUG] [1403533383.980859]: [addChunk] chunk name = chunk047
+[DEBUG] [1403533383.981446]: steps = 42896 40991 8598
+[DEBUG] [1403533383.981467]: translation = -0.868652 -9.820312 -0.070801
+[DEBUG] [1403533383.981481]: translation = -0.868652 -9.820312 -0.070801
+[DEBUG] [1403533383.982383]: ... starting writing chunk 44.  Num faces = 3633
+[DEBUG] [1403533383.982406]: Dealing with reflective faces
+[DEBUG] [1403533383.982424]: mmface = 313 40166 312
+[DEBUG] [1403533383.982439]: mmface = 313 40166 311
+[DEBUG] [1403533383.982454]: mmface = 273 106321 272
+[DEBUG] [1403533383.982468]: mmface = 273 106321 271
+[DEBUG] [1403533383.982772]: [addChunk] Number of faces = 4. Number of vertices = 8
+[DEBUG] [1403533383.982791]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg
+[DEBUG] [1403533383.982804]: [addChunk] chunk name = reflector048
+[DEBUG] [1403533383.982821]: steps = 3847 51 7182
+[DEBUG] [1403533383.982836]: translation = 10.229492 -0.472168 0.109375
+[DEBUG] [1403533383.982851]: translation = 10.229492 -0.472168 0.109375
+[DEBUG] [1403533383.982871]: mface = 313 40166 312
+[DEBUG] [1403533383.982886]: mface = 313 40166 311
+[DEBUG] [1403533383.982899]: mface = 273 106321 272
+[DEBUG] [1403533383.982912]: mface = 273 106321 271
+[DEBUG] [1403533383.985267]: [addChunk] Number of faces = 3629. Number of vertices = 3566
+[DEBUG] [1403533383.985289]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg
+[DEBUG] [1403533383.985303]: [addChunk] chunk name = chunk049
+[DEBUG] [1403533383.985883]: steps = 42935 40339 8895
+[DEBUG] [1403533383.985905]: translation = -0.881836 -9.818848 -0.078613
+[DEBUG] [1403533383.985921]: translation = -0.881836 -9.818848 -0.078613
+[DEBUG] [1403533383.986840]: ... starting writing chunk 45.  Num faces = 3861
+[DEBUG] [1403533383.986861]: Dealing with reflective faces
+[DEBUG] [1403533383.986877]: mmface = 33 18776 32
+[DEBUG] [1403533383.986891]: mmface = 33 18776 31
+[DEBUG] [1403533383.986907]: mmface = 29 23 28
+[DEBUG] [1403533383.986921]: mmface = 29 23 27
+[DEBUG] [1403533383.987232]: [addChunk] Number of faces = 4. Number of vertices = 8
+[DEBUG] [1403533383.987251]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg
+[DEBUG] [1403533383.987265]: [addChunk] chunk name = reflector050
+[DEBUG] [1403533383.987282]: steps = 32 3540 1570
+[DEBUG] [1403533383.987296]: translation = 13.519043 -3.608887 0.109375
+[DEBUG] [1403533383.987311]: translation = 13.519043 -3.608887 0.109375
+[DEBUG] [1403533383.987331]: mface = 33 18776 32
+[DEBUG] [1403533383.987346]: mface = 33 18776 31
+[DEBUG] [1403533383.987359]: mface = 29 23 28
+[DEBUG] [1403533383.987372]: mface = 29 23 27
+[DEBUG] [1403533383.989983]: [addChunk] Number of faces = 3857. Number of vertices = 4130
+[DEBUG] [1403533383.990031]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg
+[DEBUG] [1403533383.990046]: [addChunk] chunk name = chunk051
+[DEBUG] [1403533383.990941]: steps = 42911 41178 8829
+[DEBUG] [1403533383.990962]: translation = -0.879883 -9.829102 -0.046387
+[DEBUG] [1403533383.990977]: translation = -0.879883 -9.829102 -0.046387
+[DEBUG] [1403533383.991999]: ... starting writing chunk 46.  Num faces = 4365
+[DEBUG] [1403533383.992021]: Dealing with reflective faces
+[DEBUG] [1403533383.992050]: mmface = 281 60114 280
+[DEBUG] [1403533383.992065]: mmface = 281 60114 279
+[DEBUG] [1403533383.992082]: mmface = 277 50724 276
+[DEBUG] [1403533383.992096]: mmface = 277 50724 275
+[DEBUG] [1403533383.992110]: mmface = 45 48679 44
+[DEBUG] [1403533383.992124]: mmface = 45 48679 43
+[DEBUG] [1403533383.992137]: mmface = 37 25 36
+[DEBUG] [1403533383.992151]: mmface = 37 25 35
+[DEBUG] [1403533383.992484]: [addChunk] Number of faces = 8. Number of vertices = 16
+[DEBUG] [1403533383.992504]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg
+[DEBUG] [1403533383.992517]: [addChunk] chunk name = reflector052
+[DEBUG] [1403533383.992536]: steps = 6463 6573 2880
+[DEBUG] [1403533383.992549]: translation = 10.379395 -3.678711 0.119629
+[DEBUG] [1403533383.992564]: translation = 10.379395 -3.678711 0.119629
+[DEBUG] [1403533383.992587]: mface = 281 60114 280
+[DEBUG] [1403533383.992601]: mface = 281 60114 279
+[DEBUG] [1403533383.992614]: mface = 277 50724 276
+[DEBUG] [1403533383.992627]: mface = 277 50724 275
+[DEBUG] [1403533383.992640]: mface = 45 48679 44
+[DEBUG] [1403533383.992654]: mface = 45 48679 43
+[DEBUG] [1403533383.992667]: mface = 37 25 36
+[DEBUG] [1403533383.992680]: mface = 37 25 35
+[DEBUG] [1403533383.995690]: [addChunk] Number of faces = 4357. Number of vertices = 4713
+[DEBUG] [1403533383.995718]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg
+[DEBUG] [1403533383.995732]: [addChunk] chunk name = chunk053
+[DEBUG] [1403533383.996789]: steps = 42850 41041 9281
+[DEBUG] [1403533383.996810]: translation = -0.874512 -9.829102 -0.284668
+[DEBUG] [1403533383.996825]: translation = -0.874512 -9.829102 -0.284668
+[DEBUG] [1403533383.997794]: ... starting writing chunk 47.  Num faces = 4467
+[DEBUG] [1403533383.997817]: Dealing with reflective faces
+[DEBUG] [1403533383.997834]: mmface = 592 49171 591
+[DEBUG] [1403533383.997848]: mmface = 592 49171 590
+[DEBUG] [1403533383.997863]: mmface = 353 86910 352
+[DEBUG] [1403533383.997877]: mmface = 353 86910 351
+[DEBUG] [1403533383.997891]: mmface = 28650 40185 342
+[DEBUG] [1403533383.997904]: mmface = 28650 40185 341
+[DEBUG] [1403533383.997918]: mmface = 339 40327 338
+[DEBUG] [1403533383.997932]: mmface = 339 40327 337
+[DEBUG] [1403533383.997946]: mmface = 336 40177 335
+[DEBUG] [1403533383.997960]: mmface = 336 40177 334
+[DEBUG] [1403533383.997974]: mmface = 325 40887 324
+[DEBUG] [1403533383.997987]: mmface = 325 40887 323
+[DEBUG] [1403533383.998001]: mmface = 317 52427 316
+[DEBUG] [1403533383.998014]: mmface = 317 52427 315
+[DEBUG] [1403533383.998028]: mmface = 305 87227 304
+[DEBUG] [1403533383.998042]: mmface = 305 87227 303
+[DEBUG] [1403533383.998056]: mmface = 61 41305 60
+[DEBUG] [1403533383.998070]: mmface = 61 41305 59
+[DEBUG] [1403533383.998402]: [addChunk] Number of faces = 18. Number of vertices = 36
+[DEBUG] [1403533383.998422]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg
+[DEBUG] [1403533383.998435]: [addChunk] chunk name = reflector054
+[DEBUG] [1403533383.998458]: steps = 11249 9396 7017
+[DEBUG] [1403533383.998473]: translation = 7.285645 -5.063477 0.129883
+[DEBUG] [1403533383.998487]: translation = 7.285645 -5.063477 0.129883
+[DEBUG] [1403533383.998513]: mface = 592 49171 591
+[DEBUG] [1403533383.998528]: mface = 592 49171 590
+[DEBUG] [1403533383.998541]: mface = 353 86910 352
+[DEBUG] [1403533383.998554]: mface = 353 86910 351
+[DEBUG] [1403533383.998567]: mface = 28650 40185 342
+[DEBUG] [1403533383.998580]: mface = 28650 40185 341
+[DEBUG] [1403533383.998594]: mface = 339 40327 338
+[DEBUG] [1403533383.998633]: mface = 339 40327 337
+[DEBUG] [1403533383.998649]: mface = 336 40177 335
+[DEBUG] [1403533383.998662]: mface = 336 40177 334
+[DEBUG] [1403533383.998675]: mface = 325 40887 324
+[DEBUG] [1403533383.998688]: mface = 325 40887 323
+[DEBUG] [1403533383.998701]: mface = 317 52427 316
+[DEBUG] [1403533383.998714]: mface = 317 52427 315
+[DEBUG] [1403533383.998727]: mface = 305 87227 304
+[DEBUG] [1403533383.998740]: mface = 305 87227 303
+[DEBUG] [1403533383.998753]: mface = 61 41305 60
+[DEBUG] [1403533383.998775]: mface = 61 41305 59
+[DEBUG] [1403533384.001796]: [addChunk] Number of faces = 4449. Number of vertices = 4714
+[DEBUG] [1403533384.001821]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg
+[DEBUG] [1403533384.001834]: [addChunk] chunk name = chunk055
+[DEBUG] [1403533384.002782]: steps = 42903 38873 9046
+[DEBUG] [1403533384.002803]: translation = -0.866211 -10.111328 -0.130371
+[DEBUG] [1403533384.002818]: translation = -0.866211 -10.111328 -0.130371
+[DEBUG] [1403533384.003854]: ... starting writing chunk 48.  Num faces = 5168
+[DEBUG] [1403533384.003875]: Dealing with reflective faces
+[DEBUG] [1403533384.003892]: mmface = 623 122608 622
+[DEBUG] [1403533384.003907]: mmface = 623 122608 621
+[DEBUG] [1403533384.003921]: mmface = 596 57520 595
+[DEBUG] [1403533384.003935]: mmface = 596 57520 594
+[DEBUG] [1403533384.003948]: mmface = 28682 142530 349
+[DEBUG] [1403533384.003962]: mmface = 28682 142530 348
+[DEBUG] [1403533384.003976]: mmface = 333 40203 332
+[DEBUG] [1403533384.003989]: mmface = 333 40203 331
+[DEBUG] [1403533384.004003]: mmface = 329 56696 328
+[DEBUG] [1403533384.004016]: mmface = 329 56696 327
+[DEBUG] [1403533384.004030]: mmface = 321 38937 320
+[DEBUG] [1403533384.004043]: mmface = 321 38937 319
+[DEBUG] [1403533384.004057]: mmface = 301 114310 300
+[DEBUG] [1403533384.004070]: mmface = 301 114310 299
+[DEBUG] [1403533384.004084]: mmface = 53 31 52
+[DEBUG] [1403533384.004097]: mmface = 53 31 51
+[DEBUG] [1403533384.004422]: [addChunk] Number of faces = 16. Number of vertices = 32
+[DEBUG] [1403533384.004442]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg
+[DEBUG] [1403533384.004456]: [addChunk] chunk name = reflector056
+[DEBUG] [1403533384.004476]: steps = 12827 9268 6053
+[DEBUG] [1403533384.004491]: translation = 7.281738 -5.000977 0.200195
+[DEBUG] [1403533384.004505]: translation = 7.281738 -5.000977 0.200195
+[DEBUG] [1403533384.004531]: mface = 623 122608 622
+[DEBUG] [1403533384.004546]: mface = 623 122608 621
+[DEBUG] [1403533384.004559]: mface = 596 57520 595
+[DEBUG] [1403533384.004573]: mface = 596 57520 594
+[DEBUG] [1403533384.004586]: mface = 28682 142530 349
+[DEBUG] [1403533384.004599]: mface = 28682 142530 348
+[DEBUG] [1403533384.004612]: mface = 333 40203 332
+[DEBUG] [1403533384.004625]: mface = 333 40203 331
+[DEBUG] [1403533384.004638]: mface = 329 56696 328
+[DEBUG] [1403533384.004652]: mface = 329 56696 327
+[DEBUG] [1403533384.004665]: mface = 321 38937 320
+[DEBUG] [1403533384.004678]: mface = 321 38937 319
+[DEBUG] [1403533384.004691]: mface = 301 114310 300
+[DEBUG] [1403533384.004704]: mface = 301 114310 299
+[DEBUG] [1403533384.004717]: mface = 53 31 52
+[DEBUG] [1403533384.004730]: mface = 53 31 51
+[DEBUG] [1403533384.008399]: [addChunk] Number of faces = 5152. Number of vertices = 6170
+[DEBUG] [1403533384.008426]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg
+[DEBUG] [1403533384.008440]: [addChunk] chunk name = chunk057
+[DEBUG] [1403533384.009734]: steps = 42932 41799 10393
+[DEBUG] [1403533384.009757]: translation = -0.861816 -9.834961 -0.144043
+[DEBUG] [1403533384.009772]: translation = -0.861816 -9.834961 -0.144043
+[DEBUG] [1403533384.010879]: ... starting writing chunk 49.  Num faces = 5345
+[DEBUG] [1403533384.010901]: Dealing with reflective faces
+[DEBUG] [1403533384.010917]: mmface = 627 78963 626
+[DEBUG] [1403533384.010932]: mmface = 627 78963 625
+[DEBUG] [1403533384.010949]: mmface = 346 40342 345
+[DEBUG] [1403533384.010963]: mmface = 346 40342 344
+[DEBUG] [1403533384.010977]: mmface = 293 89 292
+[DEBUG] [1403533384.010991]: mmface = 293 89 291
+[DEBUG] [1403533384.011023]: mmface = 57 147804 56
+[DEBUG] [1403533384.011038]: mmface = 57 147804 55
+[DEBUG] [1403533384.011052]: mmface = 25 19 24
+[DEBUG] [1403533384.011066]: mmface = 25 19 23
+[DEBUG] [1403533384.011395]: [addChunk] Number of faces = 10. Number of vertices = 20
+[DEBUG] [1403533384.011415]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg
+[DEBUG] [1403533384.011429]: [addChunk] chunk name = reflector058
+[DEBUG] [1403533384.011462]: steps = 12609 7852 7181
+[DEBUG] [1403533384.011476]: translation = 7.382324 -4.322754 0.044434
+[DEBUG] [1403533384.011491]: translation = 7.382324 -4.322754 0.044434
+[DEBUG] [1403533384.011515]: mface = 627 78963 626
+[DEBUG] [1403533384.011529]: mface = 627 78963 625
+[DEBUG] [1403533384.011543]: mface = 346 40342 345
+[DEBUG] [1403533384.011556]: mface = 346 40342 344
+[DEBUG] [1403533384.011569]: mface = 293 89 292
+[DEBUG] [1403533384.011582]: mface = 293 89 291
+[DEBUG] [1403533384.011595]: mface = 57 147804 56
+[DEBUG] [1403533384.011608]: mface = 57 147804 55
+[DEBUG] [1403533384.011621]: mface = 25 19 24
+[DEBUG] [1403533384.011634]: mface = 25 19 23
+[DEBUG] [1403533384.015434]: [addChunk] Number of faces = 5335. Number of vertices = 6748
+[DEBUG] [1403533384.015459]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg
+[DEBUG] [1403533384.015473]: [addChunk] chunk name = chunk059
+[DEBUG] [1403533384.016756]: steps = 42944 41634 9440
+[DEBUG] [1403533384.016777]: translation = -0.866211 -10.135254 -0.322754
+[DEBUG] [1403533384.016793]: translation = -0.866211 -10.135254 -0.322754
+[DEBUG] [1403533384.017998]: ... starting writing chunk 50.  Num faces = 5972
+[DEBUG] [1403533384.018021]: Dealing with reflective faces
+[DEBUG] [1403533384.018038]: mmface = 309 99 308
+[DEBUG] [1403533384.018052]: mmface = 309 99 307
+[DEBUG] [1403533384.018067]: mmface = 269 3458 268
+[DEBUG] [1403533384.018081]: mmface = 269 3458 267
+[DEBUG] [1403533384.018095]: mmface = 41 40154 40
+[DEBUG] [1403533384.018108]: mmface = 41 40154 39
+[DEBUG] [1403533384.018418]: [addChunk] Number of faces = 6. Number of vertices = 12
+[DEBUG] [1403533384.018437]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg
+[DEBUG] [1403533384.018450]: [addChunk] chunk name = reflector060
+[DEBUG] [1403533384.018469]: steps = 5969 2941 4785
+[DEBUG] [1403533384.018483]: translation = 10.616211 -1.896973 0.084473
+[DEBUG] [1403533384.018497]: translation = 10.616211 -1.896973 0.084473
+[DEBUG] [1403533384.018519]: mface = 309 99 308
+[DEBUG] [1403533384.018534]: mface = 309 99 307
+[DEBUG] [1403533384.018547]: mface = 269 3458 268
+[DEBUG] [1403533384.018560]: mface = 269 3458 267
+[DEBUG] [1403533384.018573]: mface = 41 40154 40
+[DEBUG] [1403533384.018586]: mface = 41 40154 39
+[DEBUG] [1403533384.023235]: [addChunk] Number of faces = 5966. Number of vertices = 8686
+[DEBUG] [1403533384.023262]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg
+[DEBUG] [1403533384.023275]: [addChunk] chunk name = chunk061
+[DEBUG] [1403533384.025322]: steps = 47084 42373 10656
+[DEBUG] [1403533384.025343]: translation = -0.879883 -10.153809 -0.277344
+[DEBUG] [1403533384.025358]: translation = -0.879883 -10.153809 -0.277344
+[DEBUG] [1403533384.027052]: ... starting writing chunk 51.  Num faces = 6893
+[DEBUG] [1403533384.027076]: Dealing with reflective faces
+[DEBUG] [1403533384.027093]: mmface = 285 85 284
+[DEBUG] [1403533384.027107]: mmface = 285 85 283
+[DEBUG] [1403533384.027427]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533384.027447]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg
+[DEBUG] [1403533384.027460]: [addChunk] chunk name = reflector062
+[DEBUG] [1403533384.027476]: steps = 301 6 351
+[DEBUG] [1403533384.027491]: translation = 12.111328 -0.474121 0.504395
+[DEBUG] [1403533384.027505]: translation = 12.111328 -0.474121 0.504395
+[DEBUG] [1403533384.027525]: mface = 285 85 284
+[DEBUG] [1403533384.027539]: mface = 285 85 283
+[DEBUG] [1403533384.033351]: [addChunk] Number of faces = 6891. Number of vertices = 12293
+[DEBUG] [1403533384.033406]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg
+[DEBUG] [1403533384.033421]: [addChunk] chunk name = chunk063
+[DEBUG] [1403533384.035855]: steps = 46799 41674 9901
+[DEBUG] [1403533384.035879]: translation = -0.867188 -10.153809 -0.345703
+[DEBUG] [1403533384.035895]: translation = -0.867188 -10.153809 -0.345703
+[DEBUG] [1403533384.037723]: ... starting writing chunk 52.  Num faces = 8225
+[DEBUG] [1403533384.037749]: Dealing with reflective faces
+[DEBUG] [1403533384.037780]: mmface = 619 84050 618
+[DEBUG] [1403533384.037796]: mmface = 619 84050 617
+[DEBUG] [1403533384.038182]: [addChunk] Number of faces = 2. Number of vertices = 4
+[DEBUG] [1403533384.038202]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg
+[DEBUG] [1403533384.038215]: [addChunk] chunk name = reflector064
+[DEBUG] [1403533384.038233]: steps = 8 209 772
+[DEBUG] [1403533384.038248]: translation = 7.291016 -4.365723 0.165039
+[DEBUG] [1403533384.038262]: translation = 7.291016 -4.365723 0.165039
+[DEBUG] [1403533384.038282]: mface = 619 84050 618
+[DEBUG] [1403533384.038296]: mface = 619 84050 617
+[DEBUG] [1403533384.046361]: [addChunk] Number of faces = 8223. Number of vertices = 18573
+[DEBUG] [1403533384.046403]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg
+[DEBUG] [1403533384.046417]: [addChunk] chunk name = chunk065
+[DEBUG] [1403533384.051050]: steps = 47154 41888 10796
+[DEBUG] [1403533384.051077]: translation = -0.869141 -10.153809 -0.340820
+[DEBUG] [1403533384.051092]: translation = -0.869141 -10.153809 -0.340820
+[DEBUG] [1403533384.053083]: ... starting writing chunk 53.  Num faces = 2187
+[DEBUG] [1403533384.055334]: [addChunk] Number of faces = 2187. Number of vertices = 5581
+[DEBUG] [1403533384.055359]: [addChunk] material name = cb5e6e00cb294d0f81021426f4dc5c8a_053.jpg
+[DEBUG] [1403533384.055374]: [addChunk] chunk name = chunk066
+[DEBUG] [1403533384.056272]: steps = 47024 41606 10192
+[DEBUG] [1403533384.056293]: translation = -0.850586 -10.097168 -0.405273
+[DEBUG] [1403533384.056308]: translation = -0.850586 -10.097168 -0.405273
+[DEBUG] [1403533384.072361]: Total faces stored = 143594, total vertices stored = 151753
+[DEBUG] [1403533384.072402]: Outputting obj from binary format.
+[DEBUG] [1403533384.072434]: cb5e6e00cb294d0f81021426f4dc5c8a_000.jpg chunk000
+[DEBUG] [1403533384.072638]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.072711]: cb5e6e00cb294d0f81021426f4dc5c8a_001.jpg chunk001
+[DEBUG] [1403533384.072827]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.072869]: cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg reflector002
+[DEBUG] [1403533384.072890]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.072907]: cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg chunk003
+[DEBUG] [1403533384.073055]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.073111]: cb5e6e00cb294d0f81021426f4dc5c8a_003.jpg chunk004
+[DEBUG] [1403533384.073280]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.073331]: cb5e6e00cb294d0f81021426f4dc5c8a_004.jpg chunk005
+[DEBUG] [1403533384.073454]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.073499]: cb5e6e00cb294d0f81021426f4dc5c8a_005.jpg chunk006
+[DEBUG] [1403533384.073593]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.073654]: cb5e6e00cb294d0f81021426f4dc5c8a_006.jpg chunk007
+[DEBUG] [1403533384.073771]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.073810]: cb5e6e00cb294d0f81021426f4dc5c8a_007.jpg chunk008
+[DEBUG] [1403533384.073903]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.073939]: cb5e6e00cb294d0f81021426f4dc5c8a_008.jpg chunk009
+[DEBUG] [1403533384.074244]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.074327]: cb5e6e00cb294d0f81021426f4dc5c8a_009.jpg chunk010
+[DEBUG] [1403533384.074398]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.074428]: cb5e6e00cb294d0f81021426f4dc5c8a_010.jpg chunk011
+[DEBUG] [1403533384.074476]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.074502]: cb5e6e00cb294d0f81021426f4dc5c8a_011.jpg chunk012
+[DEBUG] [1403533384.074649]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.074694]: cb5e6e00cb294d0f81021426f4dc5c8a_012.jpg chunk013
+[DEBUG] [1403533384.074874]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.074929]: cb5e6e00cb294d0f81021426f4dc5c8a_013.jpg chunk014
+[DEBUG] [1403533384.075155]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.075220]: cb5e6e00cb294d0f81021426f4dc5c8a_014.jpg chunk015
+[DEBUG] [1403533384.075468]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.075536]: cb5e6e00cb294d0f81021426f4dc5c8a_015.jpg chunk016
+[DEBUG] [1403533384.075717]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.075776]: cb5e6e00cb294d0f81021426f4dc5c8a_016.jpg chunk017
+[DEBUG] [1403533384.076047]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.076138]: cb5e6e00cb294d0f81021426f4dc5c8a_017.jpg chunk018
+[DEBUG] [1403533384.076342]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.076406]: cb5e6e00cb294d0f81021426f4dc5c8a_018.jpg chunk019
+[DEBUG] [1403533384.076599]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.076655]: cb5e6e00cb294d0f81021426f4dc5c8a_019.jpg chunk020
+[DEBUG] [1403533384.076879]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.076944]: cb5e6e00cb294d0f81021426f4dc5c8a_020.jpg chunk021
+[DEBUG] [1403533384.077220]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.077312]: cb5e6e00cb294d0f81021426f4dc5c8a_021.jpg chunk022
+[DEBUG] [1403533384.077506]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.077564]: cb5e6e00cb294d0f81021426f4dc5c8a_022.jpg chunk023
+[DEBUG] [1403533384.077734]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.077791]: cb5e6e00cb294d0f81021426f4dc5c8a_023.jpg chunk024
+[DEBUG] [1403533384.078001]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.078064]: cb5e6e00cb294d0f81021426f4dc5c8a_024.jpg chunk025
+[DEBUG] [1403533384.078269]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.078327]: cb5e6e00cb294d0f81021426f4dc5c8a_025.jpg chunk026
+[DEBUG] [1403533384.078669]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.078757]: cb5e6e00cb294d0f81021426f4dc5c8a_026.jpg chunk027
+[DEBUG] [1403533384.078949]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.079005]: cb5e6e00cb294d0f81021426f4dc5c8a_027.jpg chunk028
+[DEBUG] [1403533384.079301]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.079407]: cb5e6e00cb294d0f81021426f4dc5c8a_028.jpg chunk029
+[DEBUG] [1403533384.079700]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.079791]: cb5e6e00cb294d0f81021426f4dc5c8a_029.jpg chunk030
+[DEBUG] [1403533384.080068]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.080149]: cb5e6e00cb294d0f81021426f4dc5c8a_030.jpg chunk031
+[DEBUG] [1403533384.080401]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.080476]: cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg reflector032
+[DEBUG] [1403533384.080498]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.080517]: cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg chunk033
+[DEBUG] [1403533384.080702]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.080758]: cb5e6e00cb294d0f81021426f4dc5c8a_032.jpg chunk034
+[DEBUG] [1403533384.081060]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.081178]: cb5e6e00cb294d0f81021426f4dc5c8a_033.jpg chunk035
+[DEBUG] [1403533384.081429]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.081489]: cb5e6e00cb294d0f81021426f4dc5c8a_034.jpg chunk036
+[DEBUG] [1403533384.081761]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.081846]: cb5e6e00cb294d0f81021426f4dc5c8a_035.jpg chunk037
+[DEBUG] [1403533384.082048]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.082105]: cb5e6e00cb294d0f81021426f4dc5c8a_036.jpg chunk038
+[DEBUG] [1403533384.082380]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.082445]: cb5e6e00cb294d0f81021426f4dc5c8a_037.jpg chunk039
+[DEBUG] [1403533384.082765]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.082853]: cb5e6e00cb294d0f81021426f4dc5c8a_038.jpg chunk040
+[DEBUG] [1403533384.082997]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.083045]: cb5e6e00cb294d0f81021426f4dc5c8a_039.jpg chunk041
+[DEBUG] [1403533384.083368]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.083550]: cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg reflector042
+[DEBUG] [1403533384.083572]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.083588]: cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg chunk043
+[DEBUG] [1403533384.083984]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.084071]: cb5e6e00cb294d0f81021426f4dc5c8a_041.jpg chunk044
+[DEBUG] [1403533384.084307]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.084369]: cb5e6e00cb294d0f81021426f4dc5c8a_042.jpg chunk045
+[DEBUG] [1403533384.084658]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.084751]: cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg reflector046
+[DEBUG] [1403533384.084774]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.084790]: cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg chunk047
+[DEBUG] [1403533384.085135]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.085246]: cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg reflector048
+[DEBUG] [1403533384.085270]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.085286]: cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg chunk049
+[DEBUG] [1403533384.085667]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.085772]: cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg reflector050
+[DEBUG] [1403533384.085795]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.085812]: cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg chunk051
+[DEBUG] [1403533384.086298]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.086505]: cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg reflector052
+[DEBUG] [1403533384.086530]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.086547]: cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg chunk053
+[DEBUG] [1403533384.087094]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.087222]: cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg reflector054
+[DEBUG] [1403533384.087253]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.087273]: cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg chunk055
+[DEBUG] [1403533384.087771]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.087901]: cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg reflector056
+[DEBUG] [1403533384.087930]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.087948]: cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg chunk057
+[DEBUG] [1403533384.088562]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.088712]: cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg reflector058
+[DEBUG] [1403533384.088738]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.088756]: cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg chunk059
+[DEBUG] [1403533384.089399]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.089561]: cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg reflector060
+[DEBUG] [1403533384.089585]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.089612]: cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg chunk061
+[DEBUG] [1403533384.090445]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.090667]: cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg reflector062
+[DEBUG] [1403533384.090690]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.090706]: cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg chunk063
+[DEBUG] [1403533384.091798]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.092075]: cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg reflector064
+[DEBUG] [1403533384.092098]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.092118]: cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg chunk065
+[DEBUG] [1403533384.093732]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.094970]: cb5e6e00cb294d0f81021426f4dc5c8a_053.jpg chunk066
+[DEBUG] [1403533384.095459]: UV quantization = 0.000122 8192.000000
+[DEBUG] [1403533384.095593]: 0 simple chunks, 67 v2 chunks
+[DEBUG] [1403533384.095615]: 1067 1420 cb5e6e00cb294d0f81021426f4dc5c8a_000.jpg
+[DEBUG] [1403533384.095643]: 766 1083 cb5e6e00cb294d0f81021426f4dc5c8a_001.jpg
+[DEBUG] [1403533384.095658]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg
+[DEBUG] [1403533384.095671]: 1206 1287 cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg
+[DEBUG] [1403533384.095685]: 1173 2040 cb5e6e00cb294d0f81021426f4dc5c8a_003.jpg
+[DEBUG] [1403533384.095698]: 845 1183 cb5e6e00cb294d0f81021426f4dc5c8a_004.jpg
+[DEBUG] [1403533384.095712]: 626 886 cb5e6e00cb294d0f81021426f4dc5c8a_005.jpg
+[DEBUG] [1403533384.095734]: 766 1329 cb5e6e00cb294d0f81021426f4dc5c8a_006.jpg
+[DEBUG] [1403533384.095748]: 588 957 cb5e6e00cb294d0f81021426f4dc5c8a_007.jpg
+[DEBUG] [1403533384.095761]: 2426 3483 cb5e6e00cb294d0f81021426f4dc5c8a_008.jpg
+[DEBUG] [1403533384.095775]: 443 450 cb5e6e00cb294d0f81021426f4dc5c8a_009.jpg
+[DEBUG] [1403533384.095788]: 260 224 cb5e6e00cb294d0f81021426f4dc5c8a_010.jpg
+[DEBUG] [1403533384.095801]: 941 1470 cb5e6e00cb294d0f81021426f4dc5c8a_011.jpg
+[DEBUG] [1403533384.095815]: 1458 1828 cb5e6e00cb294d0f81021426f4dc5c8a_012.jpg
+[DEBUG] [1403533384.095828]: 1931 2092 cb5e6e00cb294d0f81021426f4dc5c8a_013.jpg
+[DEBUG] [1403533384.095841]: 1987 2515 cb5e6e00cb294d0f81021426f4dc5c8a_014.jpg
+[DEBUG] [1403533384.095855]: 1564 1652 cb5e6e00cb294d0f81021426f4dc5c8a_015.jpg
+[DEBUG] [1403533384.095870]: 2403 2458 cb5e6e00cb294d0f81021426f4dc5c8a_016.jpg
+[DEBUG] [1403533384.095883]: 1685 2035 cb5e6e00cb294d0f81021426f4dc5c8a_017.jpg
+[DEBUG] [1403533384.095897]: 1595 1812 cb5e6e00cb294d0f81021426f4dc5c8a_018.jpg
+[DEBUG] [1403533384.095910]: 1957 2217 cb5e6e00cb294d0f81021426f4dc5c8a_019.jpg
+[DEBUG] [1403533384.095923]: 2317 2768 cb5e6e00cb294d0f81021426f4dc5c8a_020.jpg
+[DEBUG] [1403533384.095937]: 1553 2055 cb5e6e00cb294d0f81021426f4dc5c8a_021.jpg
+[DEBUG] [1403533384.095950]: 1234 1588 cb5e6e00cb294d0f81021426f4dc5c8a_022.jpg
+[DEBUG] [1403533384.095963]: 1718 2240 cb5e6e00cb294d0f81021426f4dc5c8a_023.jpg
+[DEBUG] [1403533384.095976]: 1716 2088 cb5e6e00cb294d0f81021426f4dc5c8a_024.jpg
+[DEBUG] [1403533384.095990]: 2974 3581 cb5e6e00cb294d0f81021426f4dc5c8a_025.jpg
+[DEBUG] [1403533384.096003]: 1563 2000 cb5e6e00cb294d0f81021426f4dc5c8a_026.jpg
+[DEBUG] [1403533384.096019]: 2507 3123 cb5e6e00cb294d0f81021426f4dc5c8a_027.jpg
+[DEBUG] [1403533384.096033]: 2603 2806 cb5e6e00cb294d0f81021426f4dc5c8a_028.jpg
+[DEBUG] [1403533384.096046]: 2301 2948 cb5e6e00cb294d0f81021426f4dc5c8a_029.jpg
+[DEBUG] [1403533384.096059]: 2087 2694 cb5e6e00cb294d0f81021426f4dc5c8a_030.jpg
+[DEBUG] [1403533384.096072]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg
+[DEBUG] [1403533384.096085]: 1508 1951 cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg
+[DEBUG] [1403533384.096098]: 2592 3039 cb5e6e00cb294d0f81021426f4dc5c8a_032.jpg
+[DEBUG] [1403533384.096111]: 1821 2297 cb5e6e00cb294d0f81021426f4dc5c8a_033.jpg
+[DEBUG] [1403533384.096125]: 2276 2465 cb5e6e00cb294d0f81021426f4dc5c8a_034.jpg
+[DEBUG] [1403533384.096138]: 1607 2125 cb5e6e00cb294d0f81021426f4dc5c8a_035.jpg
+[DEBUG] [1403533384.096151]: 2042 2441 cb5e6e00cb294d0f81021426f4dc5c8a_036.jpg
+[DEBUG] [1403533384.096164]: 2776 3340 cb5e6e00cb294d0f81021426f4dc5c8a_037.jpg
+[DEBUG] [1403533384.096177]: 1042 1107 cb5e6e00cb294d0f81021426f4dc5c8a_038.jpg
+[DEBUG] [1403533384.096191]: 2870 3319 cb5e6e00cb294d0f81021426f4dc5c8a_039.jpg
+[DEBUG] [1403533384.096204]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg
+[DEBUG] [1403533384.096217]: 2105 2443 cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg
+[DEBUG] [1403533384.096230]: 1909 2308 cb5e6e00cb294d0f81021426f4dc5c8a_041.jpg
+[DEBUG] [1403533384.096243]: 2513 2869 cb5e6e00cb294d0f81021426f4dc5c8a_042.jpg
+[DEBUG] [1403533384.096256]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg
+[DEBUG] [1403533384.096269]: 3102 3454 cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg
+[DEBUG] [1403533384.096282]: 8 4 cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg
+[DEBUG] [1403533384.096296]: 3566 3629 cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg
+[DEBUG] [1403533384.096309]: 8 4 cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg
+[DEBUG] [1403533384.096322]: 4130 3857 cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg
+[DEBUG] [1403533384.096335]: 16 8 cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg
+[DEBUG] [1403533384.096358]: 4713 4357 cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg
+[DEBUG] [1403533384.096372]: 36 18 cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg
+[DEBUG] [1403533384.096386]: 4714 4449 cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg
+[DEBUG] [1403533384.096399]: 32 16 cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg
+[DEBUG] [1403533384.096412]: 6170 5152 cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg
+[DEBUG] [1403533384.096426]: 20 10 cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg
+[DEBUG] [1403533384.096446]: 6748 5335 cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg
+[DEBUG] [1403533384.096460]: 12 6 cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg
+[DEBUG] [1403533384.096474]: 8686 5966 cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg
+[DEBUG] [1403533384.096487]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg
+[DEBUG] [1403533384.096500]: 12293 6891 cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg
+[DEBUG] [1403533384.096514]: 4 2 cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg
+[DEBUG] [1403533384.096527]: 18573 8223 cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg
+[DEBUG] [1403533384.096540]: 5581 2187 cb5e6e00cb294d0f81021426f4dc5c8a_053.jpg
+[DEBUG] [1403533384.096562]: convertToObjFormat
+[DEBUG] [1403533384.096576]: offset = 0
+[DEBUG] [1403533384.097065]: offset = 1067
+[DEBUG] [1403533384.097422]: offset = 1833
+[DEBUG] [1403533384.097442]: offset = 1837
+[DEBUG] [1403533384.097873]: offset = 3043
+[DEBUG] [1403533384.098498]: offset = 4216
+[DEBUG] [1403533384.098886]: offset = 5061
+[DEBUG] [1403533384.099178]: offset = 5687
+[DEBUG] [1403533384.099603]: offset = 6453
+[DEBUG] [1403533384.099905]: offset = 7041
+[DEBUG] [1403533384.100983]: offset = 9467
+[DEBUG] [1403533384.101186]: offset = 9910
+[DEBUG] [1403533384.101291]: offset = 10170
+[DEBUG] [1403533384.101763]: offset = 11111
+[DEBUG] [1403533384.102325]: offset = 12569
+[DEBUG] [1403533384.102978]: offset = 14500
+[DEBUG] [1403533384.103785]: offset = 16487
+[DEBUG] [1403533384.104303]: offset = 18051
+[DEBUG] [1403533384.105057]: offset = 20454
+[DEBUG] [1403533384.105679]: offset = 22139
+[DEBUG] [1403533384.106246]: offset = 23734
+[DEBUG] [1403533384.106955]: offset = 25691
+[DEBUG] [1403533384.107803]: offset = 28008
+[DEBUG] [1403533384.108452]: offset = 29561
+[DEBUG] [1403533384.108944]: offset = 30795
+[DEBUG] [1403533384.109659]: offset = 32513
+[DEBUG] [1403533384.110712]: offset = 34229
+[DEBUG] [1403533384.111825]: offset = 37203
+[DEBUG] [1403533384.112455]: offset = 38766
+[DEBUG] [1403533384.113454]: offset = 41273
+[DEBUG] [1403533384.114449]: offset = 43876
+[DEBUG] [1403533384.115555]: offset = 46177
+[DEBUG] [1403533384.116556]: offset = 48264
+[DEBUG] [1403533384.116579]: offset = 48268
+[DEBUG] [1403533384.117272]: offset = 49776
+[DEBUG] [1403533384.118507]: offset = 52368
+[DEBUG] [1403533384.119336]: offset = 54189
+[DEBUG] [1403533384.120294]: offset = 56465
+[DEBUG] [1403533384.121094]: offset = 58072
+[DEBUG] [1403533384.122046]: offset = 60114
+[DEBUG] [1403533384.123341]: offset = 62890
+[DEBUG] [1403533384.123720]: offset = 63932
+[DEBUG] [1403533384.126219]: offset = 66802
+[DEBUG] [1403533384.126244]: offset = 66806
+[DEBUG] [1403533384.127027]: offset = 68911
+[DEBUG] [1403533384.127771]: offset = 70820
+[DEBUG] [1403533384.128686]: offset = 73333
+[DEBUG] [1403533384.128708]: offset = 73337
+[DEBUG] [1403533384.129812]: offset = 76439
+[DEBUG] [1403533384.129838]: offset = 76447
+[DEBUG] [1403533384.130988]: offset = 80013
+[DEBUG] [1403533384.131011]: offset = 80021
+[DEBUG] [1403533384.132237]: offset = 84151
+[DEBUG] [1403533384.132262]: offset = 84167
+[DEBUG] [1403533384.133974]: offset = 88880
+[DEBUG] [1403533384.134006]: offset = 88916
+[DEBUG] [1403533384.135623]: offset = 93630
+[DEBUG] [1403533384.135652]: offset = 93662
+[DEBUG] [1403533384.137649]: offset = 99832
+[DEBUG] [1403533384.137677]: offset = 99852
+[DEBUG] [1403533384.139713]: offset = 106600
+[DEBUG] [1403533384.139737]: offset = 106612
+[DEBUG] [1403533384.142063]: offset = 115298
+[DEBUG] [1403533384.142089]: offset = 115302
+[DEBUG] [1403533384.144781]: offset = 127595
+[DEBUG] [1403533384.144805]: offset = 127599
+[DEBUG] [1403533384.150706]: offset = 146172
+[DEBUG] [1403533384.151543]: vertices = 151753, uv_coords = 151753, chunks = 67
+[DEBUG] [1403533384.151565]: faces in chunk 0 cb5e6e00cb294d0f81021426f4dc5c8a_000.jpg = 1420
+[DEBUG] [1403533384.151579]: faces in chunk 1 cb5e6e00cb294d0f81021426f4dc5c8a_001.jpg = 1083
+[DEBUG] [1403533384.151593]: faces in chunk 2 cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg = 2
+[DEBUG] [1403533384.151607]: faces in chunk 3 cb5e6e00cb294d0f81021426f4dc5c8a_002.jpg = 1287
+[DEBUG] [1403533384.151632]: faces in chunk 4 cb5e6e00cb294d0f81021426f4dc5c8a_003.jpg = 2040
+[DEBUG] [1403533384.151646]: faces in chunk 5 cb5e6e00cb294d0f81021426f4dc5c8a_004.jpg = 1183
+[DEBUG] [1403533384.151659]: faces in chunk 6 cb5e6e00cb294d0f81021426f4dc5c8a_005.jpg = 886
+[DEBUG] [1403533384.151673]: faces in chunk 7 cb5e6e00cb294d0f81021426f4dc5c8a_006.jpg = 1329
+[DEBUG] [1403533384.151686]: faces in chunk 8 cb5e6e00cb294d0f81021426f4dc5c8a_007.jpg = 957
+[DEBUG] [1403533384.151700]: faces in chunk 9 cb5e6e00cb294d0f81021426f4dc5c8a_008.jpg = 3483
+[DEBUG] [1403533384.151713]: faces in chunk 10 cb5e6e00cb294d0f81021426f4dc5c8a_009.jpg = 450
+[DEBUG] [1403533384.151726]: faces in chunk 11 cb5e6e00cb294d0f81021426f4dc5c8a_010.jpg = 224
+[DEBUG] [1403533384.151740]: faces in chunk 12 cb5e6e00cb294d0f81021426f4dc5c8a_011.jpg = 1470
+[DEBUG] [1403533384.151754]: faces in chunk 13 cb5e6e00cb294d0f81021426f4dc5c8a_012.jpg = 1828
+[DEBUG] [1403533384.151767]: faces in chunk 14 cb5e6e00cb294d0f81021426f4dc5c8a_013.jpg = 2092
+[DEBUG] [1403533384.151781]: faces in chunk 15 cb5e6e00cb294d0f81021426f4dc5c8a_014.jpg = 2515
+[DEBUG] [1403533384.151794]: faces in chunk 16 cb5e6e00cb294d0f81021426f4dc5c8a_015.jpg = 1652
+[DEBUG] [1403533384.151808]: faces in chunk 17 cb5e6e00cb294d0f81021426f4dc5c8a_016.jpg = 2458
+[DEBUG] [1403533384.151821]: faces in chunk 18 cb5e6e00cb294d0f81021426f4dc5c8a_017.jpg = 2035
+[DEBUG] [1403533384.151834]: faces in chunk 19 cb5e6e00cb294d0f81021426f4dc5c8a_018.jpg = 1812
+[DEBUG] [1403533384.151848]: faces in chunk 20 cb5e6e00cb294d0f81021426f4dc5c8a_019.jpg = 2217
+[DEBUG] [1403533384.151861]: faces in chunk 21 cb5e6e00cb294d0f81021426f4dc5c8a_020.jpg = 2768
+[DEBUG] [1403533384.151875]: faces in chunk 22 cb5e6e00cb294d0f81021426f4dc5c8a_021.jpg = 2055
+[DEBUG] [1403533384.151888]: faces in chunk 23 cb5e6e00cb294d0f81021426f4dc5c8a_022.jpg = 1588
+[DEBUG] [1403533384.151901]: faces in chunk 24 cb5e6e00cb294d0f81021426f4dc5c8a_023.jpg = 2240
+[DEBUG] [1403533384.151915]: faces in chunk 25 cb5e6e00cb294d0f81021426f4dc5c8a_024.jpg = 2088
+[DEBUG] [1403533384.151929]: faces in chunk 26 cb5e6e00cb294d0f81021426f4dc5c8a_025.jpg = 3581
+[DEBUG] [1403533384.151943]: faces in chunk 27 cb5e6e00cb294d0f81021426f4dc5c8a_026.jpg = 2000
+[DEBUG] [1403533384.151956]: faces in chunk 28 cb5e6e00cb294d0f81021426f4dc5c8a_027.jpg = 3123
+[DEBUG] [1403533384.151969]: faces in chunk 29 cb5e6e00cb294d0f81021426f4dc5c8a_028.jpg = 2806
+[DEBUG] [1403533384.151982]: faces in chunk 30 cb5e6e00cb294d0f81021426f4dc5c8a_029.jpg = 2948
+[DEBUG] [1403533384.151996]: faces in chunk 31 cb5e6e00cb294d0f81021426f4dc5c8a_030.jpg = 2694
+[DEBUG] [1403533384.152009]: faces in chunk 32 cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg = 2
+[DEBUG] [1403533384.152022]: faces in chunk 33 cb5e6e00cb294d0f81021426f4dc5c8a_031.jpg = 1951
+[DEBUG] [1403533384.152036]: faces in chunk 34 cb5e6e00cb294d0f81021426f4dc5c8a_032.jpg = 3039
+[DEBUG] [1403533384.152049]: faces in chunk 35 cb5e6e00cb294d0f81021426f4dc5c8a_033.jpg = 2297
+[DEBUG] [1403533384.152063]: faces in chunk 36 cb5e6e00cb294d0f81021426f4dc5c8a_034.jpg = 2465
+[DEBUG] [1403533384.152076]: faces in chunk 37 cb5e6e00cb294d0f81021426f4dc5c8a_035.jpg = 2125
+[DEBUG] [1403533384.152089]: faces in chunk 38 cb5e6e00cb294d0f81021426f4dc5c8a_036.jpg = 2441
+[DEBUG] [1403533384.152102]: faces in chunk 39 cb5e6e00cb294d0f81021426f4dc5c8a_037.jpg = 3340
+[DEBUG] [1403533384.152115]: faces in chunk 40 cb5e6e00cb294d0f81021426f4dc5c8a_038.jpg = 1107
+[DEBUG] [1403533384.152129]: faces in chunk 41 cb5e6e00cb294d0f81021426f4dc5c8a_039.jpg = 3319
+[DEBUG] [1403533384.152142]: faces in chunk 42 cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg = 2
+[DEBUG] [1403533384.152163]: faces in chunk 43 cb5e6e00cb294d0f81021426f4dc5c8a_040.jpg = 2443
+[DEBUG] [1403533384.152178]: faces in chunk 44 cb5e6e00cb294d0f81021426f4dc5c8a_041.jpg = 2308
+[DEBUG] [1403533384.152191]: faces in chunk 45 cb5e6e00cb294d0f81021426f4dc5c8a_042.jpg = 2869
+[DEBUG] [1403533384.152204]: faces in chunk 46 cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg = 2
+[DEBUG] [1403533384.152218]: faces in chunk 47 cb5e6e00cb294d0f81021426f4dc5c8a_043.jpg = 3454
+[DEBUG] [1403533384.152238]: faces in chunk 48 cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg = 4
+[DEBUG] [1403533384.152252]: faces in chunk 49 cb5e6e00cb294d0f81021426f4dc5c8a_044.jpg = 3629
+[DEBUG] [1403533384.152266]: faces in chunk 50 cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg = 4
+[DEBUG] [1403533384.152281]: faces in chunk 51 cb5e6e00cb294d0f81021426f4dc5c8a_045.jpg = 3857
+[DEBUG] [1403533384.152294]: faces in chunk 52 cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg = 8
+[DEBUG] [1403533384.152308]: faces in chunk 53 cb5e6e00cb294d0f81021426f4dc5c8a_046.jpg = 4357
+[DEBUG] [1403533384.152321]: faces in chunk 54 cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg = 18
+[DEBUG] [1403533384.152334]: faces in chunk 55 cb5e6e00cb294d0f81021426f4dc5c8a_047.jpg = 4449
+[DEBUG] [1403533384.152348]: faces in chunk 56 cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg = 16
+[DEBUG] [1403533384.152361]: faces in chunk 57 cb5e6e00cb294d0f81021426f4dc5c8a_048.jpg = 5152
+[DEBUG] [1403533384.152374]: faces in chunk 58 cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg = 10
+[DEBUG] [1403533384.152387]: faces in chunk 59 cb5e6e00cb294d0f81021426f4dc5c8a_049.jpg = 5335
+[DEBUG] [1403533384.152401]: faces in chunk 60 cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg = 6
+[DEBUG] [1403533384.152414]: faces in chunk 61 cb5e6e00cb294d0f81021426f4dc5c8a_050.jpg = 5966
+[DEBUG] [1403533384.152427]: faces in chunk 62 cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg = 2
+[DEBUG] [1403533384.152441]: faces in chunk 63 cb5e6e00cb294d0f81021426f4dc5c8a_051.jpg = 6891
+[DEBUG] [1403533384.152454]: faces in chunk 64 cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg = 2
+[DEBUG] [1403533384.152467]: faces in chunk 65 cb5e6e00cb294d0f81021426f4dc5c8a_052.jpg = 8223
+[DEBUG] [1403533384.152481]: faces in chunk 66 cb5e6e00cb294d0f81021426f4dc5c8a_053.jpg = 2187
+[DEBUG] [1403533384.152823]: Random seed = 2496531061
+[ INFO] [1403533384.697515]: ----- Finished RewriteObj (1.0.5648-D) 1403533383 -----

@@ -18,6 +18,16 @@ public:
 	void setLocalrot(glm::vec3 _rot);
 	void setLocalScale(glm::vec3 _scale);
 	glm::mat4 getModelmatrix();
+	void Translate(glm::vec3 _move);
+	void Rotate(glm::vec3 _rotate);
+	glm::vec3 getPosition();
+	glm::vec3 getRotation();
+	glm::vec3 Forward();
+	glm::vec3 Backward();
+	glm::vec3 Right();
+	glm::vec3 Left();
+	
+
 };
 
 #endif 

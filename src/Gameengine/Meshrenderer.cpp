@@ -22,17 +22,6 @@ const GLfloat colors[] =
 	0.0f, 0.0f, 1.0f, 1.0f
 };
 
-/*"attribute vec3 a_Normal" \
-"attribute vec2 a_TexCoord" \
-"varying vec3 v_Normal;" \
-"varying vec4 v_TexCoord;" \
-"                      \n" \
-"  v_Normal = a_Normal; \n" \
-"  v_TexCoord = a_TexCoord;\n" \
-"varying vec3 v_Normal;" \
-"varying vec2 v_TexCoord;" \
-/*/
-
 
 //in_model stores the translate matrices.
 //gl_position represents the position in the world of our object
