@@ -36,6 +36,9 @@ src/Gameengine/Shader.cpp
 src/Gameengine/Shader.h
 src/Gameengine/KeyBindings.h
 src/Gameengine/PlayerMovement.h
+src/Gameengine/BoxCollider.h
+src/Gameengine/BoxCollider.cpp
+
 )
 target_link_libraries(Gameengine SDL2 rend)
 

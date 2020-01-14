@@ -18,6 +18,7 @@
 #include "Mesh.h"
 #include "PlayerMovement.h"
 #include "KeyBindings.h"
+#include "BoxCollider.h"
 
 namespace Gameengine 
 {
