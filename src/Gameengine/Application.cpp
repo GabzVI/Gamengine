@@ -8,6 +8,7 @@
 #include "Keyboard.h"
 #include "Environment.h"
 #include "GUI.h"
+#include "GUIShader.h"
 #include <GL/glew.h>
 
 //Initialises the Engine. 
@@ -23,7 +24,12 @@ std::shared_ptr<Application> Application::initialize()
 
 	rtn->keyboard = std::make_shared<Keyboard>();
 	rtn->environment = std::make_shared<Environment>();
+
 	rtn->gui = std::make_shared<GUI>();
+	rtn->gui->application = rtn;
+
+	rtn->guiShader = std::make_shared<GUIShader>();
+	rtn->guiShader->application = rtn;
 
   if (SDL_Init(SDL_INIT_VIDEO) < 0)
   {
@@ -104,7 +110,7 @@ void Application::start()
 		keyboard->isKeyPressedOnce.clear();
 		keyboard->isKeyReleased.clear();
 
-    glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
+    glClearColor(0.48f, 0.83f, 0.98f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
     for (std::list<std::shared_ptr<Entity>>::iterator it = entities.begin(); it != entities.end(); it++)
@@ -167,3 +173,7 @@ std::shared_ptr<GUI> Application::getGUI()
 	return gui;
 }
 
+std::shared_ptr<GUIShader> Application::getGUIShader()
+{
+	return guiShader;
+}

@@ -8,20 +8,6 @@
 
 using namespace rend;
 
-const GLfloat positions[] =
-{
-	0.0f, 0.5f, 0.0f,
-	-0.5f, -0.5f, 0.0f,
-	0.5f, -0.5f, 0.0f
-};
-
-const GLfloat colors[] =
-{
-	1.0f, 0.0f, 0.0f, 1.0f,
-	0.0f, 1.0f, 0.0f, 1.0f,
-	0.0f, 0.0f, 1.0f, 1.0f
-};
-
 
 //in_model stores the translate matrices.
 //gl_position represents the position in the world of our object

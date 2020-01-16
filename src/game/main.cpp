@@ -11,24 +11,30 @@ int main()
 	std::shared_ptr<Entity> catModel = application->addEntity();
 	std::shared_ptr<Entity> catModel2 = application->addEntity();
 	std::shared_ptr<Entity> currentCamera = application->addEntity();
-	std::shared_ptr<Entity> boxObject = application->addEntity();
+	std::shared_ptr<Entity> graveyard = application->addEntity();
+	std::shared_ptr<Entity> yellowBox = application->addEntity();
 
 	///Components being added to GameObjects
 	std::shared_ptr<Meshrenderer> catDraw = catModel->addComponent<Meshrenderer>();
-	std::shared_ptr<Meshrenderer> boxDraw = boxObject->addComponent<Meshrenderer>();
+	std::shared_ptr<Meshrenderer> graveyardDraw = graveyard->addComponent<Meshrenderer>();
+	std::shared_ptr<Meshrenderer> boxDraw = yellowBox->addComponent<Meshrenderer>();
+	std::shared_ptr<GUI> guiAdd = catModel->addComponent<GUI>();
 	std::shared_ptr<GUIShader> rubixDraw = catModel->addComponent<GUIShader>();
 	std::shared_ptr<Meshrenderer> catDraw2 = catModel2->addComponent<Meshrenderer>();
 	std::shared_ptr<Transform> catTransform = catModel->addComponent<Transform>();
 	std::shared_ptr<Transform> catTransform2 = catModel2->addComponent<Transform>();
-	std::shared_ptr<Transform> boxTransform = boxObject->addComponent<Transform>();
+	std::shared_ptr<Transform> boxTransform = yellowBox->addComponent <Transform>();
+	std::shared_ptr<Transform> graveyardTransform = graveyard->addComponent<Transform>();
 	std::shared_ptr<BoxCollider> catCollider = catModel->addComponent<BoxCollider>();
 	std::shared_ptr<BoxCollider> catCollider2 = catModel2->addComponent<BoxCollider>();
-  //
+	std::shared_ptr<BoxCollider> boxCollider = yellowBox->addComponent<BoxCollider>();
+	//
 
 	///Below you can Set the Player Movement
 	std::shared_ptr<Keyboard> keyBinds = catModel->addComponent<Keyboard>();
 	catModel->addComponent<PlayerControl>();
 	catModel->getComponent<PlayerControl>()->self = catModel;
+	catModel->getComponent<PlayerControl>()->camera = currentCamera;
 	
 
 	///Below you can set the meshes for each entity in the scene.
@@ -36,9 +42,11 @@ int main()
 	catModel->getComponent<Meshrenderer>()->setMesh(catMesh);
 	catModel2->getComponent<Meshrenderer>()->setMesh(catMesh);
 
-	std::shared_ptr<::Mesh> boxMesh = application->getResources()->load<::Mesh>("../src/Models/graveyard/graveyard.obj");
-	boxObject->getComponent<Meshrenderer>()->setMesh(boxMesh);
+	std::shared_ptr<::Mesh> graveyardMesh = application->getResources()->load<::Mesh>("../src/Models/graveyard/graveyard.obj");
+	graveyard->getComponent<Meshrenderer>()->setMesh(graveyardMesh);
 
+	std::shared_ptr<::Mesh> boxMesh = application->getResources()->load<::Mesh>("../src/Models/Box/box.obj");
+	yellowBox->getComponent<Meshrenderer>()->setMesh(boxMesh);
 
 
 
@@ -49,9 +57,11 @@ int main()
 	catModel->getComponent<Meshrenderer>()->setMaterial(catTexture);
 	catModel2->getComponent<Meshrenderer>()->setMaterial(catTexture);
 
-	std::shared_ptr<Material> boxTexture = application->getResources()->load<Material>("../src/Models/graveyard/graveyard.png");
-	boxObject->getComponent<Meshrenderer>()->setMaterial(boxTexture);
+	std::shared_ptr<Material> graveyardTexture = application->getResources()->load<Material>("../src/Models/graveyard/graveyard.png");
+	graveyard->getComponent<Meshrenderer>()->setMaterial(graveyardTexture);
 
+	std::shared_ptr<Material> boxTexture = application->getResources()->load<Material>("../src/Models/Box/diffuse.jpg");
+	yellowBox->getComponent<Meshrenderer>()->setMaterial(boxTexture);
 	/// Camera is being set below, below you can set more cameras onto the scene.
 	std::shared_ptr<Camera> camera = currentCamera->addComponent<Camera>();
 	std::shared_ptr<Transform> camTransform = currentCamera->addComponent <Transform>();
@@ -63,16 +73,20 @@ int main()
 	catModel->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
 	catModel->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
 
-	catModel2->getComponent<Transform>()->setLocalpos(glm::vec3(10, 0, 0));
+	catModel2->getComponent<Transform>()->setLocalpos(glm::vec3(-10, 0, 0));
 	catModel2->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
 	catModel2->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
 
-	boxObject->getComponent<Transform>()->setLocalpos(glm::vec3(0, -5, 0));
-	boxObject->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
-	boxObject->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
+	yellowBox->getComponent<Transform>()->setLocalpos(glm::vec3(-10, 0, 0));
+	yellowBox->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
+	yellowBox->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
 
-	currentCamera->getComponent<Transform>()->setLocalpos(glm::vec3(0, 5, 30));
-	currentCamera->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
+	graveyard->getComponent<Transform>()->setLocalpos(glm::vec3(0, -3, 0));
+	graveyard->getComponent<Transform>()->setLocalrot(glm::vec3(0, 0, 0));
+	graveyard->getComponent<Transform>()->setLocalScale(glm::vec3(2.0f));
+
+	currentCamera->getComponent<Transform>()->setLocalpos(catModel->getComponent<Transform>()->getPosition() + glm::vec3(0.0f, 8.0f, -10.0f));
+	currentCamera->getComponent<Transform>()->setLocalrot(glm::vec3(-0.25, 0, 0) );
 	currentCamera->getComponent<Transform>()->setLocalScale(glm::vec3(1.0f));
 
 	///Setting Colliders for player
@@ -84,12 +98,15 @@ int main()
 	catModel->getComponent<BoxCollider>()->getCollisionResponse(catModel2->getComponent<Transform>()->getPosition(), catModel2->getComponent<Transform>()->getScale());
 	
 	catModel2->getComponent<BoxCollider>()->setSize(glm::vec3(1.0f));
+	yellowBox->getComponent<BoxCollider>()->setSize(glm::vec3(1.0f));
+
+	
 
 	/// Creating GUI and setting it below.
+	catModel->getApplication()->getGUI()->initializeGUI();
 	std::shared_ptr<Material> guiMat = application->getResources()->load<Material>("../src/Models/rubix.png");
-
-	application->getGUI()->textureGUI(glm::vec4(10.0f, 10.0f, 100.0f, 100.0f), guiMat);
-
+	//catModel->getApplication()->getGUI()->textureGUI(glm::vec4(10.0f, 10.0f, 100.0f, 100.0f), guiMat);
+	catModel->getComponent<GUI>()->getGUI()->textureGUI(glm::vec4(10.0f, 10.0f, 100.0f, 100.0f), guiMat);
 
 	application->start();
 

@@ -9,6 +9,7 @@
 #include "Environment.h"
 #include "BoxCollider.h"
 #include "GUIShader.h"
+#include "GUI.h"
 
 
 
@@ -47,6 +48,14 @@ std::shared_ptr<BoxCollider> Component::getBoxCollider()
 {
 
 	std::shared_ptr<BoxCollider> rtn = getEntity()->getComponent<BoxCollider>();
+
+	return rtn;
+}
+
+std::shared_ptr<GUI> Component::getGUI()
+{
+
+	std::shared_ptr<GUI> rtn = getEntity()->getComponent<GUI>();
 
 	return rtn;
 }

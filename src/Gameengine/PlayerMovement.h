@@ -5,14 +5,14 @@
 #include "Keyboard.h"
 #include "KeyBindings.h"
 #include "Transform.h"
-
+#include "Camera.h"
 ///This is the PlayerControl struct which handles player movement and Inherits from Components.
 ///
 struct PlayerControl : public Component
 {
 	///We have a shared pointer of entity so we can access the player and changes it position and rotation.
 	std::shared_ptr<Entity> self;
-
+	std::shared_ptr<Entity> camera;
 	///It contains a Onupdate() which gets overriden and checks every frame for player key inputs.
 	void OnUpdate()
 	{
@@ -55,7 +55,7 @@ struct PlayerControl : public Component
 			self->getComponent<Transform>()->Move();
 		
 		}
-
+		camera->getComponent<Transform>()->setLocalpos(self->getComponent<Transform>()->getPosition() + glm::vec3(0.0f, 8.0f, 10.0f));
 	}
 
 };

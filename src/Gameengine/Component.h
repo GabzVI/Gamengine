@@ -13,6 +13,7 @@ class Camera;
 class Resources;
 class Mesh;
 class BoxCollider;
+class GUI;
 
 ///The component class will be used to store all the components we can add to the entities such as boxcolliders, camera, keyboard, etc.
 ///
@@ -40,6 +41,7 @@ public:
 	std::shared_ptr<Camera> getCurrentCamera();
 	std::shared_ptr<Resources> getResources();
 	std::shared_ptr<BoxCollider>getBoxCollider();
+	std::shared_ptr<GUI> getGUI();
 
 	///We want a virtual function here because it is necessary as we need to override these functions from other compnents that will be inherited from this class such as Meshrenderer and GUIShader.
 	virtual void OnUpdate();

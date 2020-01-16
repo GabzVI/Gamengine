@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Entity.h"
 #include "Component.h"
+#include "Application.h"
 
 ///OnUpdate is updated every frame and cycles tthrough the components added and checks if they are existent.
 void Entity::OnUpdate() 
