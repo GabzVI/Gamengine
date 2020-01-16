@@ -26,10 +26,7 @@ std::shared_ptr<Application> Application::initialize()
 	rtn->environment = std::make_shared<Environment>();
 
 	rtn->gui = std::make_shared<GUI>();
-	rtn->gui->application = rtn;
 
-	rtn->guiShader = std::make_shared<GUIShader>();
-	rtn->guiShader->application = rtn;
 
   if (SDL_Init(SDL_INIT_VIDEO) < 0)
   {
@@ -47,7 +44,7 @@ std::shared_ptr<Application> Application::initialize()
 	
   rtn->context = rend::Context::initialize();
     
-	return rtn;
+  return rtn;
 }
 
 
@@ -173,7 +170,4 @@ std::shared_ptr<GUI> Application::getGUI()
 	return gui;
 }
 
-std::shared_ptr<GUIShader> Application::getGUIShader()
-{
-	return guiShader;
-}
+

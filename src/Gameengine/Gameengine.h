@@ -15,7 +15,6 @@
 #include "Material.h"
 #include "Resources.h"
 #include "Resource.h"
-#include "GUIShader.h"
 #include "Mesh.h"
 #include "PlayerMovement.h"
 #include "KeyBindings.h"

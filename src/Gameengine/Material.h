@@ -8,7 +8,7 @@
 class Application;
 class Meshrenderer;
 class Resources;
-class GUIShader;
+class GUI;
 
 ///
 class Material : public Resource
@@ -16,7 +16,7 @@ class Material : public Resource
 private:
 	friend class GUIShader;
 	friend class Meshrenderer;
-	friend class GUIShader;
+	friend class GUI;
 	std::shared_ptr<rend::Texture> originalTexture;
 
 

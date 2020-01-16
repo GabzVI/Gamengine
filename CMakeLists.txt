@@ -32,8 +32,6 @@ src/Gameengine/Resources.cpp
 src/Gameengine/Resources.h
 src/Gameengine/Mesh.cpp
 src/Gameengine/Mesh.h
-src/Gameengine/GUIShader.cpp
-src/Gameengine/GUIShader.h
 src/Gameengine/KeyBindings.h
 src/Gameengine/PlayerMovement.h
 src/Gameengine/BoxCollider.h

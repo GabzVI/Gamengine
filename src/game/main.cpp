@@ -13,14 +13,14 @@ int main()
 	std::shared_ptr<Entity> currentCamera = application->addEntity();
 	std::shared_ptr<Entity> graveyard = application->addEntity();
 	std::shared_ptr<Entity> yellowBox = application->addEntity();
-
+	std::shared_ptr<Entity> guiEntity = application->addEntity();
 	///Components being added to GameObjects
 	std::shared_ptr<Meshrenderer> catDraw = catModel->addComponent<Meshrenderer>();
 	std::shared_ptr<Meshrenderer> graveyardDraw = graveyard->addComponent<Meshrenderer>();
 	std::shared_ptr<Meshrenderer> boxDraw = yellowBox->addComponent<Meshrenderer>();
-	std::shared_ptr<GUI> guiAdd = catModel->addComponent<GUI>();
-	std::shared_ptr<GUIShader> rubixDraw = catModel->addComponent<GUIShader>();
+	std::shared_ptr<Meshrenderer> guiDraw = guiEntity->addComponent<Meshrenderer>();
 	std::shared_ptr<Meshrenderer> catDraw2 = catModel2->addComponent<Meshrenderer>();
+	std::shared_ptr<GUI> guiAdd = guiEntity->addComponent<GUI>();
 	std::shared_ptr<Transform> catTransform = catModel->addComponent<Transform>();
 	std::shared_ptr<Transform> catTransform2 = catModel2->addComponent<Transform>();
 	std::shared_ptr<Transform> boxTransform = yellowBox->addComponent <Transform>();
@@ -103,10 +103,12 @@ int main()
 	
 
 	/// Creating GUI and setting it below.
-	catModel->getApplication()->getGUI()->initializeGUI();
+	guiEntity->getComponent<GUI>()->initializeGUI();
+
+	guiEntity->getApplication()->getGUI()->textureGUI(glm::vec4(10.0f, 10.0f, 100.0f, 100.0f));
 	std::shared_ptr<Material> guiMat = application->getResources()->load<Material>("../src/Models/rubix.png");
-	//catModel->getApplication()->getGUI()->textureGUI(glm::vec4(10.0f, 10.0f, 100.0f, 100.0f), guiMat);
-	catModel->getComponent<GUI>()->getGUI()->textureGUI(glm::vec4(10.0f, 10.0f, 100.0f, 100.0f), guiMat);
+	
+	
 
 	application->start();
 

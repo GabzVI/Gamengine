@@ -8,7 +8,6 @@
 #include "Application.h"
 #include "Environment.h"
 #include "BoxCollider.h"
-#include "GUIShader.h"
 #include "GUI.h"
 
 

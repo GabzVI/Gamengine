@@ -17,7 +17,7 @@ class Keyboard;
 class BoxCollider;
 class Environment;
 class GUI;
-class GUIShader;
+
 
 ///Entity class is where we store the different types of gameobjects in the scene and checks for the different types 
 ///of components using templates, then adds the components to the list of components each entity keeps. 

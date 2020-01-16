@@ -26,7 +26,7 @@ private:
 	std::shared_ptr<rend::Context> context;
 	std::shared_ptr<rend::Shader> shader;
 	std::shared_ptr<rend::Buffer> buffer;
-	std::weak_ptr<Application> application;
+	std::shared_ptr<Application> application;
 	std::shared_ptr<::Mesh> myMesh;
 	std::shared_ptr<Material> myMaterial;
 	std::shared_ptr<GUI> gui;

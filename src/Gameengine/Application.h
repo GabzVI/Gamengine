@@ -21,7 +21,6 @@ class Mesh;
 class Material;
 class Keyboard;
 class Environment;
-class GUIShader;
 class GUI;
 
 ///This is the Application Class and is the core of the engine where our entities and components will be called from and checked. 
@@ -39,7 +38,8 @@ private:
 	friend class Keyboard;
 	friend class Environment;
 	friend class GUI;
-	friend class GUIShader;
+	
+	
 
 
 	/// A list of entities is created to store and point to all entities around the scene. We will run an iterator to check for entities in the scene.
@@ -53,7 +53,6 @@ private:
 	std::shared_ptr<Environment> environment;
 	std::shared_ptr<rend::Context> context;
 	std::shared_ptr<GUI> gui;
-	std::shared_ptr<GUIShader> guiShader;
 
 	bool running;
 	
@@ -77,8 +76,6 @@ public:
 	std::shared_ptr<GUI> getGUI();
 	///Returns entities created in the scene.
 	std::list<std::shared_ptr<Entity>> getEntities();
-	///Returns sharepointer to GUIshader
-	std::shared_ptr<GUIShader> getGUIShader();
 	///Stores pointer to SDL_Window
 	SDL_Window *window;
 
