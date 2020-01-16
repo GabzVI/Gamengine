@@ -1,0 +1,5 @@
+<map id="Meshrenderer::OnInit" name="Meshrenderer::OnInit">
+<area shape="rect" id="node1" title="Oninit initializes our shader and gets the context to create the shader." alt="" coords="5,5,148,32"/>
+<area shape="rect" id="node2" href="$class_component.html#a73af75c6e12d67b1d2e5d5dca34c0cc2" title=" " alt="" coords="196,5,375,32"/>
+<area shape="rect" id="node3" href="$class_component.html#a92ef571e1fbb268954c05e0c74c888eb" title="These pointers will be used so that we can access the components inside each one of these classes and..." alt="" coords="423,5,571,32"/>
+</map>

@@ -10,18 +10,15 @@ glm::mat4 Camera::getView()
 
 glm::mat4 Camera::getProjection() 
 {
-	/* TODO: 1.0 = screenWidth / screenHeight */
-	return glm::perspective(glm::radians(45.0f), 1024.0f/768.0f, 0.1f, 100.0f);
+	return glm::perspective(glm::radians(45.0f), WINDOW_WIDTH/WINDOW_HEIGHT, 0.1f, 100.0f);
 }
 
 void Camera::OnInit()
 {
-	//Camera being initialisd
 	getApplication()->cameras.push_back(getEntity()->getComponent<Camera>());
 }
 
 Camera::~Camera()
 {
-  // TODO: Remove "this" from capplication cameras.
 	
 }

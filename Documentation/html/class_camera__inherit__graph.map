@@ -1,0 +1,4 @@
+<map id="Camera" name="Camera">
+<area shape="rect" id="node1" title="This is the Camera class and inherits from Component class, this class is where we create our viewing..." alt="" coords="19,277,138,399"/>
+<area shape="rect" id="node2" href="$class_component.html" title="The component class will be used to store all the components we can add to the entities such as boxco..." alt="" coords="5,5,152,229"/>
+</map>

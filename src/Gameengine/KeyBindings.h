@@ -1,4 +1,5 @@
 #pragma once
+///Define main keybindings so users can just type the letter instead of using SDLK.
 #include <SDL2/SDL.h>
 #define W SDLK_w
 #define A SDLK_a

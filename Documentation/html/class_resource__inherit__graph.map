@@ -1,0 +1,5 @@
+<map id="Resource" name="Resource">
+<area shape="rect" id="node1" title="Resource class is the class that stores resources such as Material and Mesh, and passes information t..." alt="" coords="39,5,163,112"/>
+<area shape="rect" id="node2" href="$class_material.html" title=" " alt="" coords="5,160,89,237"/>
+<area shape="rect" id="node3" href="$class_mesh.html" title=" " alt="" coords="113,160,197,237"/>
+</map>

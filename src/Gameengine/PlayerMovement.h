@@ -6,27 +6,28 @@
 #include "KeyBindings.h"
 #include "Transform.h"
 
-
-
+///This is the PlayerControl struct which handles player movement and Inherits from Components.
+///
 struct PlayerControl : public Component
 {
+	///We have a shared pointer of entity so we can access the player and changes it position and rotation.
 	std::shared_ptr<Entity> self;
-	
-	void PrintRotation()
-	{
-		std::cout << "Object rotation x = " << self->getComponent<Transform>()->getRotation().x << std::endl;
-		std::cout << "Object rotation y = " << self->getComponent<Transform>()->getRotation().y << std::endl;
-		std::cout << "Object rotation z = " << self->getComponent<Transform>()->getRotation().z << std::endl;
-	}
 
+	///It contains a Onupdate() which gets overriden and checks every frame for player key inputs.
 	void OnUpdate()
 	{
-		//Sets the character movement to what player presses.
+		/**
+		*If statements were made to check what player is pressing on key board, depending on input a we change the players position and rotation by accessing the model of the player.
+		*/
 		if (getKeyboard()->getKeyHold(W))
 		{
+			///Changes the position of the player.
 			self->getComponent<Transform>()->changePos(glm::vec3(0.0f, 0.0f, -0.05f));
+			///Changes the rotation of the player.
 			self->getComponent<Transform>()->setLocalrot(glm::vec3(0.0f, -180.0f, 0.0f));
+			///Changes the player position depending on the rotation by using the player model.
 			self->getComponent<Transform>()->Translate(glm::vec4(0.0f, 0.0f, -0.05f,0.0f));
+			///Changes the player transform position by the same amount of changePos.
 			self->getComponent<Transform>()->Move();
 			
 		}

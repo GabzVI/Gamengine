@@ -5,9 +5,11 @@
 
 void BoxCollider::OnInit() 
 {
+	///On initialization all objects are mobile. 
 	immobile = true;
 	size = glm::vec3(1.0f);
 
+	///Gets all the entities in the scene.
 	entities = getApplication()->getEntities();
 	offset = glm::vec3(0.0f);
 	
@@ -27,17 +29,19 @@ void BoxCollider::collisionBox()
 	for (std::list<std::shared_ptr<Entity>>::iterator it = entities.begin();
 		it != entities.end(); it++)
 	{
-		//checks if the entity on the list matches with the player entity, if it does we continue and ignore it as we dont want the player to collide with itself.
+		///checks if the entity on the list matches with the player entity, if it does we continue and ignore it as we dont want the player to collide with itself.
 		if (*it == getEntity())
 		{
 			continue;
 		}
 		
-		  //Checks if the component has a boxcollider and runs the code below.
+		  ///Checks if the component has a boxcollider and runs the code below.
 		if ((*it)->checkComponent<BoxCollider>())
 		{
+			///!immobile checks if the object is immobile such as a box, and returns true or false, if object is immobile then run the calucations for collision.
 			if (!immobile)
 			{
+				///if entity has component adds the component to 
 				std::shared_ptr<BoxCollider> bc = (*it)->getComponent<BoxCollider>();
 
 				glm::vec3 sp = bc->getCollisionResponse(np, size);

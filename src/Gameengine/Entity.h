@@ -17,6 +17,8 @@ class Keyboard;
 class BoxCollider;
 class Environment;
 
+///Entity class is where we store the different types of gameobjects in the scene and checks for the different types 
+///of components using templates, then adds the components to the list of components each entity keeps. 
 class Entity 
 {
 private:
@@ -29,15 +31,17 @@ private:
 public:
 	friend class Application;
 	std::shared_ptr<Application> getApplication();
-	
 
-
+	///A template is used as we need it to morph/change to the correct component type that is necessary.
 	template<typename T> 
 	std::shared_ptr<T> addComponent() //Changes to different classes to add components.
 	{
 		std::shared_ptr<T> rtn = std::make_shared<T>();
+		///Adds a new component to the list of components of the Entity.
 		component.push_back(rtn);
+		///Tells Component which entity it is attached to.
 		rtn->entity = self;
+		///Calls the initialise function on the added component.
 		rtn->OnInit();
 		return rtn;
 	}
@@ -72,9 +76,12 @@ public:
 		return rtn;
 	}
 	
+	///This the getComponent function which checks for the name of component on the list of components using an iterator, it the coomponent is found it returns rtn/component, 
+	///it its not found it returns an exception error telling user the component hasn't been found. 
 	template <typename T>
 	std::shared_ptr<T> getComponent()
 	{
+		///This goes through a list of components and checks if component exists.
 		for (auto it = component.begin(); it != component.end(); it++) 
 		{
 			std::shared_ptr<T> rtn = std::dynamic_pointer_cast<T>(*it);
@@ -89,7 +96,7 @@ public:
 		
 	}
 
-
+	///This the checkComponent() checks for component existence in a list of components, if the component is found a boolean is returned true, if not false. This function will be used for the collison class.
 	template <typename T>
 	bool checkComponent()
 	{
@@ -109,7 +116,7 @@ public:
 
 
 	virtual void Display();
-    virtual void OnUpdate();
+  virtual void OnUpdate();
 };
 
 #endif // !

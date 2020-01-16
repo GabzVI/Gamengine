@@ -1,0 +1,4 @@
+<map id="BoxCollider" name="BoxCollider">
+<area shape="rect" id="node1" title="BoxCollider class will be used to calculate the collison between objects in the scene,..." alt="" coords="5,277,172,457"/>
+<area shape="rect" id="node2" href="$class_component.html" title="The component class will be used to store all the components we can add to the entities such as boxco..." alt="" coords="15,5,162,229"/>
+</map>

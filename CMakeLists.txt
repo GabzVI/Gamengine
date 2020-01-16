@@ -32,12 +32,16 @@ src/Gameengine/Resources.cpp
 src/Gameengine/Resources.h
 src/Gameengine/Mesh.cpp
 src/Gameengine/Mesh.h
-src/Gameengine/Shader.cpp
-src/Gameengine/Shader.h
+src/Gameengine/GUIShader.cpp
+src/Gameengine/GUIShader.h
 src/Gameengine/KeyBindings.h
 src/Gameengine/PlayerMovement.h
 src/Gameengine/BoxCollider.h
 src/Gameengine/BoxCollider.cpp
+src/Gameengine/GUI.h
+src/Gameengine/GUI.cpp
+src/Gameengine/AudioSystem.h
+src/Gameengine/AudioSystem.cpp
 
 )
 target_link_libraries(Gameengine SDL2 rend)

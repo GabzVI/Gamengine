@@ -7,19 +7,23 @@
 #include "Mesh.h"
 #include "Keyboard.h"
 #include "Environment.h"
+#include "GUI.h"
 #include <GL/glew.h>
 
 //Initialises the Engine. 
 std::shared_ptr<Application> Application::initialize()
 {
+	
 	std::shared_ptr<Application> rtn = std::make_shared<Application>();
 
 	rtn->self = rtn;
 	rtn->resources = std::make_shared<Resources>();
 	rtn->resources->application = rtn->self; //This puts a copy of application inside the weak pointer inside resources.
-	
+
+
 	rtn->keyboard = std::make_shared<Keyboard>();
 	rtn->environment = std::make_shared<Environment>();
+	rtn->gui = std::make_shared<GUI>();
 
   if (SDL_Init(SDL_INIT_VIDEO) < 0)
   {
@@ -34,7 +38,7 @@ std::shared_ptr<Application> Application::initialize()
   {
     throw std::exception();
   }
-
+	
   rtn->context = rend::Context::initialize();
     
 	return rtn;
@@ -44,6 +48,7 @@ std::shared_ptr<Application> Application::initialize()
 void Application::start() 
 {
   running = true;
+
 
   while(running)
   {
@@ -59,20 +64,20 @@ void Application::start()
 			  throw rend::Exception("Close button pressed");
 		  }
 
-			// Here we will handle key down and key up
+			/// Here we will handle key down and key up events every frame.
 
-			if (event.type == SDL_KEYDOWN) // If the event of the keyboard happens to be KEYDOWN..
+			if (event.type == SDL_KEYDOWN) /// If the event of the keyboard happens to be KEYDOWN..
 			{
-				keyboard->isKey.push_back(event.key.keysym.sym); // only clear when button is released
-        keyboard->isKeyPressedOnce.push_back(event.key.keysym.sym); // clear after every fram
+				keyboard->isKey.push_back(event.key.keysym.sym); /// only clear when button is released
+        keyboard->isKeyPressedOnce.push_back(event.key.keysym.sym); /// clear after every fram
 			}
 			
-			if (event.type == SDL_KEYUP) // If the event of the keyboard happens to be keyup (for release keys)
+			if (event.type == SDL_KEYUP) /// If the event of the keyboard happens to be keyup (for release keys)
 			{
 				keyboard->isKeyReleased.push_back(event.key.keysym.sym);
 
-				//we need cant do keyboard->isKey.clear(); because if we are presseing more than one key at the same time, we don't want to erase the list completely, 
-				// we need a loop to only delete the key that was released but no the other key.
+				///We need cant do keyboard->isKey.clear(); because if we are presseing more than one key at the same time, we don't want to erase the list completely, 
+				/// We need a loop to only delete the key that was released but no the other key.
 
 				for (std::vector<int>::iterator i = keyboard->isKey.begin(); i < keyboard->isKey.end();)
 				{
@@ -89,8 +94,8 @@ void Application::start()
 
 
 	  }
-		
-	 environment->OnUpdate();
+	
+	  environment->OnUpdate();
 
     for (std::list<std::shared_ptr<Entity>>::iterator it = entities.begin(); it != entities.end(); it++) 
     {
@@ -98,6 +103,7 @@ void Application::start()
     }
 		keyboard->isKeyPressedOnce.clear();
 		keyboard->isKeyReleased.clear();
+
     glClearColor(1.0f, 0.0f, 0.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
@@ -155,3 +161,9 @@ std::shared_ptr<Keyboard> Application::getKeyboard()
 {
 	return keyboard;
 }
+
+std::shared_ptr<GUI> Application::getGUI()
+{
+	return gui;
+}
+

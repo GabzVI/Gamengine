@@ -8,13 +8,14 @@
 #include "Application.h"
 #include "Environment.h"
 #include "BoxCollider.h"
+#include "GUIShader.h"
 
 
 
 std::shared_ptr<Entity> Component::getEntity() 
 {
   
-  return entity.lock(); //Makes entity a shared pointer.
+  return entity.lock(); ///Makes entity a shared pointer.
 }
 
 std::shared_ptr<Application> Component::getApplication()

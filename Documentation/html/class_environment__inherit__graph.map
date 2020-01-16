@@ -1,0 +1,4 @@
+<map id="Environment" name="Environment">
+<area shape="rect" id="node1" title="This is the Environment class which handles the time such as delta time, ensuring no matter the hardw..." alt="" coords="19,277,138,384"/>
+<area shape="rect" id="node2" href="$class_component.html" title="The component class will be used to store all the components we can add to the entities such as boxco..." alt="" coords="5,5,152,229"/>
+</map>

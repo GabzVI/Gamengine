@@ -1,0 +1,4 @@
+<map id="Meshrenderer" name="Meshrenderer">
+<area shape="rect" id="node1" title="This is thhe Meshrenderer Component which will handle our meshes, materials and display them onto the..." alt="" coords="25,277,132,399"/>
+<area shape="rect" id="node2" href="$class_component.html" title="The component class will be used to store all the components we can add to the entities such as boxco..." alt="" coords="5,5,152,229"/>
+</map>

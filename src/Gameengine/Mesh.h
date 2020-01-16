@@ -7,12 +7,13 @@
 class Application;
 class Meshrenderer;
 class Resources;
-
+class GUIShader;
 
 class Mesh : public Resource
 {
 private:
 	friend class Meshrenderer;
+	friend class GUIShader;
 	std::shared_ptr<rend::Mesh> modelOfObject;
 
 
