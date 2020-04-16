@@ -1,0 +1,6 @@
+<map id="BoxCollider::getCollisionResponse" name="BoxCollider::getCollisionResponse">
+<area shape="rect" id="node1" title="getCollisionRespone fucntion is used to prevent the player moving inside the object and is pushed in ..." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$class_box_collider.html#af5a4239c4670054e776e459003fd1085" title="isColliding function checks if the boxcollider of the player and object or object and object is colli..." alt="" coords="216,13,371,39"/>
+<area shape="rect" id="node3" href="$class_component.html#a295ad327921c7b7367be65a97654b69f" title=" " alt="" coords="419,13,589,39"/>
+<area shape="rect" id="node4" href="$class_component.html#a92ef571e1fbb268954c05e0c74c888eb" title="These pointers will be used so that we can access the components inside each one of these classes and..." alt="" coords="637,13,785,39"/>
+</map>

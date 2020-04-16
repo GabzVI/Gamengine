@@ -1,0 +1,7 @@
+<map id="BoxCollider::collisionBox" name="BoxCollider::collisionBox">
+<area shape="rect" id="node1" title="This function checks each entity in the scene for the boxcolliding component, then calls the isCollid..." alt="" coords="5,71,172,98"/>
+<area shape="rect" id="node2" href="$class_box_collider.html#aa266490ef4edd944b237fdf65305fafc" title="getCollisionRespone fucntion is used to prevent the player moving inside the object and is pushed in ..." alt="" coords="220,5,383,47"/>
+<area shape="rect" id="node4" href="$class_component.html#a295ad327921c7b7367be65a97654b69f" title=" " alt="" coords="633,71,804,98"/>
+<area shape="rect" id="node5" href="$class_component.html#a92ef571e1fbb268954c05e0c74c888eb" title="These pointers will be used so that we can access the components inside each one of these classes and..." alt="" coords="852,97,1000,123"/>
+<area shape="rect" id="node3" href="$class_box_collider.html#af5a4239c4670054e776e459003fd1085" title="isColliding function checks if the boxcollider of the player and object or object and object is colli..." alt="" coords="431,17,585,43"/>
+</map>

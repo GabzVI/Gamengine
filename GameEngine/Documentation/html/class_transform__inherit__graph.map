@@ -1,0 +1,4 @@
+<map id="Transform" name="Transform">
+<area shape="rect" id="node1" title="The transform class is inherited from the Component class,and it handles the translation and movement..." alt="" coords="10,80,89,107"/>
+<area shape="rect" id="node2" href="$class_component.html" title="The component class will be used to store all the components we can add to the entities such as boxco..." alt="" coords="5,5,93,32"/>
+</map>

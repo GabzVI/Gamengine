@@ -1,0 +1,5 @@
+<map id="Resource" name="Resource">
+<area shape="rect" id="node1" title="Resource class is the class that stores resources such as Material and Mesh, and passes information t..." alt="" coords="43,5,121,32"/>
+<area shape="rect" id="node2" href="$class_material.html" title="The Material Class will be handling the texture files users want to use for their objects." alt="" coords="5,80,73,107"/>
+<area shape="rect" id="node3" href="$class_mesh.html" title="This is the Mesh class, it is responsible for loading in models into the scene such as ...." alt="" coords="97,80,152,107"/>
+</map>

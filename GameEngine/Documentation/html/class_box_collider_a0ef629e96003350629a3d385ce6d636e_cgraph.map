@@ -1,0 +1,6 @@
+<map id="BoxCollider::OnInit" name="BoxCollider::OnInit">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,136,57"/>
+<area shape="rect" id="node2" href="$class_component.html#a73af75c6e12d67b1d2e5d5dca34c0cc2" title=" " alt="" coords="184,5,363,32"/>
+<area shape="rect" id="node4" href="$class_component.html#a295ad327921c7b7367be65a97654b69f" title=" " alt="" coords="188,56,359,83"/>
+<area shape="rect" id="node3" href="$class_component.html#a92ef571e1fbb268954c05e0c74c888eb" title="These pointers will be used so that we can access the components inside each one of these classes and..." alt="" coords="411,31,559,57"/>
+</map>

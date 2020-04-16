@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_component.html" title="The component class will be used to store all the components we can add to the entities such as boxco..." alt="" coords="5,183,93,209"/>
+<area shape="rect" id="node2" href="$class_box_collider.html" title="BoxCollider class will be used to calculate the collison between objects in the scene,..." alt="" coords="148,5,236,32"/>
+<area shape="rect" id="node3" href="$class_camera.html" title="This is the Camera class and inherits from Component class, this class is where we create our viewing..." alt="" coords="159,56,225,83"/>
+<area shape="rect" id="node4" href="$class_environment.html" title="This is the Environment class which handles the time such as delta time, ensuring no matter the hardw..." alt="" coords="145,107,239,133"/>
+<area shape="rect" id="node5" href="$class_g_u_i.html" title="The GUI/Graphic User interface is responsible for handling buttons, icons, player health display,..." alt="" coords="170,157,214,184"/>
+<area shape="rect" id="node6" href="$class_keyboard.html" title="Keyboard Class that handles input such as keyboard and mouse by the user." alt="" coords="153,208,231,235"/>
+<area shape="rect" id="node7" href="$class_meshrenderer.html" title="This is thhe Meshrenderer Component which will handle our meshes, materials and display them onto the..." alt="" coords="141,259,243,285"/>
+<area shape="rect" id="node8" href="$struct_player_control.html" title="This is the PlayerControl struct which handles player movement and Inherits from Components." alt="" coords="142,309,242,336"/>
+<area shape="rect" id="node9" href="$class_transform.html" title="The transform class is inherited from the Component class,and it handles the translation and movement..." alt="" coords="153,360,231,387"/>
+</map>

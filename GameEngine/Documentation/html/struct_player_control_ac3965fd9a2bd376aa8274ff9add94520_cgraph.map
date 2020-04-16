@@ -1,0 +1,7 @@
+<map id="PlayerControl::OnUpdate" name="PlayerControl::OnUpdate">
+<area shape="rect" id="node1" title="It contains a Onupdate() which gets overriden and checks every frame for player key inputs." alt="" coords="5,31,172,57"/>
+<area shape="rect" id="node2" href="$class_component.html#ad62c8073f4d8f87088bc082bfa0803d5" title=" " alt="" coords="220,5,389,32"/>
+<area shape="rect" id="node5" href="$class_transform.html#a0b21f641e72d7b55f3a630b986d0b106" title="getPosition returns the position of the object." alt="" coords="229,56,381,83"/>
+<area shape="rect" id="node3" href="$class_component.html#a73af75c6e12d67b1d2e5d5dca34c0cc2" title=" " alt="" coords="437,5,616,32"/>
+<area shape="rect" id="node4" href="$class_component.html#a92ef571e1fbb268954c05e0c74c888eb" title="These pointers will be used so that we can access the components inside each one of these classes and..." alt="" coords="664,5,812,32"/>
+</map>
